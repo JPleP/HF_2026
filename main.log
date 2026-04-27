@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.1.4)  27 APR 2026 11:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.1.4)  27 APR 2026 11:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -413,15 +413,16 @@ Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-)) (./topics/Transmission/smain.tex
-LaTeX Font Info:    Trying to load font information for U+msa on input line 11.
+)) (./topics/Grundlagen/smain.tex
+LaTeX Font Info:    Trying to load font information for U+msa on input line 7.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 11.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 7.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
+)) (./topics/Transmission/smain.tex
+
 <topics/Transmission/RK_1.png, id=4, 1374.13374pt x 1086.0575pt>
 File: topics/Transmission/RK_1.png Graphic file (type png)
 <use topics/Transmission/RK_1.png>
@@ -432,44 +433,49 @@ File: topics/Transmission/RK_2.png Graphic file (type png)
 <use topics/Transmission/RK_2.png>
 Package pdftex.def Info: topics/Transmission/RK_2.png  used on input line 67.
 (pdftex.def)             Requested size: 285.75394pt x 92.77277pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
 <topics/Transmission/RK_3.png, id=7, 740.7675pt x 734.745pt>
 File: topics/Transmission/RK_3.png Graphic file (type png)
 <use topics/Transmission/RK_3.png>
 Package pdftex.def Info: topics/Transmission/RK_3.png  used on input line 74.
 (pdftex.def)             Requested size: 142.87697pt x 141.71071pt.
-<topics/Transmission/RK_4.png, id=8, 1189.44376pt x 919.435pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./topics/Transmission/RK_1.png> <./topics/Transmission/RK_2.png>]
+<topics/Transmission/RK_4.png, id=28, 1189.44376pt x 919.435pt>
 File: topics/Transmission/RK_4.png Graphic file (type png)
 <use topics/Transmission/RK_4.png>
 Package pdftex.def Info: topics/Transmission/RK_4.png  used on input line 78.
 (pdftex.def)             Requested size: 285.75394pt x 220.87935pt.
 )
 
-[1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./topics/Transmission/RK_1.png> <./topics/Transmission/RK_2.png> <./topics/Transmission/RK_3.png> <./topics/Transmission/RK_4.png>] (./main.aux)
+
+[2
+
+ <./topics/Transmission/RK_3.png> <./topics/Transmission/RK_4.png>] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 13824 strings out of 473197
- 275648 string characters out of 5718606
- 661764 words of memory out of 5000000
- 36830 multiletter control sequences out of 15000+600000
+ 13842 strings out of 473197
+ 276072 string characters out of 5718606
+ 676764 words of memory out of 5000000
+ 36845 multiletter control sequences out of 15000+600000
  568113 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  117i,10n,121p,469b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on main.pdf (1 page, 694163 bytes).
+Output written on main.pdf (2 pages, 708498 bytes).
 PDF statistics:
- 90 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
+ 93 PDF objects out of 1000 (max. 8388607)
+ 53 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
