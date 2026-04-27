@@ -1,8 +1,67 @@
 \section{Transmission}
 
+\subsection{Leistungskoppler}
 
-\Term{Resistiver Koppler}
 
+
+\Term{Taktanregung}
+\begin{pitemize}
+    \item \Term{Gleictaktanregung}: \begin{tikzpicture}\node[circle, inner sep = 1pt,draw] {+};\end{tikzpicture}
+Siganle gleicher Amplitude und gleicher Phase.
+$Z_e \Rightarrow a_1^+ = \frac{1}{2} a_1,a_4^+ = \frac{1}{2} a_1$
+    \item \Term{Gegentaktanregung}: \begin{tikzpicture}\node[circle, inner sep = 1pt,draw] {-};\end{tikzpicture}
+Siganle gleicher Amplitude und engegengesetzer Phase.
+$Z_d \Rightarrow a_1^- = \frac{1}{2} a_1,a_4^- = -\frac{1}{2} a_1$
+    \item Überlagerung: $a_1^+  + a_1^- = a_1$ , $a_4^+  + a_4^- = 0$
+\end{pitemize}
+
+
+
+
+
+
+
+\Term{Zweifach Symmetrischer Zweitor}:
+
+\textcolor{red}{Fehlt Bild}
+
+$S_{11}=S_{22}=S_{33}=S_{44}=0$\\
+$S_{41}=S_{14}=S_{32}=S_{23}$\\
+$S_{12}=S_{21}=S_{34}=S_{43}$\\
+
+Mit Gleich- und Gegentaktanregung:\\
+$b_1= b_1^+ + b_1^- = S_{11}^+ a_1^+ + S_{11}^- a_1^- = \frac{1}{2} (S_{11}^+ + S_{11}^-) a_1$, $\rightarrow S_{11}$
+$b_2= b_2^+ + b_2^- = S_{21}^+ a_1^+ + S_{21}^- a_1^- = \frac{1}{2} (S_{21}^+ + S_{21}^-) a_1$, $\rightarrow S_{21}$
+$b_3= b_2^+ + b_2^- = S_{21}^+ a_4^+ + S_{21}^- a_4^- = \frac{1}{2} (S_{21}^+ - S_{21}^-) a_1$, $\rightarrow S_{31}$
+$b_4= b_4^+ + b_4^- = S_{11}^+ a_4^+ + S_{11}^- a_4^- = \frac{1}{2} (S_{11}^+ - S_{11}^-) a_1$, $\rightarrow S_{41}$
+
+Normierung der Widerstände:
+$z_e = \frac{Z_e}{Z_0}$,$z_d = \frac{Z_d}{Z_0}$ \\
+$\begin{bmatrix}
+    A^{+\textcolor{orange}{-}} & B^{+\textcolor{orange}{-}} \\ C^{+\textcolor{orange}{-}} & D^{+\textcolor{orange}{-}}
+\end{bmatrix} = \begin{bmatrix}
+    \cos(\beta l) & jz_{e \textcolor{orange}{d}}\sin(\beta l) \\
+    j\frac{1}{z_{e \textcolor{orange}{d}}}\sin(\beta l) & \cos(\beta l)
+\end{bmatrix}$
+
+$S_{11}^+ = \frac{A^+ + B^+ - C^+ - D^+}{A^+ + B^+ + C^+ + D^+} = \frac{jz_e\sin(\beta l) -
+    j\frac{1}{z_e}\sin(\beta l) }{2\cos(\beta l) + j(z_e + \frac{1}{z_e}) \sin(\beta l)}$\\
+
+$S_{11}^- = \frac{j(z_d - \frac{1}{z_d})\sin(\beta l) }{2\cos(\beta l) + j(z_d + \frac{1}{z_d}) \sin(\beta l)}$
+$S_{21}^+ = \frac{2}{A^+ + B^+ + C^+ + D^+} = \frac{2}{2\cos(\beta l) + j(z_e + \frac{1}{z_e}) \sin(\beta l)}$\\
+$S_{21}^+ = \frac{2}{A^- + B^- + C^- + D^-} = \frac{2}{2\cos(\beta l) + j(z_d + \frac{1}{z_d}) \sin(\beta l)}$
+
+Allseitige anpassung $S_{11} = 0 \rightarrow S_{11}^+ = - S_{11}^- \rightarrow z_e = \frac{1}{z_d} \leftrightarrow z_ez_d = 1 \rightarrow Z_eZ_d = Z_0^2$
+Entkoppelte Tore: $S_{31} = \frac{1}{2}(S_{21}^+ - S_{21}^-) = 0 \rightarrow S_{21}^+ = S_{21}^-$
+$S_{21} = S_{21}^+ = \frac{2}{2\cos(\beta l) + j(z_e + \frac{1}{z_e}) \sin(\beta l)}$\\
+$S_{41} = \frac{1}{2}(S_{11}^+ - S_{11}^-) = S_{11}^+ = \frac{j(z_e - \frac{1}{z_e})\sin(\beta l) }{2\cos(\beta l) + j(z_e + \frac{1}{z_e}) \sin(\beta l)}$
+
+$\angle(S_{21}, S_{41}) = 90^\circ$
+
+
+
+
+\subsection{Resistiver Koppler}
 
 \includegraphics[width=\linewidth]{topics/Transmission/RK_1.png}
 \includegraphics[width=\linewidth]{topics/Transmission/RK_2.png}
@@ -16,3 +75,4 @@ $R_1, R_2 = Z_0^2 \Rightarrow S_{11}=S_{22}=S_{33}=S_{44}=S_{31}=S_{42}=0$
 
 
 \Term{Nullgradkoppler}
+\includegraphics[width=\linewidth]{topics/Transmission/RK_4.png}
