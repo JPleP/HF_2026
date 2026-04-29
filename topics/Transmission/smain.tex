@@ -2,14 +2,21 @@
 
 \subsection{Leistungskoppler}
 
+\newcommand{\cp}{\begin{tikzpicture}\node[circle, inner sep = 1pt,draw] {+};\end{tikzpicture}\hspace{5pt}}
+\newcommand{\cm}{\begin{tikzpicture}\node[circle, inner sep = 3pt,draw] {-};\end{tikzpicture}\hspace{5pt}}
+\newcommand{\fb}{\textcolor{red}{Fehlt Bild}}
+
+\newcommand{\ggt}[2]{%
+  {\mathbin{\genfrac{}{}{-10pt}{3}{\color{black}#1}{\color{orange}#2}}}%
+}
 
 
 \Term{Taktanregung}
 \begin{pitemize}
-    \item \Term{Gleichtaktanregung}: \begin{tikzpicture}\node[circle, inner sep = 1pt,draw] {+};\end{tikzpicture}
+    \item \Term{Gleichtaktanregung}: \cp
 Siganle gleicher Amplitude und gleicher Phase.
 $Z_e \Rightarrow a_1^+ = \frac{1}{2} a_1,a_4^+ = \frac{1}{2} a_1$
-    \item \Term{Gegentaktanregung}: \begin{tikzpicture}\node[circle, inner sep = 1pt,draw] {-};\end{tikzpicture}
+    \item \Term{Gegentaktanregung}: \cm
 Siganle gleicher Amplitude und engegengesetzer Phase.
 $Z_d \Rightarrow a_1^- = \frac{1}{2} a_1,a_4^- = -\frac{1}{2} a_1$
     \item Überlagerung: $a_1^+  + a_1^- = a_1$ , $a_4^+  + a_4^- = 0$
@@ -35,13 +42,27 @@ $b_2= b_2^+ + b_2^- = S_{21}^+ a_1^+ + S_{21}^- a_1^- = \frac{1}{2} (S_{21}^+ + 
 $b_3= b_2^+ + b_2^- = S_{21}^+ a_4^+ + S_{21}^- a_4^- = \frac{1}{2} (S_{21}^+ - S_{21}^-) a_1$, $\rightarrow S_{31}$
 $b_4= b_4^+ + b_4^- = S_{11}^+ a_4^+ + S_{11}^- a_4^- = \frac{1}{2} (S_{11}^+ - S_{11}^-) a_1$, $\rightarrow S_{41}$
 
+
+$\begin{bmatrix}
+    A & B \\ C & D
+\end{bmatrix} \Rightarrow
+\begin{tikzpicture}
+    \draw (0.33,-0.05) rectangle (0.66,0.05);
+    \draw (0,0) -- (0.33,0);
+\end{tikzpicture}
+\begin{bmatrix}
+    1 & \frac{R}{Z_0} \\0 & 1
+\end{bmatrix} = \begin{bmatrix}
+    1 & 0 \\ GZ_0 & 1
+\end{bmatrix}$
+
 Normierung der Widerstände:
 $z_e = \frac{Z_e}{Z_0}$,$z_d = \frac{Z_d}{Z_0}$ \\
 $\begin{bmatrix}
-    A^{+\textcolor{orange}{-}} & B^{+\textcolor{orange}{-}} \\ C^{+\textcolor{orange}{-}} & D^{+\textcolor{orange}{-}}
+    A^\ggt{+}{-} & B^\ggt{+}{-} \\ C^{\ggt{+}{-}} & D^{\ggt{+}{-}}
 \end{bmatrix} = \begin{bmatrix}
-    \cos(\beta l) & jz_{e \textcolor{orange}{d}}\sin(\beta l) \\
-    j\frac{1}{z_{e \textcolor{orange}{d}}}\sin(\beta l) & \cos(\beta l)
+    \cos(\beta l) & jz_{\ggt{e}{d}}\sin(\beta l) \\
+    j\frac{1}{z_{\ggt{e}{d}}}\sin(\beta l) & \cos(\beta l)
 \end{bmatrix}$
 
 $S_{11}^+ = \frac{A^+ + B^+ - C^+ - D^+}{A^+ + B^+ + C^+ + D^+} = \frac{jz_e\sin(\beta l) -
@@ -58,21 +79,72 @@ $S_{41} = \frac{1}{2}(S_{11}^+ - S_{11}^-) = S_{11}^+ = \frac{j(z_e - \frac{1}{z
 
 $\angle(S_{21}, S_{41}) = 90^\circ$
 
+\subsection{Ringkoppler}
+
+\fb
 
 
-
-\subsection{Resistiver Koppler}
-
-\includegraphics[width=\linewidth]{topics/Transmission/RK_1.png}
-\includegraphics[width=\linewidth]{topics/Transmission/RK_2.png}
-
-
-Für: 
-$R_1, R_2 = Z_0^2 \Rightarrow S_{11}=S_{22}=S_{33}=S_{44}=S_{31}=S_{42}=0$
+\begin{pitemize}
+    \item 3dB-Kopplung: 1 $\rightarrow$ 2 und 1 $\rightarrow$ 3
+    \item Entkopplung: 1 und 4
+    \item Einspeisung an 1
+    \item $Z_1 = ?$, $Z_2 = ?$ 
+\end{pitemize}
 
 
-\includegraphics[width=0.5\linewidth]{topics/Transmission/RK_3.png}
+\fb
+\begin{pitemize}
+    \item \cp  an 1 und 4: $a_1^+ = \frac{1}{2}a_1, a_4^+ = \frac{1}{2}a_1$
+    \item \cm  an 1 und 4: $a_1^- = \frac{1}{2}a_1, a_4^- = -\frac{1}{2}a_1$
+\end{pitemize}
 
 
-\Term{Nullgradkoppler}
-\includegraphics[width=\linewidth]{topics/Transmission/RK_4.png}
+\fb
+\begin{pitemize}
+    \item $Z_{ein} = Z_L \frac{Z_A + jZ_L \tan(\beta l)}{Z_L + jZ_A \tan(\beta l)}$
+    \item $\tan(\beta l) = \tan(\frac{2\pi}{\lambda} \frac{\lambda}{8}) = \tan(\frac{\pi}{4}) = 1$
+    \item \cp $Z_A \rightarrow \infty \Rightarrow Z_{ein,LL}^+ = \lim_{Z_A \rightarrow \infty}\limits Z_{ein} = -jZ_L = -jZ_1$
+    \item \cm $Z_A \rightarrow 0 \Rightarrow Z_{ein,LL}^- = jZ_L = jZ_1 = j\frac{1}{Y_1}$
+\end{pitemize}
+
+Kettenmatrizen fortsetzung
+\fb
+
+$\left[M^\ggt{+}{-}\right] = \begin{bmatrix}
+    1 & 0 \\ -jY_1Z_0 1
+\end{bmatrix}\begin{bmatrix}
+    0 & j\frac{Z_2}{Z_0} \\ j\frac{Z_0}{Z_2}
+\end{bmatrix}\begin{bmatrix}
+    1 & 0 \\ -jY_1Z_0 & 1
+\end{bmatrix}
+= \begin{bmatrix}
+    \ggt{+}{-}Z_2Y_1 & j \frac{Z_2}{Z_0}\\ j\frac{Z_0}{Z_2} - jY_1^2Z_0Z_2 & \ggt{+}{-}Y_1Z_2
+\end{bmatrix} = \begin{bmatrix}
+    A^\ggt{+}{-} & B^\ggt{+}{-} \\ C^\ggt{+}{-} & D^\ggt{+}{-}
+\end{bmatrix}$
+
+Anforderung: Allseitige Anpassung
+\begin{pitemize}
+    \item $S_{11} = \frac{1}{2}(S_{11}^+ + S_{11}^-) \overset{!}{=} 0$
+    \item $S_{41} = S_{14} = \frac{1}{2}(S_{11}^+ - S_{11}^-) \overset{!}{=} 0$
+    \item $S_{11}^+ = \frac{A^+ + B^+ - C^+ - D^+}{A^+ + B^+ + C^+ + D^+} \overset{!}{=} 0$
+    \item Da $A^+ = D^+ \Rightarrow B^+ = C^+$
+    \item $\frac{Z_2}{Z_0} = \frac{Z_0}{Z_2} - Y_1^2 Z_2 Z_0$
+    \item $|S_{21}| = \lvert\frac{1}{2} \left(S_{21}^+ + S_{21}^-\right)\rvert = |S_{31}| = \lvert\frac{1}{2} \left(S_{21}^+ - S_{21}^-\right)\rvert$
+    \item $\frac{Z_2}{Z_0} = Y_1 Z_2 \Rightarrow Y_1 = \frac{1}{Z_0}$
+    \item $1 = \frac{Z_0^2}{Z_2^2} - Y_1^2Z_0^2 \Rightarrow Z_2 = \frac{1}{\sqrt{2}}Z_0$
+\end{pitemize}
+
+\begin{pitemize}
+    \item $\angle(S_{21}, S_{31}) = 90^\circ$
+    \item 3dB-Kopplung: 1 $\rightarrow$ 2 und 1 $\rightarrow$ 3
+    \item Entkopplung: 1 und 4
+\end{pitemize}
+
+
+\subsubsection{Rat-Race-Koppler}
+\fb
+\begin{pitemize}
+    \item Einsp. 1: 3 entkoppelt, $\angle(S_{21}, S_{41}) = 0^\circ$
+    \item Einsp. 3: 1 entkoppelt, $\angle(S_{23}, S_{43}) = 180^\circ$
+\end{pitemize}
