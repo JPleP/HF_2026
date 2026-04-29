@@ -25,7 +25,7 @@ TEM-Wellen
 \Term{Leitungsgleichung}
 $\gamma, Z_L$
 
-$U = U_f \e^{- \gamma z} + U_b \e^{\gamma z}$
+$U = U_f \e^{- \gamma z} + U_b \e^{\gamma z}$\\
 $I = \frac{U_f}{Z_L} \e^{-\gamma z} - \frac{U_f}{Z_L} \e^{\gamma z}$
 
 Normierungs:
@@ -51,6 +51,14 @@ $i = a-b$
                 \item $S_{12}$: Rückwirkung
                 \item $S_{22}$: Reflexion Ausgang
             \end{pitemize}
+        \item $\frac{\begin{pmatrix}
+            A + B - C - D & 2\Delta_A \\
+            2  & -A + B - C +D
+        \end{pmatrix}}{A+B+C+D}$
+        \item $\frac{\begin{pmatrix}
+            \Sigma_{12} & 2\Delta_\Sigma \\
+            1  & -\Sigma_{21}
+        \end{pmatrix}}{\Sigma_{22}}$
     \end{pitemize}
 
     \item \Term{Impedanzparameter}:
@@ -66,7 +74,12 @@ $i = a-b$
             =
             \begin{pmatrix} A & B \\ C & D \end{pmatrix}
             \begin{pmatrix} U_2 \\ -I_2 \end{pmatrix}$
+        \item $\frac{\begin{pmatrix}
+            -\Delta_S + S_{11} - S_{22} + 1 & \Delta_S + S_{11} + S_{22} + 1 \\
+            \Delta_S - S_{11} - S_{22} + 1 & -\Delta_S - S_{11} + S_{22} + 1
+        \end{pmatrix}}{2S_{21}}$
     \end{pitemize}
+
     \item \Term{Transmissionsmatrix}:
     \begin{pitemize}
         \item Multiplikation Vereinfachung
@@ -74,26 +87,9 @@ $i = a-b$
                 =
                 \begin{pmatrix} \Sigma_{11} & \Sigma_{12} \\ \Sigma_{21} & \Sigma_{22} \end{pmatrix}
                 \begin{pmatrix} a_2 \\ b_2 \end{pmatrix}$
-            \begin{pitemize}
-                \item $\Sigma_{11} = -\frac{\Delta_S}{S_{21}}$ 
-                \item $\Sigma_{21} = \frac{S_{11}}{S_{21}}$
-                \item $\Sigma_{12} = -\frac{S_{22}}{S_{21}}$
-                \item $\Sigma_{22} = \frac{1}{S_{21}}$
-            \end{pitemize}
-    \end{pitemize}
-    \item \Term{K$\rightarrow$S}:
-    \begin{pitemize}
-        \item $S_{11}: \frac{A + B - C - D}{A+B+C+D}$
-        \item $S_{12}: \frac{2 \Delta_A}{A+B+C+D}$
-        \item $S_{21}: \frac{2}{A+B+C+D}$
-        \item $S_{22}: \frac{-A + B - C +D}{A+B+C+D}$
-    \end{pitemize}
-    \item \Term{S$\rightarrow$K}:
-    \begin{pitemize}
-        \item $A: \frac{-\Delta_S + S_{11} - S_{22} + 1}{2S_{21}}$
-        \item $B: \frac{\Delta_S + S_{11} + S_{22} + 1}{2S_{21}}$
-        \item $C: \frac{\Delta_S - S_{11} - S_{22} + 1}{2S_{21}}$
-        \item $D: \frac{-\Delta_S - S_{11} + S_{22} + 1}{2S_{21}}$
+        \item $[\Sigma] = \frac{1\begin{pmatrix}
+            -\Delta_S & S_{11} \\ -S_{22} & 1
+        \end{pmatrix}}{S_{21}}$    
     \end{pitemize}
     
 \end{pitemize}
