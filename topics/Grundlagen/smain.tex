@@ -56,15 +56,17 @@ $i = a-b$
             2  & -A + B - C +D
         \end{pmatrix}}{A+B+C+D}$
         \item $\frac{\begin{pmatrix}
-            \Sigma_{12} & 2\Delta_\Sigma \\
+            \Sigma_{12} & \Delta_\Sigma \\
             1  & -\Sigma_{21}
         \end{pmatrix}}{\Sigma_{22}}$
+        \item \includegraphics[width=0.5\linewidth]{topics/Grundlagen/Streuparameter.jpeg}
     \end{pitemize}
 
     \item \Term{Impedanzparameter}:
     \begin{pitemize}
         \item $U_1 = Z_{11}I_1 + Z_{12}I_2$
         \item $U_2 = Z_{21}I_2 + Z_{22}I_2$
+        \item \includegraphics[width=0.5\linewidth]{topics/Grundlagen/Impedanzparameter}
     \end{pitemize}
 
     \item \Term{Kettenparameter}:
@@ -78,6 +80,7 @@ $i = a-b$
             -\Delta_S + S_{11} - S_{22} + 1 & \Delta_S + S_{11} + S_{22} + 1 \\
             \Delta_S - S_{11} - S_{22} + 1 & -\Delta_S - S_{11} + S_{22} + 1
         \end{pmatrix}}{2S_{21}}$
+        \item \includegraphics[width=0.5\linewidth]{topics/Grundlagen/Kettenparameter.jpeg}
     \end{pitemize}
 
     \item \Term{Transmissionsmatrix}:
@@ -89,7 +92,49 @@ $i = a-b$
                 \begin{pmatrix} a_2 \\ b_2 \end{pmatrix}$
         \item $[\Sigma] = \frac{1\begin{pmatrix}
             -\Delta_S & S_{11} \\ -S_{22} & 1
-        \end{pmatrix}}{S_{21}}$    
+        \end{pmatrix}}{S_{21}}$
+        \item \includegraphics[width=0.5\linewidth]{topics/Grundlagen/Transmissionsparamter}
+        \item \includegraphics[width=0.5\linewidth]{topics/Grundlagen/Hintereinanderschaltung.jpeg}
+        \item $\left[\Sigma_g\right] =  \left[\Sigma_1\right] \left[\Sigma_2\right]$   
     \end{pitemize}
     
 \end{pitemize}
+
+\subsection{Leitungen}
+
+\begin{tikzpicture}
+    \draw (0.33,-0.05) rectangle (0.66,0.05);
+    \draw (0,0) -- (0.33,0); \draw (0.66,0) -- (1,0);
+    \draw (0,-0.5) -- (1,-0.5);
+\end{tikzpicture}
+$\begin{bmatrix}
+    A & B \\ C & D
+\end{bmatrix} =
+\begin{bmatrix}
+    1 & \frac{R}{Z_0} \\0 & 1
+\end{bmatrix}$ 
+
+\begin{tikzpicture}
+    \draw (0.45,-0.1) rectangle (0.55,-0.4);
+    \draw(0.5,0) -- (0.5,-0.1);
+    \draw(0.5,-0.5) -- (0.5,-0.4);
+    \draw (0,0) -- (1,0);
+    \draw (0,-0.5) -- (1,-0.5);
+\end{tikzpicture}
+$\begin{bmatrix}
+    A & B \\ C & D
+\end{bmatrix} =\begin{bmatrix}
+    1 & 0 \\ GZ_0 & 1
+\end{bmatrix}$
+
+\subsubsection{Dämpfungsglied}
+\includegraphics[width=0.5\linewidth]{topics/Grundlagen/Bsp Dämpfungsglied.jpeg}
+$\begin{bmatrix}
+    A & B \\ C & D
+\end{bmatrix} = \begin{bmatrix}
+    1 & 0 \\ G_1Z_0 & 1
+\end{bmatrix}\begin{bmatrix}
+    1 & \frac{R_2}{Z_0} \\ 0 & 1
+\end{bmatrix}\begin{bmatrix}
+    1 & 0 \\ G_1Z_0 & 1
+\end{bmatrix}$
