@@ -288,14 +288,6 @@ INPUT ./topics/Koppler/NullGradKoppler.png
 INPUT ./topics/Messung/smain.tex
 INPUT ./topics/Messung/smain.tex
 INPUT topics/Messung/smain.tex
-INPUT ./topics/Messung/BBDet.png
-INPUT ./topics/Messung/BBDet.png
-INPUT ./topics/Messung/BBDet.png
-INPUT ./topics/Messung/BBDet.png
-INPUT ./topics/Messung/BBDetErg.png
-INPUT ./topics/Messung/BBDetErg.png
-INPUT ./topics/Messung/BBDetErg.png
-INPUT ./topics/Messung/BBDetErg.png
 INPUT main.aux
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
