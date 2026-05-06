@@ -348,6 +348,14 @@ INPUT ./topics/Messung/error_ohne_MO.jpeg
 INPUT ./topics/Messung/error_ohne_MO.jpeg
 INPUT ./topics/Messung/error_ohne_MO.jpeg
 INPUT ./topics/Messung/error_ohne_MO.jpeg
+INPUT ./topics/Messung/error_mit_MO.jpeg
+INPUT ./topics/Messung/error_mit_MO.jpeg
+INPUT ./topics/Messung/error_mit_MO.jpeg
+INPUT ./topics/Messung/error_mit_MO.jpeg
+INPUT ./topics/Messung/vektor_netzwerkanalyse.jpeg
+INPUT ./topics/Messung/vektor_netzwerkanalyse.jpeg
+INPUT ./topics/Messung/vektor_netzwerkanalyse.jpeg
+INPUT ./topics/Messung/vektor_netzwerkanalyse.jpeg
 INPUT main.aux
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
