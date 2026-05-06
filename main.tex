@@ -9,6 +9,19 @@
 \textbf{\huge HF}
 \raggedright
 
+\newcommand{\cp}{\begin{tikzpicture}\node[circle, inner sep = 1pt,draw] {+};\end{tikzpicture}\hspace{5pt}}
+\newcommand{\cm}{\begin{tikzpicture}\node[circle, inner sep = 3pt,draw] {-};\end{tikzpicture}\hspace{5pt}}
+\newcommand{\fb}{\textcolor{red}{Fehlt Bild}}
+
+\newcommand{\ggt}[2]{%
+  {\mathbin{\genfrac{}{}{-10pt}{3}{\color{black}#1}{\color{orange}#2}}}%
+}
+
+\newcommand{\bild}[1]{\includegraphics[width=0.5\linewidth]{#1}}
+
+
+
 \input{topics/Grundlagen/smain.tex}
 \input{topics/Koppler/smain.tex}
+\input{topics/Messung/smain.tex}
 \end{document}
