@@ -1,5 +1,5 @@
 \section{Messung}
-\renewcommand{\bildf}[1]{topics/Messung/#1}
+\renewcommand{\bildf}[1]{\bild{topics/Messung/#1}}
 
 
 \subsection{Breitbanddetektoren}
@@ -10,18 +10,17 @@ Nicht Lineare Effekte(Verständnis)
 
 
 \subsection{Skalare Zweitormessung}
-\fb
 
 \subsubsection{Substitionsverfahren}
-\fb\\
+\bildf{skalar\_zt\_substitution}
 $P_2 = \lvert S_{21}\rvert^2 P_g \Leftrightarrow  \lvert S_{21}\rvert^2 = \frac{P_2}{P_1}$
 
 \subsubsection{Leitungskoppler}
-\fb\\
+\bildf{skalar\_zt\_1}
 $P_1 = K P_g$\\
 $\lvert S_{21}\rvert^2 = \frac{K}{(1 - K)}\frac{P_2}{P_1}$
 
-\fb\\
+\bildf{skalar\_zt\_2}
 
 \begin{pitemize}
     \item $P_2 = \lvert S_{21}\rvert^2 (1-k)^2 P_g$
@@ -34,7 +33,7 @@ $\lvert S_{21}\rvert^2 = \frac{K}{(1 - K)}\frac{P_2}{P_1}$
 
 \subsubsection{}
 
-\fb\\
+\bildf{skalar\_zt\_3}
 \begin{pitemize}
     \item $P_1 = k P_g$
     \item $P_2 = \lvert S_{21}\rvert^2 (1-2k) P_g$
@@ -49,13 +48,13 @@ $\lvert S_{21}\rvert^2 = \frac{K}{(1 - K)}\frac{P_2}{P_1}$
 
 Annahme: Fehlanpassung am Generator und am Leistungsdetektor
 $\rightarrow$ Fehlermodell
-\fb\\
+\bildf{transmission\_error}
 
 \begin{pitemize}
     \item $P_{Det} = \lvert b_2\rvert^2$
     \item Ohne MO:
     \begin{pitemize}
-        \item \fb
+        \item \bildf{error\_ohne\_MO}
         \item $P_{g_{ver}} = \abs{a_1}^2$
         \item $b_2 = V_{21}a_1$
         \item $P_{Det} = \abs{b_1}^2 = \abs{V_{21}}^2 \abs{a_1}^2$
@@ -78,7 +77,7 @@ $\rightarrow$ Fehlermodell
     \end{pitemize}
     \item Mit MO:
     \begin{pitemize}
-        \item \fb
+        \item \bildf{e}
         \item $W_{21} = \frac{1}{\Sigma_{W_{22}}}$
         \item $\Sigma_W = \frac{1}{R_{21}S_{21}T_{21}} \begin{bmatrix}-\Delta_R & R_{11} \\ -R_{22} & 1\end{bmatrix}\begin{bmatrix}-\Delta_S & S_{11} \\ -S_{22} & 1\end{bmatrix}\begin{bmatrix}-\Delta_T & T_{11} \\ -T_{22} & 1\end{bmatrix}$
         \item $W_{21} = \frac{R_{21}S_{21}T_{21}}{1 - R_{22}S_{11} - S_{22}T_{11} + T_{11}R_{22}\Delta_S}$
