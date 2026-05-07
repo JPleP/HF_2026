@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.1.4)  6 MAY 2026 12:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.1.4)  7 MAY 2026 11:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -422,220 +422,220 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 7.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<topics/Grundlagen/Streuparameter.jpeg, id=4, 3233.07875pt x 1003.75pt>
-File: topics/Grundlagen/Streuparameter.jpeg Graphic file (type jpg)
-<use topics/Grundlagen/Streuparameter.jpeg>
-Package pdftex.def Info: topics/Grundlagen/Streuparameter.jpeg  used on input line 62.
-(pdftex.def)             Requested size: 119.88193pt x 37.2178pt.
-<topics/Grundlagen/Impedanzparameter.jpeg, id=5, 2471.2325pt x 1003.75pt>
-File: topics/Grundlagen/Impedanzparameter.jpeg Graphic file (type jpg)
-<use topics/Grundlagen/Impedanzparameter.jpeg>
-Package pdftex.def Info: topics/Grundlagen/Impedanzparameter.jpeg  used on input line 69.
-(pdftex.def)             Requested size: 119.88193pt x 48.68947pt.
-<topics/Grundlagen/Kettenparameter.jpeg, id=6, 2145.01375pt x 1003.75pt>
-File: topics/Grundlagen/Kettenparameter.jpeg Graphic file (type jpg)
-<use topics/Grundlagen/Kettenparameter.jpeg>
-Package pdftex.def Info: topics/Grundlagen/Kettenparameter.jpeg  used on input line 83.
-(pdftex.def)             Requested size: 119.88193pt x 56.08708pt.
+<topics/Grundlagen/Streuparameter.png, id=4, 751.30687pt x 233.37187pt>
+File: topics/Grundlagen/Streuparameter.png Graphic file (type png)
+<use topics/Grundlagen/Streuparameter.png>
+Package pdftex.def Info: topics/Grundlagen/Streuparameter.png  used on input line 62.
+(pdftex.def)             Requested size: 119.88193pt x 37.23698pt.
+<topics/Grundlagen/Impedanzparameter.png, id=5, 716.6775pt x 291.33844pt>
+File: topics/Grundlagen/Impedanzparameter.png Graphic file (type png)
+<use topics/Grundlagen/Impedanzparameter.png>
+Package pdftex.def Info: topics/Grundlagen/Impedanzparameter.png  used on input line 69.
+(pdftex.def)             Requested size: 119.88193pt x 48.73114pt.
+<topics/Grundlagen/Kettenparameter.png, id=6, 553.31718pt x 258.9675pt>
+File: topics/Grundlagen/Kettenparameter.png Graphic file (type png)
+<use topics/Grundlagen/Kettenparameter.png>
+Package pdftex.def Info: topics/Grundlagen/Kettenparameter.png  used on input line 83.
+(pdftex.def)             Requested size: 119.88193pt x 56.10764pt.
 
 
-<topics/Grundlagen/Transmissionsparamter.jpeg, id=7, 2755.29375pt x 1003.75pt>
-File: topics/Grundlagen/Transmissionsparamter.jpeg Graphic file (type jpg)
-<use topics/Grundlagen/Transmissionsparamter.jpeg>
-Package pdftex.def Info: topics/Grundlagen/Transmissionsparamter.jpeg  used on input line 96.
-(pdftex.def)             Requested size: 119.88193pt x 43.66583pt.
-<topics/Grundlagen/Hintereinanderschaltung.jpeg, id=8, 2549.525pt x 1003.75pt>
-File: topics/Grundlagen/Hintereinanderschaltung.jpeg Graphic file (type jpg)
-<use topics/Grundlagen/Hintereinanderschaltung.jpeg>
-Package pdftex.def Info: topics/Grundlagen/Hintereinanderschaltung.jpeg  used on input line 97.
-(pdftex.def)             Requested size: 119.88193pt x 47.1885pt.
-<topics/Grundlagen/Bsp Dämpfungsglied.jpeg, id=9, 2118.91624pt x 1003.75pt>
-File: topics/Grundlagen/Bsp Dämpfungsglied.jpeg Graphic file (type jpg)
-<use topics/Grundlagen/Bsp Dämpfungsglied.jpeg>
-Package pdftex.def Info: topics/Grundlagen/Bsp Dämpfungsglied.jpeg  used on input line 131.
-(pdftex.def)             Requested size: 142.87697pt x 67.68127pt.
+<topics/Grundlagen/Transmissionsparamter.png, id=7, 710.655pt x 258.9675pt>
+File: topics/Grundlagen/Transmissionsparamter.png Graphic file (type png)
+<use topics/Grundlagen/Transmissionsparamter.png>
+Package pdftex.def Info: topics/Grundlagen/Transmissionsparamter.png  used on input line 96.
+(pdftex.def)             Requested size: 119.88193pt x 43.68405pt.
+<topics/Grundlagen/Hintereinanderschaltung.png, id=8, 895.84688pt x 352.31625pt>
+File: topics/Grundlagen/Hintereinanderschaltung.png Graphic file (type png)
+<use topics/Grundlagen/Hintereinanderschaltung.png>
+Package pdftex.def Info: topics/Grundlagen/Hintereinanderschaltung.png  used on input line 97.
+(pdftex.def)             Requested size: 119.88193pt x 47.14668pt.
+<topics/Grundlagen/Bsp Dämpfungsglied.png, id=9, 552.56438pt x 261.97874pt>
+File: topics/Grundlagen/Bsp Dämpfungsglied.png Graphic file (type png)
+<use topics/Grundlagen/Bsp Dämpfungsglied.png>
+Package pdftex.def Info: topics/Grundlagen/Bsp Dämpfungsglied.png  used on input line 131.
+(pdftex.def)             Requested size: 142.87697pt x 67.73709pt.
 ) (./topics/Koppler/smain.tex
-<topics/Koppler/Leitungskoppler.jpeg, id=10, 2912.8825pt x 1003.75pt>
-File: topics/Koppler/Leitungskoppler.jpeg Graphic file (type jpg)
-<use topics/Koppler/Leitungskoppler.jpeg>
-Package pdftex.def Info: topics/Koppler/Leitungskoppler.jpeg  used on input line 25.
-(pdftex.def)             Requested size: 142.87697pt x 49.22552pt.
-<topics/Koppler/Bsp Leitungskoppler.jpeg, id=11, 1354.05875pt x 1003.75pt>
-File: topics/Koppler/Bsp Leitungskoppler.jpeg Graphic file (type jpg)
-<use topics/Koppler/Bsp Leitungskoppler.jpeg>
-Package pdftex.def Info: topics/Koppler/Bsp Leitungskoppler.jpeg  used on input line 27.
-(pdftex.def)             Requested size: 142.87697pt x 105.90994pt.
-<topics/Koppler/Leitungskoppler 2.jpeg, id=12, 1447.4075pt x 1003.75pt>
-File: topics/Koppler/Leitungskoppler 2.jpeg Graphic file (type jpg)
-<use topics/Koppler/Leitungskoppler 2.jpeg>
-Package pdftex.def Info: topics/Koppler/Leitungskoppler 2.jpeg  used on input line 33.
-(pdftex.def)             Requested size: 142.87697pt x 99.07901pt.
+<topics/Koppler/Leitungskoppler.png, id=10, 836.3747pt x 288.3272pt>
+File: topics/Koppler/Leitungskoppler.png Graphic file (type png)
+<use topics/Koppler/Leitungskoppler.png>
+Package pdftex.def Info: topics/Koppler/Leitungskoppler.png  used on input line 25.
+(pdftex.def)             Requested size: 142.87697pt x 49.25253pt.
+<topics/Koppler/Bsp Leitungskoppler.png, id=11, 651.93562pt x 483.30562pt>
+File: topics/Koppler/Bsp Leitungskoppler.png Graphic file (type png)
+<use topics/Koppler/Bsp Leitungskoppler.png>
+Package pdftex.def Info: topics/Koppler/Bsp Leitungskoppler.png  used on input line 27.
+(pdftex.def)             Requested size: 142.87697pt x 105.92195pt.
+<topics/Koppler/Leitungskoppler 2.png, id=12, 575.90157pt x 399.74344pt>
+File: topics/Koppler/Leitungskoppler 2.png Graphic file (type png)
+<use topics/Koppler/Leitungskoppler 2.png>
+Package pdftex.def Info: topics/Koppler/Leitungskoppler 2.png  used on input line 33.
+(pdftex.def)             Requested size: 142.87697pt x 99.17316pt.
 
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./topics/Grundlagen/Streuparameter.jpeg> <./topics/Grundlagen/Impedanzparameter.jpeg> <./topics/Grundlagen/Kettenparameter.jpeg> <./topics/Grundlagen/Transmissionsparamter.jpeg> <./topics/Grundlagen/Hintereinanderschaltung.jpeg> <./topics/Grundlagen/Bsp Dämpfungsglied.jpeg> <./topics/Koppler/Leitungskoppler.jpeg> <./topics/Koppler/Bsp Leitungskoppler.jpeg>]
-<topics/Koppler/Ringkoppler.jpeg, id=31, 2403.98125pt x 1003.75pt>
-File: topics/Koppler/Ringkoppler.jpeg Graphic file (type jpg)
-<use topics/Koppler/Ringkoppler.jpeg>
-Package pdftex.def Info: topics/Koppler/Ringkoppler.jpeg  used on input line 75.
-(pdftex.def)             Requested size: 142.87697pt x 59.6557pt.
-<topics/Koppler/Ringkoppler Gleichtakt.jpeg, id=32, 278.2395pt x 134.4222pt>
-File: topics/Koppler/Ringkoppler Gleichtakt.jpeg Graphic file (type jpg)
-<use topics/Koppler/Ringkoppler Gleichtakt.jpeg>
-Package pdftex.def Info: topics/Koppler/Ringkoppler Gleichtakt.jpeg  used on input line 89.
-(pdftex.def)             Requested size: 119.88193pt x 57.91733pt.
-<topics/Koppler/Ringkoppler Gegentakt.jpeg, id=33, 274.1442pt x 126.2316pt>
-File: topics/Koppler/Ringkoppler Gegentakt.jpeg Graphic file (type jpg)
-<use topics/Koppler/Ringkoppler Gegentakt.jpeg>
-Package pdftex.def Info: topics/Koppler/Ringkoppler Gegentakt.jpeg  used on input line 94.
-(pdftex.def)             Requested size: 119.88193pt x 55.1992pt.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./topics/Grundlagen/Streuparameter.png (PNG copy)> <./topics/Grundlagen/Impedanzparameter.png (PNG copy)> <./topics/Grundlagen/Kettenparameter.png (PNG copy)> <./topics/Grundlagen/Transmissionsparamter.png (PNG copy)> <./topics/Grundlagen/Hintereinanderschaltung.png (PNG copy)> <./topics/Grundlagen/Bsp Dämpfungsglied.png (PNG copy)> <./topics/Koppler/Leitungskoppler.png (PNG copy)> <./topics/Koppler/Bsp Leitungskoppler.png (PNG copy)>]
+<topics/Koppler/Ringkoppler.png, id=31, 774.64406pt x 323.70938pt>
+File: topics/Koppler/Ringkoppler.png Graphic file (type png)
+<use topics/Koppler/Ringkoppler.png>
+Package pdftex.def Info: topics/Koppler/Ringkoppler.png  used on input line 75.
+(pdftex.def)             Requested size: 142.87697pt x 59.70253pt.
+<topics/Koppler/Ringkoppler Gleichtakt.png, id=32, 147.4308pt x 71.3064pt>
+File: topics/Koppler/Ringkoppler Gleichtakt.png Graphic file (type png)
+<use topics/Koppler/Ringkoppler Gleichtakt.png>
+Package pdftex.def Info: topics/Koppler/Ringkoppler Gleichtakt.png  used on input line 89.
+(pdftex.def)             Requested size: 119.88193pt x 57.98198pt.
+<topics/Koppler/Ringkoppler Gegentakt.png, id=33, 118.041pt x 54.4434pt>
+File: topics/Koppler/Ringkoppler Gegentakt.png Graphic file (type png)
+<use topics/Koppler/Ringkoppler Gegentakt.png>
+Package pdftex.def Info: topics/Koppler/Ringkoppler Gegentakt.png  used on input line 94.
+(pdftex.def)             Requested size: 119.88193pt x 55.29309pt.
 
 
-<topics/Koppler/Leitungsdarstellung.jpeg, id=34, 2967.085pt x 1003.75pt>
-File: topics/Koppler/Leitungsdarstellung.jpeg Graphic file (type jpg)
-<use topics/Koppler/Leitungsdarstellung.jpeg>
-Package pdftex.def Info: topics/Koppler/Leitungsdarstellung.jpeg  used on input line 99.
-(pdftex.def)             Requested size: 142.87697pt x 48.32188pt.
-<topics/Koppler/Rat-Race-Koppler.jpeg, id=35, 1488.56125pt x 1003.75pt>
-File: topics/Koppler/Rat-Race-Koppler.jpeg Graphic file (type jpg)
-<use topics/Koppler/Rat-Race-Koppler.jpeg>
-Package pdftex.def Info: topics/Koppler/Rat-Race-Koppler.jpeg  used on input line 142.
-(pdftex.def)             Requested size: 142.87697pt x 96.33746pt.
+<topics/Koppler/Leitungsdarstellung.png, id=34, 406.51875pt x 137.7647pt>
+File: topics/Koppler/Leitungsdarstellung.png Graphic file (type png)
+<use topics/Koppler/Leitungsdarstellung.png>
+Package pdftex.def Info: topics/Koppler/Leitungsdarstellung.png  used on input line 99.
+(pdftex.def)             Requested size: 142.87697pt x 48.41806pt.
+<topics/Koppler/Rat-Race-Koppler.png, id=35, 388.45125pt x 261.97874pt>
+File: topics/Koppler/Rat-Race-Koppler.png Graphic file (type png)
+<use topics/Koppler/Rat-Race-Koppler.png>
+Package pdftex.def Info: topics/Koppler/Rat-Race-Koppler.png  used on input line 142.
+(pdftex.def)             Requested size: 142.87697pt x 96.35898pt.
 <topics/Koppler/ResKop.png, id=36, 732.7375pt x 414.54875pt>
 File: topics/Koppler/ResKop.png Graphic file (type png)
 <use topics/Koppler/ResKop.png>
 Package pdftex.def Info: topics/Koppler/ResKop.png  used on input line 156.
 (pdftex.def)             Requested size: 142.87697pt x 80.82718pt.
-<topics/Koppler/r_koppler.jpeg, id=38, 2671.9825pt x 1003.75pt>
-File: topics/Koppler/r_koppler.jpeg Graphic file (type jpg)
-<use topics/Koppler/r_koppler.jpeg>
-Package pdftex.def Info: topics/Koppler/r_koppler.jpeg  used on input line 166.
-(pdftex.def)             Requested size: 142.87697pt x 53.66716pt.
+<topics/Koppler/r_koppler.png, id=38, 697.10437pt x 261.97874pt>
+File: topics/Koppler/r_koppler.png Graphic file (type png)
+<use topics/Koppler/r_koppler.png>
+Package pdftex.def Info: topics/Koppler/r_koppler.png  used on input line 166.
+(pdftex.def)             Requested size: 142.87697pt x 53.69398pt.
 
 
-[2 <./topics/Koppler/Leitungskoppler 2.jpeg> <./topics/Koppler/Ringkoppler.jpeg> <./topics/Koppler/Ringkoppler Gleichtakt.jpeg> <./topics/Koppler/Ringkoppler Gegentakt.jpeg> <./topics/Koppler/Leitungsdarstellung.jpeg> <./topics/Koppler/Rat-Race-Koppler.jpeg> <./topics/Koppler/ResKop.png>]
-<topics/Koppler/r_koppler_plus.jpeg, id=45, 2012.51875pt x 1003.75pt>
-File: topics/Koppler/r_koppler_plus.jpeg Graphic file (type jpg)
-<use topics/Koppler/r_koppler_plus.jpeg>
-Package pdftex.def Info: topics/Koppler/r_koppler_plus.jpeg  used on input line 170.
-(pdftex.def)             Requested size: 131.92694pt x 65.79741pt.
-<topics/Koppler/r_koppler_minus.jpeg, id=46, 2315.65125pt x 1003.75pt>
-File: topics/Koppler/r_koppler_minus.jpeg Graphic file (type jpg)
-<use topics/Koppler/r_koppler_minus.jpeg>
-Package pdftex.def Info: topics/Koppler/r_koppler_minus.jpeg  used on input line 176.
-(pdftex.def)             Requested size: 131.92694pt x 57.17451pt.
-<topics/Koppler/trafo_koppler.jpeg, id=47, 2030.58624pt x 1003.75pt>
-File: topics/Koppler/trafo_koppler.jpeg Graphic file (type jpg)
-<use topics/Koppler/trafo_koppler.jpeg>
-Package pdftex.def Info: topics/Koppler/trafo_koppler.jpeg  used on input line 193.
-(pdftex.def)             Requested size: 142.87697pt x 70.62193pt.
-<topics/Koppler/NullGradKoppler.png, id=48, 775.89874pt x 425.59pt>
+[2 <./topics/Koppler/Leitungskoppler 2.png (PNG copy)> <./topics/Koppler/Ringkoppler.png (PNG copy)> <./topics/Koppler/Ringkoppler Gleichtakt.png (PNG copy)> <./topics/Koppler/Ringkoppler Gegentakt.png (PNG copy)> <./topics/Koppler/Leitungsdarstellung.png (PNG copy)> <./topics/Koppler/Rat-Race-Koppler.png (PNG copy)> <./topics/Koppler/ResKop.png>]
+<topics/Koppler/r_koppler_plus.png, id=45, 425.33907pt x 212.29312pt>
+File: topics/Koppler/r_koppler_plus.png Graphic file (type png)
+<use topics/Koppler/r_koppler_plus.png>
+Package pdftex.def Info: topics/Koppler/r_koppler_plus.png  used on input line 170.
+(pdftex.def)             Requested size: 131.92694pt x 65.84581pt.
+<topics/Koppler/r_koppler_minus.png, id=46, 603.75563pt x 261.97874pt>
+File: topics/Koppler/r_koppler_minus.png Graphic file (type png)
+<use topics/Koppler/r_koppler_minus.png>
+Package pdftex.def Info: topics/Koppler/r_koppler_minus.png  used on input line 176.
+(pdftex.def)             Requested size: 131.92694pt x 57.24374pt.
+<topics/Koppler/trafo_koppler.png, id=47, 654.19406pt x 323.70938pt>
+File: topics/Koppler/trafo_koppler.png Graphic file (type png)
+<use topics/Koppler/trafo_koppler.png>
+Package pdftex.def Info: topics/Koppler/trafo_koppler.png  used on input line 193.
+(pdftex.def)             Requested size: 142.87697pt x 70.69765pt.
+<topics/Koppler/NullGradKoppler.png, id=48, 343.2825pt x 188.20313pt>
 File: topics/Koppler/NullGradKoppler.png Graphic file (type png)
 <use topics/Koppler/NullGradKoppler.png>
 Package pdftex.def Info: topics/Koppler/NullGradKoppler.png  used on input line 206.
-(pdftex.def)             Requested size: 142.87697pt x 78.36925pt.
-<topics/Koppler/null_grad_koppler_EB.jpeg, id=49, 1969.3575pt x 1003.75pt>
-File: topics/Koppler/null_grad_koppler_EB.jpeg Graphic file (type jpg)
-<use topics/Koppler/null_grad_koppler_EB.jpeg>
-Package pdftex.def Info: topics/Koppler/null_grad_koppler_EB.jpeg  used on input line 207.
-(pdftex.def)             Requested size: 142.87697pt x 72.81212pt.
-<topics/Koppler/null_grad_koppler_plus.jpeg, id=50, 2617.78pt x 1003.75pt>
-File: topics/Koppler/null_grad_koppler_plus.jpeg Graphic file (type jpg)
-<use topics/Koppler/null_grad_koppler_plus.jpeg>
-Package pdftex.def Info: topics/Koppler/null_grad_koppler_plus.jpeg  used on input line 212.
-(pdftex.def)             Requested size: 119.88193pt x 45.96323pt.
+(pdftex.def)             Requested size: 142.87697pt x 78.3297pt.
+<topics/Koppler/null_grad_koppler_EB.png, id=49, 457.71pt x 233.37187pt>
+File: topics/Koppler/null_grad_koppler_EB.png Graphic file (type png)
+<use topics/Koppler/null_grad_koppler_EB.png>
+Package pdftex.def Info: topics/Koppler/null_grad_koppler_EB.png  used on input line 207.
+(pdftex.def)             Requested size: 142.87697pt x 72.84662pt.
+<topics/Koppler/null_grad_koppler_plus.png, id=50, 682.80093pt x 261.97874pt>
+File: topics/Koppler/null_grad_koppler_plus.png Graphic file (type png)
+<use topics/Koppler/null_grad_koppler_plus.png>
+Package pdftex.def Info: topics/Koppler/null_grad_koppler_plus.png  used on input line 212.
+(pdftex.def)             Requested size: 119.88193pt x 45.99487pt.
 
 
-<topics/Koppler/null_grad_koppler_minus.jpeg, id=51, 1955.305pt x 1003.75pt>
-File: topics/Koppler/null_grad_koppler_minus.jpeg Graphic file (type jpg)
-<use topics/Koppler/null_grad_koppler_minus.jpeg>
-Package pdftex.def Info: topics/Koppler/null_grad_koppler_minus.jpeg  used on input line 217.
-(pdftex.def)             Requested size: 119.88193pt x 61.53957pt.
+<topics/Koppler/null_grad_koppler_minus.png, id=51, 624.08156pt x 320.69812pt>
+File: topics/Koppler/null_grad_koppler_minus.png Graphic file (type png)
+<use topics/Koppler/null_grad_koppler_minus.png>
+Package pdftex.def Info: topics/Koppler/null_grad_koppler_minus.png  used on input line 217.
+(pdftex.def)             Requested size: 119.88193pt x 61.60367pt.
 ) (./topics/Messung/smain.tex
-<topics/Messung/BBDet.png, id=52, 1135.24126pt x 931.48pt>
+<topics/Messung/BBDet.png, id=52, 557.83406pt x 457.71pt>
 File: topics/Messung/BBDet.png Graphic file (type png)
 <use topics/Messung/BBDet.png>
 Package pdftex.def Info: topics/Messung/BBDet.png  used on input line 7.
-(pdftex.def)             Requested size: 142.87697pt x 117.23065pt.
-<topics/Messung/BBDetErg.png, id=53, 927.465pt x 624.3325pt>
+(pdftex.def)             Requested size: 142.87697pt x 117.22783pt.
+<topics/Messung/BBDetErg.png, id=53, 507.39563pt x 341.77687pt>
 File: topics/Messung/BBDetErg.png Graphic file (type png)
 <use topics/Messung/BBDetErg.png>
 Package pdftex.def Info: topics/Messung/BBDetErg.png  used on input line 9.
-(pdftex.def)             Requested size: 142.87697pt x 96.17989pt.
-<topics/Messung/skalar_zt_substitution.jpeg, id=54, 2025.5675pt x 1003.75pt>
-File: topics/Messung/skalar_zt_substitution.jpeg Graphic file (type jpg)
-<use topics/Messung/skalar_zt_substitution.jpeg>
-Package pdftex.def Info: topics/Messung/skalar_zt_substitution.jpeg  used on input line 15.
-(pdftex.def)             Requested size: 142.87697pt x 70.79042pt.
-<topics/Messung/skalar_zt_1.jpeg, id=55, 3099.58pt x 1002.74625pt>
-File: topics/Messung/skalar_zt_1.jpeg Graphic file (type jpg)
-<use topics/Messung/skalar_zt_1.jpeg>
-Package pdftex.def Info: topics/Messung/skalar_zt_1.jpeg  used on input line 19.
-(pdftex.def)             Requested size: 142.87697pt x 46.20798pt.
-<topics/Messung/skalar_zt_2.jpeg, id=56, 3577.365pt x 1003.75pt>
-File: topics/Messung/skalar_zt_2.jpeg Graphic file (type jpg)
-<use topics/Messung/skalar_zt_2.jpeg>
-Package pdftex.def Info: topics/Messung/skalar_zt_2.jpeg  used on input line 23.
-(pdftex.def)             Requested size: 142.87697pt x 40.0819pt.
-<topics/Messung/skalar_zt_3.jpeg, id=57, 2071.74pt x 1003.75pt>
-File: topics/Messung/skalar_zt_3.jpeg Graphic file (type jpg)
-<use topics/Messung/skalar_zt_3.jpeg>
-Package pdftex.def Info: topics/Messung/skalar_zt_3.jpeg  used on input line 36.
-(pdftex.def)             Requested size: 142.87697pt x 69.21288pt.
+(pdftex.def)             Requested size: 142.87697pt x 96.23923pt.
+<topics/Messung/skalar_zt_substitution.png, id=54, 652.68843pt x 323.70938pt>
+File: topics/Messung/skalar_zt_substitution.png Graphic file (type png)
+<use topics/Messung/skalar_zt_substitution.png>
+Package pdftex.def Info: topics/Messung/skalar_zt_substitution.png  used on input line 15.
+(pdftex.def)             Requested size: 142.87697pt x 70.86064pt.
+<topics/Messung/skalar_zt_1.png, id=55, 807.015pt x 261.22594pt>
+File: topics/Messung/skalar_zt_1.png Graphic file (type png)
+<use topics/Messung/skalar_zt_1.png>
+Package pdftex.def Info: topics/Messung/skalar_zt_1.png  used on input line 19.
+(pdftex.def)             Requested size: 142.87697pt x 46.24535pt.
+<topics/Messung/skalar_zt_2.png, id=56, 681.29532pt x 191.21437pt>
+File: topics/Messung/skalar_zt_2.png Graphic file (type png)
+<use topics/Messung/skalar_zt_2.png>
+Package pdftex.def Info: topics/Messung/skalar_zt_2.png  used on input line 23.
+(pdftex.def)             Requested size: 142.87697pt x 40.10075pt.
+<topics/Messung/skalar_zt_3.png, id=57, 600.74437pt x 291.33844pt>
+File: topics/Messung/skalar_zt_3.png Graphic file (type png)
+<use topics/Messung/skalar_zt_3.png>
+Package pdftex.def Info: topics/Messung/skalar_zt_3.png  used on input line 36.
+(pdftex.def)             Requested size: 142.87697pt x 69.28694pt.
 
-Underfull \vbox (badness 1655) has occurred while \output is active []
-
-
-
-[3 <./topics/Koppler/r_koppler.jpeg> <./topics/Koppler/r_koppler_plus.jpeg> <./topics/Koppler/r_koppler_minus.jpeg> <./topics/Koppler/trafo_koppler.jpeg> <./topics/Koppler/NullGradKoppler.png> <./topics/Koppler/null_grad_koppler_EB.jpeg> <./topics/Koppler/null_grad_koppler_plus.jpeg> <./topics/Koppler/null_grad_koppler_minus.jpeg> <./topics/Messung/BBDet.png> <./topics/Messung/BBDetErg.png> <./topics/Messung/skalar_zt_substitution.jpeg> <./topics/Messung/skalar_zt_1.jpeg> <./topics/Messung/skalar_zt_2.jpeg>]
-<topics/Messung/transmission_error.jpeg, id=64, 3521.155pt x 1003.75pt>
-File: topics/Messung/transmission_error.jpeg Graphic file (type jpg)
-<use topics/Messung/transmission_error.jpeg>
-Package pdftex.def Info: topics/Messung/transmission_error.jpeg  used on input line 51.
-(pdftex.def)             Requested size: 142.87697pt x 40.72516pt.
-<topics/Messung/error_ohne_MO.jpeg, id=65, 2055.68pt x 1003.75pt>
-File: topics/Messung/error_ohne_MO.jpeg Graphic file (type jpg)
-<use topics/Messung/error_ohne_MO.jpeg>
-Package pdftex.def Info: topics/Messung/error_ohne_MO.jpeg  used on input line 57.
-(pdftex.def)             Requested size: 119.88193pt x 58.52232pt.
-<topics/Messung/error_mit_MO.jpeg, id=66, 2387.92125pt x 1003.75pt>
-File: topics/Messung/error_mit_MO.jpeg Graphic file (type jpg)
-<use topics/Messung/error_mit_MO.jpeg>
-Package pdftex.def Info: topics/Messung/error_mit_MO.jpeg  used on input line 80.
-(pdftex.def)             Requested size: 119.88193pt x 50.38954pt.
+Underfull \vbox (badness 1642) has occurred while \output is active []
 
 
-<topics/Messung/vektor_netzwerkanalyse.jpeg, id=67, 2915.89375pt x 1003.75pt>
-File: topics/Messung/vektor_netzwerkanalyse.jpeg Graphic file (type jpg)
-<use topics/Messung/vektor_netzwerkanalyse.jpeg>
-Package pdftex.def Info: topics/Messung/vektor_netzwerkanalyse.jpeg  used on input line 100.
-(pdftex.def)             Requested size: 228.60402pt x 78.69345pt.
-<topics/Messung/vna rampe.jpeg, id=68, 566.115pt x 642.4pt>
-File: topics/Messung/vna rampe.jpeg Graphic file (type jpg)
-<use topics/Messung/vna rampe.jpeg>
-Package pdftex.def Info: topics/Messung/vna rampe.jpeg  used on input line 106.
-(pdftex.def)             Requested size: 131.92694pt x 149.69952pt.
+
+[3 <./topics/Koppler/r_koppler.png (PNG copy)> <./topics/Koppler/r_koppler_plus.png (PNG copy)> <./topics/Koppler/r_koppler_minus.png (PNG copy)> <./topics/Koppler/trafo_koppler.png (PNG copy)> <./topics/Koppler/NullGradKoppler.png (PNG copy)> <./topics/Koppler/null_grad_koppler_EB.png (PNG copy)> <./topics/Koppler/null_grad_koppler_plus.png (PNG copy)> <./topics/Koppler/null_grad_koppler_minus.png (PNG copy)> <./topics/Messung/BBDet.png (PNG copy)> <./topics/Messung/BBDetErg.png (PNG copy)> <./topics/Messung/skalar_zt_substitution.png (PNG copy)> <./topics/Messung/skalar_zt_1.png (PNG copy)> <./topics/Messung/skalar_zt_2.png (PNG copy)>]
+<topics/Messung/transmission_error.png, id=61, 744.53156pt x 212.29312pt>
+File: topics/Messung/transmission_error.png Graphic file (type png)
+<use topics/Messung/transmission_error.png>
+Package pdftex.def Info: topics/Messung/transmission_error.png  used on input line 51.
+(pdftex.def)             Requested size: 142.87697pt x 40.73778pt.
+<topics/Messung/error_ohne_MO.png, id=62, 662.475pt x 323.70938pt>
+File: topics/Messung/error_ohne_MO.png Graphic file (type png)
+<use topics/Messung/error_ohne_MO.png>
+Package pdftex.def Info: topics/Messung/error_ohne_MO.png  used on input line 57.
+(pdftex.def)             Requested size: 119.88193pt x 58.57635pt.
+<topics/Messung/error_mit_MO.png, id=63, 504.38437pt x 212.29312pt>
+File: topics/Messung/error_mit_MO.png Graphic file (type png)
+<use topics/Messung/error_mit_MO.png>
+Package pdftex.def Info: topics/Messung/error_mit_MO.png  used on input line 80.
+(pdftex.def)             Requested size: 119.88193pt x 50.45576pt.
+
+
+<topics/Messung/vektor_netzwerkanalyse.png, id=64, 760.34062pt x 261.97874pt>
+File: topics/Messung/vektor_netzwerkanalyse.png Graphic file (type png)
+<use topics/Messung/vektor_netzwerkanalyse.png>
+Package pdftex.def Info: topics/Messung/vektor_netzwerkanalyse.png  used on input line 100.
+(pdftex.def)             Requested size: 228.60402pt x 78.76611pt.
+<topics/Messung/vna rampe.png, id=65, 424.58624pt x 481.8pt>
+File: topics/Messung/vna rampe.png Graphic file (type png)
+<use topics/Messung/vna rampe.png>
+Package pdftex.def Info: topics/Messung/vna rampe.png  used on input line 106.
+(pdftex.def)             Requested size: 131.92694pt x 149.70198pt.
 )
 
-[4 <./topics/Messung/skalar_zt_3.jpeg> <./topics/Messung/transmission_error.jpeg> <./topics/Messung/error_ohne_MO.jpeg> <./topics/Messung/error_mit_MO.jpeg> <./topics/Messung/vektor_netzwerkanalyse.jpeg> <./topics/Messung/vna rampe.jpeg>] (./main.aux)
+[4 <./topics/Messung/skalar_zt_3.png (PNG copy)> <./topics/Messung/transmission_error.png (PNG copy)> <./topics/Messung/error_ohne_MO.png (PNG copy)> <./topics/Messung/error_mit_MO.png (PNG copy)> <./topics/Messung/vektor_netzwerkanalyse.png (PNG copy)> <./topics/Messung/vna rampe.png (PNG copy)>] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 14332 strings out of 473197
- 296059 string characters out of 5718606
+ 14202 strings out of 473197
+ 290537 string characters out of 5718606
  685776 words of memory out of 5000000
- 37332 multiletter control sequences out of 15000+600000
+ 37202 multiletter control sequences out of 15000+600000
  568113 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  117i,13n,121p,469b,684s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on main.pdf (4 pages, 10135394 bytes).
+Output written on main.pdf (4 pages, 2087409 bytes).
 PDF statistics:
- 135 PDF objects out of 1000 (max. 8388607)
+ 132 PDF objects out of 1000 (max. 8388607)
  60 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  183 words of extra memory for PDF output out of 10000 (max. 10000000)

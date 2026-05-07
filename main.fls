@@ -209,110 +209,106 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy8.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm
-INPUT ./topics/Grundlagen/Streuparameter.jpeg
-INPUT ./topics/Grundlagen/Streuparameter.jpeg
-INPUT ./topics/Grundlagen/Streuparameter.jpeg
-INPUT ./topics/Grundlagen/Streuparameter.jpeg
+INPUT ./topics/Grundlagen/Streuparameter.png
+INPUT ./topics/Grundlagen/Streuparameter.png
+INPUT ./topics/Grundlagen/Streuparameter.png
 OUTPUT main.pdf
-INPUT ./topics/Grundlagen/Streuparameter.jpeg
-INPUT ./topics/Grundlagen/Impedanzparameter.jpeg
-INPUT ./topics/Grundlagen/Impedanzparameter.jpeg
-INPUT ./topics/Grundlagen/Impedanzparameter.jpeg
-INPUT ./topics/Grundlagen/Impedanzparameter.jpeg
-INPUT ./topics/Grundlagen/Kettenparameter.jpeg
-INPUT ./topics/Grundlagen/Kettenparameter.jpeg
-INPUT ./topics/Grundlagen/Kettenparameter.jpeg
-INPUT ./topics/Grundlagen/Kettenparameter.jpeg
-INPUT ./topics/Grundlagen/Kettenparameter.jpeg
-INPUT ./topics/Grundlagen/Transmissionsparamter.jpeg
-INPUT ./topics/Grundlagen/Transmissionsparamter.jpeg
-INPUT ./topics/Grundlagen/Transmissionsparamter.jpeg
-INPUT ./topics/Grundlagen/Transmissionsparamter.jpeg
-INPUT ./topics/Grundlagen/Hintereinanderschaltung.jpeg
-INPUT ./topics/Grundlagen/Hintereinanderschaltung.jpeg
-INPUT ./topics/Grundlagen/Hintereinanderschaltung.jpeg
-INPUT ./topics/Grundlagen/Hintereinanderschaltung.jpeg
-INPUT ./topics/Grundlagen/Hintereinanderschaltung.jpeg
+INPUT ./topics/Grundlagen/Streuparameter.png
+INPUT ./topics/Grundlagen/Impedanzparameter.png
+INPUT ./topics/Grundlagen/Impedanzparameter.png
+INPUT ./topics/Grundlagen/Impedanzparameter.png
+INPUT ./topics/Grundlagen/Impedanzparameter.png
+INPUT ./topics/Grundlagen/Kettenparameter.png
+INPUT ./topics/Grundlagen/Kettenparameter.png
+INPUT ./topics/Grundlagen/Kettenparameter.png
+INPUT ./topics/Grundlagen/Kettenparameter.png
+INPUT ./topics/Grundlagen/Transmissionsparamter.png
+INPUT ./topics/Grundlagen/Transmissionsparamter.png
+INPUT ./topics/Grundlagen/Transmissionsparamter.png
+INPUT ./topics/Grundlagen/Transmissionsparamter.png
+INPUT ./topics/Grundlagen/Hintereinanderschaltung.png
+INPUT ./topics/Grundlagen/Hintereinanderschaltung.png
+INPUT ./topics/Grundlagen/Hintereinanderschaltung.png
+INPUT ./topics/Grundlagen/Hintereinanderschaltung.png
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT ./topics/Grundlagen/Bsp Dämpfungsglied.jpeg
-INPUT ./topics/Grundlagen/Bsp Dämpfungsglied.jpeg
-INPUT ./topics/Grundlagen/Bsp Dämpfungsglied.jpeg
-INPUT ./topics/Grundlagen/Bsp Dämpfungsglied.jpeg
-INPUT ./topics/Grundlagen/Bsp Dämpfungsglied.jpeg
+INPUT ./topics/Grundlagen/Bsp Dämpfungsglied.png
+INPUT ./topics/Grundlagen/Bsp Dämpfungsglied.png
+INPUT ./topics/Grundlagen/Bsp Dämpfungsglied.png
+INPUT ./topics/Grundlagen/Bsp Dämpfungsglied.png
 INPUT ./topics/Koppler/smain.tex
 INPUT ./topics/Koppler/smain.tex
 INPUT topics/Koppler/smain.tex
-INPUT ./topics/Koppler/Leitungskoppler.jpeg
-INPUT ./topics/Koppler/Leitungskoppler.jpeg
-INPUT ./topics/Koppler/Leitungskoppler.jpeg
-INPUT ./topics/Koppler/Leitungskoppler.jpeg
-INPUT ./topics/Koppler/Bsp Leitungskoppler.jpeg
-INPUT ./topics/Koppler/Bsp Leitungskoppler.jpeg
-INPUT ./topics/Koppler/Bsp Leitungskoppler.jpeg
-INPUT ./topics/Koppler/Bsp Leitungskoppler.jpeg
-INPUT ./topics/Koppler/Leitungskoppler 2.jpeg
-INPUT ./topics/Koppler/Leitungskoppler 2.jpeg
-INPUT ./topics/Koppler/Leitungskoppler 2.jpeg
-INPUT ./topics/Koppler/Leitungskoppler 2.jpeg
+INPUT ./topics/Koppler/Leitungskoppler.png
+INPUT ./topics/Koppler/Leitungskoppler.png
+INPUT ./topics/Koppler/Leitungskoppler.png
+INPUT ./topics/Koppler/Leitungskoppler.png
+INPUT ./topics/Koppler/Bsp Leitungskoppler.png
+INPUT ./topics/Koppler/Bsp Leitungskoppler.png
+INPUT ./topics/Koppler/Bsp Leitungskoppler.png
+INPUT ./topics/Koppler/Bsp Leitungskoppler.png
+INPUT ./topics/Koppler/Leitungskoppler 2.png
+INPUT ./topics/Koppler/Leitungskoppler 2.png
+INPUT ./topics/Koppler/Leitungskoppler 2.png
+INPUT ./topics/Koppler/Leitungskoppler 2.png
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc
-INPUT ./topics/Koppler/Ringkoppler.jpeg
-INPUT ./topics/Koppler/Ringkoppler.jpeg
-INPUT ./topics/Koppler/Ringkoppler.jpeg
-INPUT ./topics/Koppler/Ringkoppler.jpeg
-INPUT ./topics/Koppler/Ringkoppler Gleichtakt.jpeg
-INPUT ./topics/Koppler/Ringkoppler Gleichtakt.jpeg
-INPUT ./topics/Koppler/Ringkoppler Gleichtakt.jpeg
-INPUT ./topics/Koppler/Ringkoppler Gleichtakt.jpeg
-INPUT ./topics/Koppler/Ringkoppler Gegentakt.jpeg
-INPUT ./topics/Koppler/Ringkoppler Gegentakt.jpeg
-INPUT ./topics/Koppler/Ringkoppler Gegentakt.jpeg
-INPUT ./topics/Koppler/Ringkoppler Gegentakt.jpeg
-INPUT ./topics/Koppler/Leitungsdarstellung.jpeg
-INPUT ./topics/Koppler/Leitungsdarstellung.jpeg
-INPUT ./topics/Koppler/Leitungsdarstellung.jpeg
-INPUT ./topics/Koppler/Leitungsdarstellung.jpeg
-INPUT ./topics/Koppler/Rat-Race-Koppler.jpeg
-INPUT ./topics/Koppler/Rat-Race-Koppler.jpeg
-INPUT ./topics/Koppler/Rat-Race-Koppler.jpeg
-INPUT ./topics/Koppler/Rat-Race-Koppler.jpeg
+INPUT ./topics/Koppler/Ringkoppler.png
+INPUT ./topics/Koppler/Ringkoppler.png
+INPUT ./topics/Koppler/Ringkoppler.png
+INPUT ./topics/Koppler/Ringkoppler.png
+INPUT ./topics/Koppler/Ringkoppler Gleichtakt.png
+INPUT ./topics/Koppler/Ringkoppler Gleichtakt.png
+INPUT ./topics/Koppler/Ringkoppler Gleichtakt.png
+INPUT ./topics/Koppler/Ringkoppler Gleichtakt.png
+INPUT ./topics/Koppler/Ringkoppler Gegentakt.png
+INPUT ./topics/Koppler/Ringkoppler Gegentakt.png
+INPUT ./topics/Koppler/Ringkoppler Gegentakt.png
+INPUT ./topics/Koppler/Ringkoppler Gegentakt.png
+INPUT ./topics/Koppler/Leitungsdarstellung.png
+INPUT ./topics/Koppler/Leitungsdarstellung.png
+INPUT ./topics/Koppler/Leitungsdarstellung.png
+INPUT ./topics/Koppler/Leitungsdarstellung.png
+INPUT ./topics/Koppler/Rat-Race-Koppler.png
+INPUT ./topics/Koppler/Rat-Race-Koppler.png
+INPUT ./topics/Koppler/Rat-Race-Koppler.png
+INPUT ./topics/Koppler/Rat-Race-Koppler.png
 INPUT ./topics/Koppler/ResKop.png
 INPUT ./topics/Koppler/ResKop.png
 INPUT ./topics/Koppler/ResKop.png
 INPUT ./topics/Koppler/ResKop.png
-INPUT ./topics/Koppler/r_koppler.jpeg
-INPUT ./topics/Koppler/r_koppler.jpeg
-INPUT ./topics/Koppler/r_koppler.jpeg
-INPUT ./topics/Koppler/r_koppler.jpeg
-INPUT ./topics/Koppler/r_koppler_plus.jpeg
-INPUT ./topics/Koppler/r_koppler_plus.jpeg
-INPUT ./topics/Koppler/r_koppler_plus.jpeg
-INPUT ./topics/Koppler/r_koppler_plus.jpeg
-INPUT ./topics/Koppler/r_koppler_minus.jpeg
-INPUT ./topics/Koppler/r_koppler_minus.jpeg
-INPUT ./topics/Koppler/r_koppler_minus.jpeg
-INPUT ./topics/Koppler/r_koppler_minus.jpeg
-INPUT ./topics/Koppler/trafo_koppler.jpeg
-INPUT ./topics/Koppler/trafo_koppler.jpeg
-INPUT ./topics/Koppler/trafo_koppler.jpeg
-INPUT ./topics/Koppler/trafo_koppler.jpeg
+INPUT ./topics/Koppler/r_koppler.png
+INPUT ./topics/Koppler/r_koppler.png
+INPUT ./topics/Koppler/r_koppler.png
+INPUT ./topics/Koppler/r_koppler.png
+INPUT ./topics/Koppler/r_koppler_plus.png
+INPUT ./topics/Koppler/r_koppler_plus.png
+INPUT ./topics/Koppler/r_koppler_plus.png
+INPUT ./topics/Koppler/r_koppler_plus.png
+INPUT ./topics/Koppler/r_koppler_minus.png
+INPUT ./topics/Koppler/r_koppler_minus.png
+INPUT ./topics/Koppler/r_koppler_minus.png
+INPUT ./topics/Koppler/r_koppler_minus.png
+INPUT ./topics/Koppler/trafo_koppler.png
+INPUT ./topics/Koppler/trafo_koppler.png
+INPUT ./topics/Koppler/trafo_koppler.png
+INPUT ./topics/Koppler/trafo_koppler.png
 INPUT ./topics/Koppler/NullGradKoppler.png
 INPUT ./topics/Koppler/NullGradKoppler.png
 INPUT ./topics/Koppler/NullGradKoppler.png
 INPUT ./topics/Koppler/NullGradKoppler.png
-INPUT ./topics/Koppler/null_grad_koppler_EB.jpeg
-INPUT ./topics/Koppler/null_grad_koppler_EB.jpeg
-INPUT ./topics/Koppler/null_grad_koppler_EB.jpeg
-INPUT ./topics/Koppler/null_grad_koppler_EB.jpeg
-INPUT ./topics/Koppler/null_grad_koppler_plus.jpeg
-INPUT ./topics/Koppler/null_grad_koppler_plus.jpeg
-INPUT ./topics/Koppler/null_grad_koppler_plus.jpeg
-INPUT ./topics/Koppler/null_grad_koppler_plus.jpeg
-INPUT ./topics/Koppler/null_grad_koppler_minus.jpeg
-INPUT ./topics/Koppler/null_grad_koppler_minus.jpeg
-INPUT ./topics/Koppler/null_grad_koppler_minus.jpeg
-INPUT ./topics/Koppler/null_grad_koppler_minus.jpeg
+INPUT ./topics/Koppler/null_grad_koppler_EB.png
+INPUT ./topics/Koppler/null_grad_koppler_EB.png
+INPUT ./topics/Koppler/null_grad_koppler_EB.png
+INPUT ./topics/Koppler/null_grad_koppler_EB.png
+INPUT ./topics/Koppler/null_grad_koppler_plus.png
+INPUT ./topics/Koppler/null_grad_koppler_plus.png
+INPUT ./topics/Koppler/null_grad_koppler_plus.png
+INPUT ./topics/Koppler/null_grad_koppler_plus.png
+INPUT ./topics/Koppler/null_grad_koppler_minus.png
+INPUT ./topics/Koppler/null_grad_koppler_minus.png
+INPUT ./topics/Koppler/null_grad_koppler_minus.png
+INPUT ./topics/Koppler/null_grad_koppler_minus.png
 INPUT ./topics/Messung/smain.tex
 INPUT ./topics/Messung/smain.tex
 INPUT topics/Messung/smain.tex
@@ -324,43 +320,42 @@ INPUT ./topics/Messung/BBDetErg.png
 INPUT ./topics/Messung/BBDetErg.png
 INPUT ./topics/Messung/BBDetErg.png
 INPUT ./topics/Messung/BBDetErg.png
-INPUT ./topics/Messung/skalar_zt_substitution.jpeg
-INPUT ./topics/Messung/skalar_zt_substitution.jpeg
-INPUT ./topics/Messung/skalar_zt_substitution.jpeg
-INPUT ./topics/Messung/skalar_zt_substitution.jpeg
-INPUT ./topics/Messung/skalar_zt_1.jpeg
-INPUT ./topics/Messung/skalar_zt_1.jpeg
-INPUT ./topics/Messung/skalar_zt_1.jpeg
-INPUT ./topics/Messung/skalar_zt_1.jpeg
-INPUT ./topics/Messung/skalar_zt_2.jpeg
-INPUT ./topics/Messung/skalar_zt_2.jpeg
-INPUT ./topics/Messung/skalar_zt_2.jpeg
-INPUT ./topics/Messung/skalar_zt_2.jpeg
-INPUT ./topics/Messung/skalar_zt_3.jpeg
-INPUT ./topics/Messung/skalar_zt_3.jpeg
-INPUT ./topics/Messung/skalar_zt_3.jpeg
-INPUT ./topics/Messung/skalar_zt_3.jpeg
-INPUT ./topics/Messung/transmission_error.jpeg
-INPUT ./topics/Messung/transmission_error.jpeg
-INPUT ./topics/Messung/transmission_error.jpeg
-INPUT ./topics/Messung/transmission_error.jpeg
-INPUT ./topics/Messung/error_ohne_MO.jpeg
-INPUT ./topics/Messung/error_ohne_MO.jpeg
-INPUT ./topics/Messung/error_ohne_MO.jpeg
-INPUT ./topics/Messung/error_ohne_MO.jpeg
-INPUT ./topics/Messung/error_mit_MO.jpeg
-INPUT ./topics/Messung/error_mit_MO.jpeg
-INPUT ./topics/Messung/error_mit_MO.jpeg
-INPUT ./topics/Messung/error_mit_MO.jpeg
-INPUT ./topics/Messung/vektor_netzwerkanalyse.jpeg
-INPUT ./topics/Messung/vektor_netzwerkanalyse.jpeg
-INPUT ./topics/Messung/vektor_netzwerkanalyse.jpeg
-INPUT ./topics/Messung/vektor_netzwerkanalyse.jpeg
-INPUT ./topics/Messung/vektor_netzwerkanalyse.jpeg
-INPUT ./topics/Messung/vna rampe.jpeg
-INPUT ./topics/Messung/vna rampe.jpeg
-INPUT ./topics/Messung/vna rampe.jpeg
-INPUT ./topics/Messung/vna rampe.jpeg
+INPUT ./topics/Messung/skalar_zt_substitution.png
+INPUT ./topics/Messung/skalar_zt_substitution.png
+INPUT ./topics/Messung/skalar_zt_substitution.png
+INPUT ./topics/Messung/skalar_zt_substitution.png
+INPUT ./topics/Messung/skalar_zt_1.png
+INPUT ./topics/Messung/skalar_zt_1.png
+INPUT ./topics/Messung/skalar_zt_1.png
+INPUT ./topics/Messung/skalar_zt_1.png
+INPUT ./topics/Messung/skalar_zt_2.png
+INPUT ./topics/Messung/skalar_zt_2.png
+INPUT ./topics/Messung/skalar_zt_2.png
+INPUT ./topics/Messung/skalar_zt_2.png
+INPUT ./topics/Messung/skalar_zt_3.png
+INPUT ./topics/Messung/skalar_zt_3.png
+INPUT ./topics/Messung/skalar_zt_3.png
+INPUT ./topics/Messung/skalar_zt_3.png
+INPUT ./topics/Messung/transmission_error.png
+INPUT ./topics/Messung/transmission_error.png
+INPUT ./topics/Messung/transmission_error.png
+INPUT ./topics/Messung/transmission_error.png
+INPUT ./topics/Messung/error_ohne_MO.png
+INPUT ./topics/Messung/error_ohne_MO.png
+INPUT ./topics/Messung/error_ohne_MO.png
+INPUT ./topics/Messung/error_ohne_MO.png
+INPUT ./topics/Messung/error_mit_MO.png
+INPUT ./topics/Messung/error_mit_MO.png
+INPUT ./topics/Messung/error_mit_MO.png
+INPUT ./topics/Messung/error_mit_MO.png
+INPUT ./topics/Messung/vektor_netzwerkanalyse.png
+INPUT ./topics/Messung/vektor_netzwerkanalyse.png
+INPUT ./topics/Messung/vektor_netzwerkanalyse.png
+INPUT ./topics/Messung/vektor_netzwerkanalyse.png
+INPUT ./topics/Messung/vna rampe.png
+INPUT ./topics/Messung/vna rampe.png
+INPUT ./topics/Messung/vna rampe.png
+INPUT ./topics/Messung/vna rampe.png
 INPUT main.aux
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
