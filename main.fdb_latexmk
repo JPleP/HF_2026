@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1778492724.62976 "/home/jannes/Desktop/Files/University/M_ETIT/2_Semester/HF/ZF/main.tex" "main.pdf" "main" 1778492725.11283 2
+["pdflatex"] 1778492814.64081 "/home/jannes/Desktop/Files/University/M_ETIT/2_Semester/HF/ZF/main.tex" "main.pdf" "main" 1778492815.04147 0
   "/etc/texmf/web2c/texmf.cnf" 1767553399.45731 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/jannes/Desktop/Files/University/M_ETIT/2_Semester/HF/ZF/main.tex" 1778488423.26578 866 073e4b70f349bef85a9c281866162114 ""
   "/home/jannes/texmf/tex/latex/ZFPredef/ZFPredef.sty" 1778059486.10148 857 9b102d0e4e5444082b09da71f3bf0cc7 ""
@@ -140,9 +140,9 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1741904018 41538 c016915c1d51223b6dbbfe27341748a8 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1767553413 5467255 9a64d1b40e0b893fc5588ecce9d8accf ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1767553476 3347697 8105f697b5c29f69c6e404e996de6e22 ""
-  "main.aux" 1778492725.06819 699 379cc69960f26e5d548fad3315d8f1fc "pdflatex"
+  "main.aux" 1778492815.00652 699 379cc69960f26e5d548fad3315d8f1fc "pdflatex"
   "main.tex" 1778488423.26578 866 073e4b70f349bef85a9c281866162114 ""
-  "topics/SPSchaltungen/smain.tex" 1778492724.39788 3474 e6912fbdfbfaefd684db3eb0a4e822fb ""
+  "topics/SPSchaltungen/smain.tex" 1778492814.48461 3283 b7aaef5279380f86e84c100f78888833 ""
   (generated)
   "main.aux"
   "main.log"
