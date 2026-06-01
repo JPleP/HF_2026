@@ -1,0 +1,38 @@
+\begin{tikzpicture}[scale=0.8, transform shape]
+  % Coordinates
+  \coordinate (A) at (-0.02, 1.04);
+  \coordinate (L) at (2.71, 0.27);
+  \coordinate (B) at (0.00, 2.00);
+  \coordinate (C) at (0.00, 0.00);
+  \coordinate (D) at (2.00, 0.00);
+  \coordinate (E) at (2.00, 2.00);
+  \coordinate (F) at (1.50, 1.25);
+  \coordinate (G) at (2.50, 1.25);
+  \coordinate (H) at (1.50, 0.75);
+  \coordinate (I) at (2.50, 0.75);
+  \coordinate (J) at (2.00, 0.75);
+  \coordinate (K) at (2.00, 1.25);
+  \coordinate (M) at (4.25, 0.00);
+  \coordinate (N) at (4.25, 2.00);
+  \coordinate (O) at (4.25, 0.50);
+  \coordinate (P) at (4.25, 1.50);
+  \coordinate (Q) at (4.92, 0.45);
+
+  % Drawing
+  \node[left, font=\Large] at (A) {$W_{in} \Rightarrow$};
+  \node[above] at (L) {$C_1=1$};
+  \draw (B) circle (0.10);
+  \draw (C) circle (0.10);
+  \draw (C) -- (D);
+  \draw (B) -- (E);
+  \draw (F) -- (G);
+  \draw (H) -- (I);
+  \draw (D) -- (J);
+  \draw (E) -- (K);
+  \draw (D) -- (M);
+  \draw (E) -- (N);
+  \draw (4,0.5) rectangle (4.5,1.5);
+  \draw (M) -- (O);
+  \draw (N) -- (P);
+  \node[above] at (Q) {$W_{in}'$};
+\end{tikzpicture}

@@ -1,0 +1,47 @@
+\begin{tikzpicture}[scale=1, transform shape]
+  % Coordinates
+  \coordinate (B) at (1.00, 5.00);
+  \coordinate (C) at (1.00, 3.00);
+  \coordinate (D) at (8.50, 4.25);
+  \coordinate (E) at (9.50, 4.25);
+  \coordinate (F) at (8.50, 3.75);
+  \coordinate (G) at (9.50, 3.75);
+  \coordinate (H) at (4.00, 5.00);
+  \coordinate (I) at (6.00, 5.00);
+  \coordinate (J) at (9.00, 5.00);
+  \coordinate (K) at (11.00, 5.00);
+  \coordinate (L) at (4.00, 3.00);
+  \coordinate (M) at (6.00, 3.00);
+  \coordinate (N) at (11.00, 3.00);
+  \coordinate (O) at (9.00, 3.00);
+  \coordinate (P) at (9.00, 3.75);
+  \coordinate (Q) at (9.00, 4.25);
+  \coordinate (R) at (5.00, 3.92);
+  \coordinate (S) at (2.54, 3.95);
+  \coordinate (T) at (2.75, 4.75);
+  \coordinate (U) at (7.25, 4.25);
+
+  % Drawing
+  \draw (B) circle (0.10);
+  \draw (C) circle (0.10);
+  \draw[fill=black] (2,4.75) rectangle (3,5.25);
+  \draw (4,2.5) rectangle (6,5.5);
+  \draw[fill=black] (7,4.75) rectangle (8,5.25);
+  \draw (D) -- (E);
+  \draw (F) -- (G);
+  \draw (B) -- (H);
+  \draw (I) -- (J);
+  \draw (J) -- (K);
+  \draw (C) -- (L);
+  \draw (M) -- (N);
+  \draw (O) -- (P);
+  \draw (K) circle (0.10);
+  \draw (N) circle (0.10);
+  \draw (Q) -- (J);
+  \node[above] at (R) {$UE-Z_2$};
+  \node[above] at (S) {$L_1$};
+  \node[above] at (T) {$L_1$};
+  \node[above] at (U) {$L_3$};
+  \node[above] at (E) {$C_4
+$};
+\end{tikzpicture}

@@ -1,0 +1,29 @@
+\begin{tikzpicture}[scale=.2, transform shape]
+  % Coordinates
+  \coordinate (A) at (0.00, 0.00);
+  \coordinate (B) at (18.00, 0.00);
+  \coordinate (C) at (1.02, -1.03);
+  \coordinate (D) at (1.02, 8.14);
+  \coordinate (E) at (1.00, 6.00);
+  \coordinate (F) at (17.00, 0.00);
+  \coordinate (G) at (14.75, 6.25);
+  \coordinate (H) at (3.00, 0.00);
+  \coordinate (I) at (9.00, 6.00);
+  \coordinate (J) at (9.00, 0.00);
+  \coordinate (K) at (8.99, 0.05);
+  \coordinate (L) at (9.01, 6.05);
+  \coordinate (M) at (8.99, 0.04);
+  \coordinate (N) at (17.04, -0.05);
+
+  % Drawing
+  \draw[-Stealth] (A) -- (B);
+  \draw[-Stealth] (C) -- (D);
+  \draw[thick] (E) .. controls (14.75, 6.25) and (3.00, 0.00) .. (F);
+  \draw[lightgray, thick, dashed] (E) -- (I);
+  \draw[lightgray, thick, dashed] (K) -- (L);
+  \draw[lightgray, thick, dashed] (M) -- (N);
+  \node[above] at (I) {Ideal};
+  \node[left, font=\Huge] at (E) {$\left|S_{21}\right|^2$};
+  \node[below, font=\Huge] at (B) {$\omega_{ref}$};
+  \node[below, font=\Huge] at (J) {$\omega_c$};
+\end{tikzpicture}

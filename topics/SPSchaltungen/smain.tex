@@ -1,5 +1,6 @@
 \section{Messung}
-\renewcommand{\bildf}[1]{\bild{topics/SPSchaltungen/#1}}
+\renewcommand{\ort}{topics/SPSchaltungen}
+
 
 \subsection{Prototypfilter/Referenzfilter}
 
@@ -122,3 +123,249 @@ Einfügen von Leitungselementen mit $Z_0$ von außen. $\Rightarrow$ keine Verän
 \fb \fb\\
 
 
+
+
+\subsection{LC- Tiefpass mit Butterworthverhalten}
+\input{\ort/z_tikz_1.tikz}
+
+\begin{pitemize}
+    \item $\abs{S_{21}}^2 \max_{\mathrm{bei } \omega = 0}\limits$ flach
+    \item $\abs{S_{21}(\omega_c)}^2 = \frac{1}{2}$
+\end{pitemize}
+
+Annahme: Verlustlosigkeit $\Rightarrow \abs{S_{11}}^2 + \abs{S_{21}}^2 = 1$
+\\$\Rightarrow \abs{S_{21}}^2 = \frac{\abs{S_{21}}^2}{\abs{S_{21}}^2 +\abs{S_{11}}^2} = \frac{1}{1 + \frac{\abs{S_{11}}^2}{\abs{S_{21}}^2}} = \frac{1}{1 + \abs{\Sigma_{21}}^2} = \frac{1}{1 + Q_m(y)}$
+
+mit $y = \left(\frac{\omega_{ref}}{\omega_c}\right)^2$ und $Q_m = a_0 + a_1y + a_2y^2 + ... + a_my^m$
+
+$(m-1)$: Ableitung von $\abs{S_{21}}^2$ bei $y = 0 \Rightarrow$ verschwinden
+
+\begin{pitemize}
+    \item $\left(\frac{1}{1 + Q_m(y)}\right)' |_{y=0} \overset{!}{=} 0$
+    \item $\left(\frac{1}{1 + Q_m(y)}\right)'' |_{y=0} \overset{!}{=} 0 \Rightarrow a_2 = 0$
+    \item $\Rightarrow a_m \ne 0$
+\end{pitemize}
+
+$Q_m(y) = a_0 + a_my^m$
+\begin{penumerate}
+    \item $\abs{S_{21}(0)}^2 \overset{!}{=} 1 \Rightarrow \frac{1}{1 + a_0} = 1 \Rightarrow a_0 = 0$
+    \item $\abs{S_{21}(1)}^2 \overset{!}{=} \frac{1}{2} \Rightarrow \frac{1}{1 + a_m} = \frac{1}{2} \Rightarrow a_m = 1$ bei $\omega_{ref} = \omega_c$
+\end{penumerate}
+
+$\abs{S_{21}}^2 = \frac{1}{1 + y^m}$
+
+mit $y = \left(\frac{\omega_{ref}}{\omega_c}\right)^2 \Rightarrow$ Leitungsfilter $S \hat{=} j\omega_{ref}$, $S_c \hat{=} j\omega_{c}$
+
+$\abs{S_{21}}^2 = \frac{1}{1 + \left(\frac{S}{S_c}\right)^{2m}}$
+
+geg.: bschreibende Funktion (hier $\abs{S_{21}}^2$) $\Rightarrow$ Ziel: Realisierung mit L und c
+
+\input{\ort/z_tikz_2.tikz}
+
+$W_{in}(s) = \frac{1 - S_{11}(s)}{1 + S_{11}(s)}$
+
+$\abs{S_{11}}^2 = 1 - \abs{S_{21}}^2 = 1 - \frac{1}{1 + \left(\frac{S}{S_c}\right)^{2m}} = \frac{\left(\frac{S}{S_c}\right)^{2m}}{1 + \left(\frac{S}{S_c}\right)^{2m}}$
+
+$\abs{S_{11}}^2 = S_{11}(s) S_{11}(-s)$
+
+$S_{11}(s)$ Pole in linker s-HE für Stabilität
+
+
+\subsubsection{Beispiel}
+$s_c = j$, $m = 3$
+
+$\abs{S_{11}}^2 = \frac{\left(-jS\right)^6}{1 + \left(-jS\right)^6} = \frac{-s^6}{1 - s^6} = S_{11}(s) S_{11}(-s) 
+= \frac{\mp s^3}{-s^3 + 2s^2 - 2s + 1} \frac{\pm s^3}{s^3 + 2s^2 + 2s + 1}$ $S_{11}(s)$ ist zweiter frac
+
+
+$W_{in}(s) = \frac{1 - S_{11}(s)}{1 + S_{11}(s)}$
+
+Wahl des negative VZ $\Rightarrow W_{in}(s) = \frac{s^3 + 2s^2 + 2s + 1 - s^3}{s^3 + 2s^2 + 2s + 1 + s^3}$
+\begin{pitemize}
+    \item $\lim_{s\rightarrow\infty}\limits W_{in}(s) = \frac{1}{s} \Rightarrow C = 1$
+\end{pitemize}
+
+\input{\ort/z_tikz_3.tikz}  
+
+$W_{in}(0) = 1 \hat{=}$ Durchlassbereich
+
+
+$W_{in} = \frac{1}{V_{in}}$\\
+Wechsel in Admittanzebene: $V_{in} = sC_1 + V_{in}' \Leftrightarrow V_{in}' = V_{in} -s = \frac{2 s^3 + 2s^2 + 2s + 1 - 2s^3 - 2s^2 - s}{2s^2 + 2s + 1} = \frac{s + 1}{2s^2  + 2s + 1}$
+
+$W_{in}' = \frac{2s^2 + 2s + 1}{s + 1}$
+
+$\lim_{s \rightarrow \infty} W_{in}(s)' = 2s \Rightarrow$  induktiv $L = 2$
+
+\input{\ort/z_tikz_4.tikz}
+
+$W_{in}' = sL_2 + W_{in}'' \Rightarrow W_{in}'' = W_{in}' - sL_2 = \frac{2s^2 + 2 + 1 - 2s^2 - 2s}{s + 1} = \frac{1}{s + 1}$
+
+$V_{in}'' = \frac{1}{W_{in}''} = s + 1 \hat{=} $ Parallelschaltung $C_3 = 1$ und $Z_0 = 1$
+
+
+Wahl des positiven VZ: 
+$W_{in} = \frac{s^3 + 2s^2 + 2s + 1 + s^3}{s^3 + 2s^2 + 2s + 1 - s^3} = \frac{2s^3 + 2s^2 + 2s + 1}{2s^2 + 2s + 1}$
+Noch immer TF, da $W_{in}(0) = 0$
+
+
+\begin{pitemize}
+    \item $\lim_{s\rightarrow\infty} W_{in} = s \Rightarrow$ induktiv $L_1 = 1$
+    \item $W_{in} = sL_1 + W_{in}' \Rightarrow W_{in}' = \frac{2s^3 + 2s^2 + 2s + 1 - 2s^3 - 2s^2 - s}{2s^2 + 2s + 1} = \frac{s + 1}{2s^2 + 2s + 1}$
+    \item $\lim_{s\rightarrow\infty} W_{in}' = \frac{1}{2s} \Rightarrow$ kapazitiv $C_2 = 2$
+    \item $V_{in}' = sC_2 + V_{in}'' \Rightarrow V_{in}'' = \frac{2s^2 + 2s + 1 - 2s^2 - 2s}{s + 1}$
+\end{pitemize}
+
+
+
+\subsection{LC-Hochpassfilter mit Butterworthverhalten}
+
+vom TP: $\abs{S_{21}}^2 = \frac{1}{1 + \left(\frac{s}{s_C}^{2m}\right)}$
+Übergang zum HP durch subsitution $s->\frac{1}{s}$
+HP: $\abs{S_{21}}^2 = \frac{1}{1 + \left(\frac{s_C}{s}^{2m}\right)}$
+
+\subsubsection{Beispiel}
+
+$m = 3$, $s_c = j $
+
+$\abs{S_{21}}^2 = \frac{1}{1 + \frac{-1}{s^6}} = \frac{s^6}{s^6 - 1}$
+
+$\abs{S_{11}}^2 = 1 - \abs{S_{21}}^2 = \frac{-1}{s^6 -1} = \frac{1}{1 - s^6} = S_{11}(s) S_{11}(-s)$
+$S_{11}(s) = \frac{\pm 1}{s^3 + 2s^2 + 2s + 1}$
+
+Wahl des pos. VZ $W_{in} = \frac{1 + S_{11}}{1 - S_{11}} = \frac{s^3 + 2s^2 + 2s + 1 + 1}{s^3 + 2s^2 + 2s + 1 - 1} = \frac{s^3 + 2s^2 + 2s + 2}{s^3 + 2s^2 + 2s}$
+
+HP da $\lim_{s\rightarrow\infty} = 1$
+
+\begin{pitemize}
+    \item $\lim_{s\rightarrow0}\limits = \frac{2}{2s} = \frac{1}{s} \Rightarrow C = 1$
+    \item Kapazität is serielle
+    \item $W_{in}' = W_{in} - \frac{1}{s} = \frac{s^3 + 2s^2 + 2s + 2 - s^2 - 2s - 2}{s^3 + 2s^2 + 2s} = \frac{s^3 + s^2}{s^3 + 2s^2 + 2s} = \frac{s^2 + s}{s^2 + 2s + 2}$
+    \item $\lim_{s\rightarrow0}\limits W_{in}' = \frac{s}{2} \Rightarrow L = \frac{1}{2}$
+    \item Indiktivität ist parallel 
+    \item $V_{in}'' = V_{in}' - sL = \frac{s^2 + 2s + 2 - 2s - 2}{s^2 + s} = \frac{1}{1 + s} \Rightarrow$ Reihenschaltung aus $C = 1$ und $Z_0 = 1$ 
+\end{pitemize}
+
+
+
+
+
+
+\subsection{Filter aus Induktivitäten und Kapazitäten sowie Leitungselementen}
+\bildf{z_img_4}
+
+nicht rendudant
+
+\bildf{z_img_5}
+
+rendudant
+
+beschreibenede Funktion für Butterworth
+
+$\left[K_{UE}\right] = \frac{1}{\sqrt{1 - s^2}}\begin{bmatrix}
+    1 & sZ_2 \\ \frac{s}{Z_2} & 1
+\end{bmatrix}$
+
+$\begin{bmatrix}
+    A & B \\ C & D
+\end{bmatrix} = \begin{bmatrix}
+    1 & sL_1 \\ 0 & 1
+\end{bmatrix} \frac{1}{\sqrt{1 - s^2}} \begin{bmatrix}
+    1 & sZ_2 \\ \frac{s}{Z_2} & 1
+\end{bmatrix}\begin{bmatrix}
+    1 & sL_3 \\ 0 & 1
+\end{bmatrix}\begin{bmatrix}
+    1 & 0 \\ sC_4 & 1
+\end{bmatrix}$
+
+$\left(\frac{1}{\sqrt{1 -s^2}}\right)^n P_{m+n}(s)$
+
+n: Anzahl Leitungselementen
+m: Anzahl and Indiktivitäten and Kapazitäten
+
+
+
+$\abs{S_{21}(s)}^2 = \frac{1}{1 + \abs{\Sigma_{21}(s)}^2}$
+
+$\abs{\Sigma_{21}(s)}^2 = \left(\frac{s^2}{s_c^2}\right)^m \left(\frac{s^2}{s_c^2}\right)^n \frac{\left(1 - s_c^2\right)^n}{\left(1 - s^2\right)^n}$ TP mit Butterworth
+
+
+geg:: $W_{in}(s)$:
+
+\bildf{z_img_3}
+$W_{in} = Z_1 \frac{W_1(s) + sZ_1}{Z_1 + sW_1(s)}$
+
+Auflösen nach $W_1(s)$: 
+$W_1(s) = \frac{Z_1 (sZ_1 - W_{in})}{sW_{in} - Z_1}$
+
+$W_{in}(s=1) = Z_1 \frac{W_1(1) + Z_1}{Z_1 + W_1(1)} = Z_1$
+
+
+Zum Zeitpunkt t=0s => Spannungssprung am Leitungsanfang $\rightarrow t = 0 \rightarrow$ Verhältnis von Spannung zu Strom $\hat{=}$ Leitungswellenwiderstand $Z_1$
+
+Grenzwertsatz der Laplace-Transformation: $f(0+) = \lim_{p\rightarrow\infty} \limits p F(p)$ mit $p = j\omega \Leftrightarrow \omega = -jp$
+
+mit $s = j \tan(\frac{\pi}{2} \frac{\omega}{\omega_0}) = j \tan(\frac{\pi}{2} \left(\frac{-jp}{\omega_0}\right))$
+
+$\lim_{p\rightarrow\infty} \limits j \tan(\frac{\pi}{2} \left(\frac{-jp}{\omega_0}\right)) = 1 \Rightarrow p \rightarrow \infty \hat{=} s \rightarrow 1$
+
+$W_{in}(s) = W_{in}(1) \frac{sW_{in}(1) - W_{in}(s)}{sW_{in}(s) - W_{in}(1)}$
+
+Zähler und Nenner NS bei s = 1 und s= -1s
+
+$(1+s)(1-s) = (1-s^2)$
+
+
+\subsubsection{Beispiel}
+
+$W_{in}(s) = \frac{1 + 3s + \frac{1}{2}s^2}{1 + \frac{3}{2}s + 2 s^2}$
+
+\begin{penumerate}
+    \item Ist ein UE enthalten? $W_{in}(1) \overset{!}{=} - W_{in}(-1)$
+    \begin{pitemize}
+        \item $W_{in}(1) = \frac{1 + 3 + \frac{1}{2}}{1 + \frac{3}{2} + 2} = 1 = Z_1$
+        \item $-W_{in}(1) = -\frac{1 - 3 + \frac{1}{2}}{1 - \frac{3}{2} + 2} = 1$
+        \item \bildf{z_img_6}
+    \end{pitemize}
+    \item Abspaltung
+    \begin{pitemize}
+        \item $W_{in}'(s) = \frac{s - \frac{1 + 3s + \frac{1}{2}s^2}{1 + \frac{3}{2}s + 2 s^2}}{\frac{1 + 3s + \frac{1}{2}s^2}{1 + \frac{3}{2}s + 2 s^2} - 1} = \frac{s + \frac{3}{2}s^2 + 2s^3 - 1 - 3s - \frac{1}{2}s^2}{s + 3s^2 + \frac{1}{2}s^3 -1-3s -2s^2} = \frac{2s^3 + s^2 - 2s - 1}{\frac{1}{2}s^3 + s^2 - \frac{1}{2}s - 1} = \frac{2s + 1}{\frac{1}{2}s + 1}$
+    \end{pitemize}
+    \item Ist UE enthalten
+    \begin{pitemize}
+        \item $W_{in}'(1) = \frac{3}{\frac{3}{2}} = 2 = Z_2$
+        \item $-W_{in}+(-1) = -\frac{-1}{\frac{1}{2}} = 2$
+        \item \bildf{z_img_7}
+    \end{pitemize}
+    \item Abspaltung
+    \begin{pitemize}
+        \item $W_{in}''(s) = 2\frac{s2 - \frac{2s + 1}{\frac{1}{2}s + 1}}{s\frac{2s + 1}{\frac{1}{2}s + 1} - 2} = 2\frac{s^2 + 2s - 2s - 1}{2s^2 + s - s - 2} = \frac{s^2 - 1}{s^2 - 1} = 1$
+    \end{pitemize}
+\end{penumerate}
+
+
+
+
+\subsection{Beispiel}
+
+$W_{in}(s) = \frac{1 + 3s + \frac{1}{2}s^2}{1 + \frac{1}{2}s}$
+
+\begin{penumerate}
+    \item $W_{in}(1) = -W_{in}(-1)$:
+    \begin{pitemize}
+        \item $W_{in}(1) = \frac{1 + 3 + \frac{1}{2}}{1 + \frac{1}{2}} = 3 = Z_1$
+        \item $W_{in}(-1) = \frac{1 - 3 + \frac{1}{2}}{1 - \frac{1}{2}} = -3$
+        \item \bildf{z_img_1}
+    \end{pitemize}
+    \item Abspaltung: $W_{in}'(s) = \frac{3 (3s - \frac{1 + 3s + \frac{1}{2}s^2}{1 + \frac{1}{2}s})}{s\frac{1 + 3s + \frac{1}{2}s^2}{1 + \frac{1}{2}s} - 3} = 3\frac{3s + \frac{3}{2}s^2 - 1 - 3s - \frac{1}{2}s^2}{s + 3 s^2 + \frac{1}{2}s^3 - 3 - \frac{3}{2}s} = 3\frac{s^2 - 1}{\frac{1}{2}s^3 + 3s^2 - \frac{1}{2}s - 3} = \frac{3}{2}\frac{s^2 - 1}{s^3 + 6s^2 - s - 6} = \frac{3}{2} \frac{s^2 -1}{(s^2 - 1)(s + 6)} = \frac{3}{2} \frac{1}{s + 6}$
+    \item $V_1(s)' = \frac{1}{6}s + 1$ : Parallelschaltung aus $C$ und $Z_0$ 
+\end{penumerate}
+
+
+\subsubsection{Beispiel}
+
+\bildf{z_img_2}
+
+$W_{in} = s \frac{\frac{1}{s} s}{\frac{1}{s} + s}$
+
+Überprüfung mit Realisierung

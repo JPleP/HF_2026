@@ -1,0 +1,63 @@
+\begin{tikzpicture}[scale=0.8, transform shape]
+  % Coordinates
+  \coordinate (A) at (-0.02, 1.04);
+  \coordinate (L) at (2.75, 0.53);
+  \coordinate (B) at (0.00, 2.00);
+  \coordinate (C) at (0.00, 0.00);
+  \coordinate (D) at (2.00, 0.00);
+  \coordinate (E) at (2.00, 2.00);
+  \coordinate (F) at (1.50, 1.25);
+  \coordinate (G) at (2.50, 1.25);
+  \coordinate (H) at (1.50, 1.00);
+  \coordinate (I) at (2.50, 1.00);
+  \coordinate (J) at (2.00, 1.00);
+  \coordinate (K) at (2.00, 1.25);
+  \coordinate (M) at (5.00, 0.00);
+  \coordinate (N) at (5.00, 2.00);
+  \coordinate (O) at (3.75, 1.20);
+  \coordinate (P) at (4.94, 0.99);
+  \coordinate (Q) at (6.82, 0.58);
+  \coordinate (R) at (5.50, 1.25);
+  \coordinate (S) at (6.50, 1.25);
+  \coordinate (T) at (5.50, 1.00);
+  \coordinate (U) at (6.50, 1.00);
+  \coordinate (V) at (6.00, 1.00);
+  \coordinate (W) at (6.00, 1.25);
+  \coordinate (X) at (6.00, 0.00);
+  \coordinate (Y) at (6.00, 2.00);
+  \coordinate (Z) at (8.00, 0.00);
+  \coordinate (AA) at (8.00, 2.00);
+  \coordinate (AB) at (8.00, 0.50);
+  \coordinate (AC) at (8.00, 1.50);
+  \coordinate (AD) at (8.98, 0.73);
+
+  % Drawing
+  \node[left, font=\Large] at (A) {$W_{in} \Rightarrow$};
+  \node[above] at (L) {$C_1=1$};
+  \draw (B) circle (0.10);
+  \draw (C) circle (0.10);
+  \draw (C) -- (D);
+  \draw (B) -- (E);
+  \draw (F) -- (G);
+  \draw (H) -- (I);
+  \draw (D) -- (J);
+  \draw (E) -- (K);
+  \draw (D) -- (M);
+  \draw (E) -- (N);
+  \draw[fill=black] (3.09,1.75) rectangle (4.34,2.25);
+  \node[above] at (O) {$L_2 = 2$};
+  \draw[lightgray, dashed] (N) -- (M);
+  \node[above] at (P) {$W_{in}''$};
+  \node[above] at (Q) {$C_3
+=1$};
+  \draw (R) -- (S);
+  \draw (T) -- (U);
+  \draw (X) -- (V);
+  \draw (Y) -- (W);
+  \draw (M) -- (Z);
+  \draw (N) -- (AA);
+  \draw (7.75,0.5) rectangle (8.25,1.5);
+  \draw (Z) -- (AB);
+  \draw (AA) -- (AC);
+  \node[above] at (AD) {$Z_0 = 1$};
+\end{tikzpicture}

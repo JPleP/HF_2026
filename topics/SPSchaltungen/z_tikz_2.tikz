@@ -1,0 +1,31 @@
+\begin{tikzpicture}[scale=1, transform shape]
+  % Coordinates
+  \coordinate (A) at (-0.02, 1.04);
+  \coordinate (B) at (0.00, 2.00);
+  \coordinate (C) at (0.00, 0.00);
+  \coordinate (M) at (4.25, 0.00);
+  \coordinate (N) at (4.25, 2.00);
+  \coordinate (O) at (4.25, 0.50);
+  \coordinate (P) at (4.25, 1.50);
+  \coordinate (Q) at (4.92, 0.45);
+  \coordinate (D) at (1.50, 2.00);
+  \coordinate (E) at (1.50, 0.00);
+  \coordinate (F) at (3.50, 0.00);
+  \coordinate (G) at (3.50, 2.00);
+  \coordinate (H) at (2.51, 1);
+
+  % Drawing
+  \node[left, font=\Large] at (A) {$W_{in} \Rightarrow$};
+  \draw (B) circle (0.10);
+  \draw (C) circle (0.10);
+  \draw (4,0.5) rectangle (4.5,1.5);
+  \draw (M) -- (O);
+  \draw (N) -- (P);
+  \node[above] at (Q) {$Z_0$};
+  \draw (1.5,-0.5) rectangle (3.5,2.5);
+  \draw (B) -- (D);
+  \draw (C) -- (E);
+  \draw (F) -- (M);
+  \draw (N) -- (G);
+  \node[above, font=\Huge] at (H) {$?$};
+\end{tikzpicture}
