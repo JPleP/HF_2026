@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.1.4)  1 JUN 2026 10:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.1.4)  3 JUN 2026 12:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -419,426 +419,275 @@ Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-)) (./topics/Grundlagen/smain.tex
-LaTeX Font Info:    Trying to load font information for U+msa on input line 7.
+)) (./topics/SPSchaltungen/smain.tex
+LaTeX Font Info:    Trying to load font information for U+msa on input line 8.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 7.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 8.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<topics/Grundlagen/Streuparameter.png, id=4, 751.30687pt x 233.37187pt>
-File: topics/Grundlagen/Streuparameter.png Graphic file (type png)
-<use topics/Grundlagen/Streuparameter.png>
-Package pdftex.def Info: topics/Grundlagen/Streuparameter.png  used on input line 62.
-(pdftex.def)             Requested size: 119.88193pt x 37.23698pt.
-<topics/Grundlagen/Impedanzparameter.png, id=5, 716.6775pt x 291.33844pt>
-File: topics/Grundlagen/Impedanzparameter.png Graphic file (type png)
-<use topics/Grundlagen/Impedanzparameter.png>
-Package pdftex.def Info: topics/Grundlagen/Impedanzparameter.png  used on input line 69.
-(pdftex.def)             Requested size: 119.88193pt x 48.73114pt.
-<topics/Grundlagen/Kettenparameter.png, id=6, 553.31718pt x 258.9675pt>
-File: topics/Grundlagen/Kettenparameter.png Graphic file (type png)
-<use topics/Grundlagen/Kettenparameter.png>
-Package pdftex.def Info: topics/Grundlagen/Kettenparameter.png  used on input line 83.
-(pdftex.def)             Requested size: 119.88193pt x 56.10764pt.
 
-
-<topics/Grundlagen/Transmissionsparamter.png, id=7, 710.655pt x 258.9675pt>
-File: topics/Grundlagen/Transmissionsparamter.png Graphic file (type png)
-<use topics/Grundlagen/Transmissionsparamter.png>
-Package pdftex.def Info: topics/Grundlagen/Transmissionsparamter.png  used on input line 96.
-(pdftex.def)             Requested size: 119.88193pt x 43.68405pt.
-<topics/Grundlagen/Hintereinanderschaltung.png, id=8, 895.84688pt x 352.31625pt>
-File: topics/Grundlagen/Hintereinanderschaltung.png Graphic file (type png)
-<use topics/Grundlagen/Hintereinanderschaltung.png>
-Package pdftex.def Info: topics/Grundlagen/Hintereinanderschaltung.png  used on input line 97.
-(pdftex.def)             Requested size: 119.88193pt x 47.14668pt.
-<topics/Grundlagen/Bsp Dämpfungsglied.png, id=9, 552.56438pt x 261.97874pt>
-File: topics/Grundlagen/Bsp Dämpfungsglied.png Graphic file (type png)
-<use topics/Grundlagen/Bsp Dämpfungsglied.png>
-Package pdftex.def Info: topics/Grundlagen/Bsp Dämpfungsglied.png  used on input line 131.
-(pdftex.def)             Requested size: 142.87697pt x 67.73709pt.
-) (./topics/Koppler/smain.tex
-<topics/Koppler/Leitungskoppler.png, id=10, 836.3747pt x 288.3272pt>
-File: topics/Koppler/Leitungskoppler.png Graphic file (type png)
-<use topics/Koppler/Leitungskoppler.png>
-Package pdftex.def Info: topics/Koppler/Leitungskoppler.png  used on input line 25.
-(pdftex.def)             Requested size: 142.87697pt x 49.25253pt.
-<topics/Koppler/Bsp Leitungskoppler.png, id=11, 651.93562pt x 483.30562pt>
-File: topics/Koppler/Bsp Leitungskoppler.png Graphic file (type png)
-<use topics/Koppler/Bsp Leitungskoppler.png>
-Package pdftex.def Info: topics/Koppler/Bsp Leitungskoppler.png  used on input line 27.
-(pdftex.def)             Requested size: 142.87697pt x 105.92195pt.
-<topics/Koppler/Leitungskoppler 2.png, id=12, 575.90157pt x 399.74344pt>
-File: topics/Koppler/Leitungskoppler 2.png Graphic file (type png)
-<use topics/Koppler/Leitungskoppler 2.png>
-Package pdftex.def Info: topics/Koppler/Leitungskoppler 2.png  used on input line 33.
-(pdftex.def)             Requested size: 142.87697pt x 99.17316pt.
-
+(./topics/SPSchaltungen/z_tikz_1.tikz) (./topics/SPSchaltungen/z_tikz_2.tikz)
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./topics/Grundlagen/Streuparameter.png (PNG copy)> <./topics/Grundlagen/Impedanzparameter.png (PNG copy)> <./topics/Grundlagen/Kettenparameter.png (PNG copy)> <./topics/Grundlagen/Transmissionsparamter.png (PNG copy)> <./topics/Grundlagen/Hintereinanderschaltung.png (PNG copy)> <./topics/Grundlagen/Bsp Dämpfungsglied.png (PNG copy)> <./topics/Koppler/Leitungskoppler.png (PNG copy)> <./topics/Koppler/Bsp Leitungskoppler.png (PNG copy)>]
-<topics/Koppler/Ringkoppler.png, id=31, 774.64406pt x 323.70938pt>
-File: topics/Koppler/Ringkoppler.png Graphic file (type png)
-<use topics/Koppler/Ringkoppler.png>
-Package pdftex.def Info: topics/Koppler/Ringkoppler.png  used on input line 75.
-(pdftex.def)             Requested size: 142.87697pt x 59.70253pt.
-<topics/Koppler/Ringkoppler Gleichtakt.png, id=32, 147.4308pt x 71.3064pt>
-File: topics/Koppler/Ringkoppler Gleichtakt.png Graphic file (type png)
-<use topics/Koppler/Ringkoppler Gleichtakt.png>
-Package pdftex.def Info: topics/Koppler/Ringkoppler Gleichtakt.png  used on input line 89.
-(pdftex.def)             Requested size: 119.88193pt x 57.98198pt.
-<topics/Koppler/Ringkoppler Gegentakt.png, id=33, 118.041pt x 54.4434pt>
-File: topics/Koppler/Ringkoppler Gegentakt.png Graphic file (type png)
-<use topics/Koppler/Ringkoppler Gegentakt.png>
-Package pdftex.def Info: topics/Koppler/Ringkoppler Gegentakt.png  used on input line 94.
-(pdftex.def)             Requested size: 119.88193pt x 55.29309pt.
-
-
-<topics/Koppler/Leitungsdarstellung.png, id=34, 406.51875pt x 137.7647pt>
-File: topics/Koppler/Leitungsdarstellung.png Graphic file (type png)
-<use topics/Koppler/Leitungsdarstellung.png>
-Package pdftex.def Info: topics/Koppler/Leitungsdarstellung.png  used on input line 99.
-(pdftex.def)             Requested size: 142.87697pt x 48.41806pt.
-<topics/Koppler/Rat-Race-Koppler.png, id=35, 388.45125pt x 261.97874pt>
-File: topics/Koppler/Rat-Race-Koppler.png Graphic file (type png)
-<use topics/Koppler/Rat-Race-Koppler.png>
-Package pdftex.def Info: topics/Koppler/Rat-Race-Koppler.png  used on input line 142.
-(pdftex.def)             Requested size: 142.87697pt x 96.35898pt.
-<topics/Koppler/ResKop.png, id=36, 732.7375pt x 414.54875pt>
-File: topics/Koppler/ResKop.png Graphic file (type png)
-<use topics/Koppler/ResKop.png>
-Package pdftex.def Info: topics/Koppler/ResKop.png  used on input line 156.
-(pdftex.def)             Requested size: 142.87697pt x 80.82718pt.
-<topics/Koppler/r_koppler.png, id=38, 697.10437pt x 261.97874pt>
-File: topics/Koppler/r_koppler.png Graphic file (type png)
-<use topics/Koppler/r_koppler.png>
-Package pdftex.def Info: topics/Koppler/r_koppler.png  used on input line 166.
-(pdftex.def)             Requested size: 142.87697pt x 53.69398pt.
-
-
-[2 <./topics/Koppler/Leitungskoppler 2.png (PNG copy)> <./topics/Koppler/Ringkoppler.png (PNG copy)> <./topics/Koppler/Ringkoppler Gleichtakt.png (PNG copy)> <./topics/Koppler/Ringkoppler Gegentakt.png (PNG copy)> <./topics/Koppler/Leitungsdarstellung.png (PNG copy)> <./topics/Koppler/Rat-Race-Koppler.png (PNG copy)> <./topics/Koppler/ResKop.png>]
-<topics/Koppler/r_koppler_plus.png, id=45, 425.33907pt x 212.29312pt>
-File: topics/Koppler/r_koppler_plus.png Graphic file (type png)
-<use topics/Koppler/r_koppler_plus.png>
-Package pdftex.def Info: topics/Koppler/r_koppler_plus.png  used on input line 170.
-(pdftex.def)             Requested size: 131.92694pt x 65.84581pt.
-<topics/Koppler/r_koppler_minus.png, id=46, 603.75563pt x 261.97874pt>
-File: topics/Koppler/r_koppler_minus.png Graphic file (type png)
-<use topics/Koppler/r_koppler_minus.png>
-Package pdftex.def Info: topics/Koppler/r_koppler_minus.png  used on input line 176.
-(pdftex.def)             Requested size: 131.92694pt x 57.24374pt.
-<topics/Koppler/trafo_koppler.png, id=47, 654.19406pt x 323.70938pt>
-File: topics/Koppler/trafo_koppler.png Graphic file (type png)
-<use topics/Koppler/trafo_koppler.png>
-Package pdftex.def Info: topics/Koppler/trafo_koppler.png  used on input line 193.
-(pdftex.def)             Requested size: 142.87697pt x 70.69765pt.
-<topics/Koppler/NullGradKoppler.png, id=48, 343.2825pt x 188.20313pt>
-File: topics/Koppler/NullGradKoppler.png Graphic file (type png)
-<use topics/Koppler/NullGradKoppler.png>
-Package pdftex.def Info: topics/Koppler/NullGradKoppler.png  used on input line 206.
-(pdftex.def)             Requested size: 142.87697pt x 78.3297pt.
-<topics/Koppler/null_grad_koppler_EB.png, id=49, 457.71pt x 233.37187pt>
-File: topics/Koppler/null_grad_koppler_EB.png Graphic file (type png)
-<use topics/Koppler/null_grad_koppler_EB.png>
-Package pdftex.def Info: topics/Koppler/null_grad_koppler_EB.png  used on input line 207.
-(pdftex.def)             Requested size: 142.87697pt x 72.84662pt.
-<topics/Koppler/null_grad_koppler_plus.png, id=50, 682.80093pt x 261.97874pt>
-File: topics/Koppler/null_grad_koppler_plus.png Graphic file (type png)
-<use topics/Koppler/null_grad_koppler_plus.png>
-Package pdftex.def Info: topics/Koppler/null_grad_koppler_plus.png  used on input line 212.
-(pdftex.def)             Requested size: 119.88193pt x 45.99487pt.
-
-
-<topics/Koppler/null_grad_koppler_minus.png, id=51, 624.08156pt x 320.69812pt>
-File: topics/Koppler/null_grad_koppler_minus.png Graphic file (type png)
-<use topics/Koppler/null_grad_koppler_minus.png>
-Package pdftex.def Info: topics/Koppler/null_grad_koppler_minus.png  used on input line 217.
-(pdftex.def)             Requested size: 119.88193pt x 61.60367pt.
-) (./topics/Messung/smain.tex
-
-./topics/Messung/smain.tex:7: LaTeX Error: File `topics/Koppler/BBDet' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.7 \bildf{BBDet}
-                 
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./topics/Messung/smain.tex:9: LaTeX Error: File `topics/Koppler/BBDetErg' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.9 \bildf{BBDetErg}
-                    
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./topics/Messung/smain.tex:15: LaTeX Error: File `topics/Koppler/skalar\_zt\_substitution' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.15 \bildf{skalar\_zt\_substitution}
-                                     
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./topics/Messung/smain.tex:19: LaTeX Error: File `topics/Koppler/skalar\_zt\_1' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.19 \bildf{skalar\_zt\_1}
-                          
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./topics/Messung/smain.tex:23: LaTeX Error: File `topics/Koppler/skalar\_zt\_2' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.23 \bildf{skalar\_zt\_2}
-                          
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./topics/Messung/smain.tex:36: LaTeX Error: File `topics/Koppler/skalar\_zt\_3' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.36 \bildf{skalar\_zt\_3}
-                          
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./topics/Messung/smain.tex:51: LaTeX Error: File `topics/Koppler/transmission\_error' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.51 \bildf{transmission\_error}
-                                
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./topics/Messung/smain.tex:57: LaTeX Error: File `topics/Koppler/error\_ohne\_MO' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.57         \item \bildf{error\_ohne\_MO}
-                                          
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-[3 <./topics/Koppler/r_koppler.png (PNG copy)> <./topics/Koppler/r_koppler_plus.png (PNG copy)> <./topics/Koppler/r_koppler_minus.png (PNG copy)> <./topics/Koppler/trafo_koppler.png (PNG copy)> <./topics/Koppler/NullGradKoppler.png (PNG copy)> <./topics/Koppler/null_grad_koppler_EB.png (PNG copy)> <./topics/Koppler/null_grad_koppler_plus.png (PNG copy)> <./topics/Koppler/null_grad_koppler_minus.png (PNG copy)>]
-
-./topics/Messung/smain.tex:80: LaTeX Error: File `topics/Koppler/error\_mit\_MO' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.80         \item \bildf{error\_mit\_MO}
-                                         
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-<topics/Messung/vektor_netzwerkanalyse.png, id=55, 760.34062pt x 261.97874pt>
-File: topics/Messung/vektor_netzwerkanalyse.png Graphic file (type png)
-<use topics/Messung/vektor_netzwerkanalyse.png>
-Package pdftex.def Info: topics/Messung/vektor_netzwerkanalyse.png  used on input line 100.
-(pdftex.def)             Requested size: 228.60402pt x 78.76611pt.
-
-./topics/Messung/smain.tex:106: LaTeX Error: File `topics/Koppler/vna rampe' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.106     \item \bildf{vna rampe}
-                                 
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-) (./topics/SPSchaltungen/smain.tex
-
-(./topics/SPSchaltungen/z_tikz_1.tikz)
-
-[4 <./topics/Messung/vektor_netzwerkanalyse.png (PNG copy)>] (./topics/SPSchaltungen/z_tikz_2.tikz) (./topics/SPSchaltungen/z_tikz_3.tikz) (./topics/SPSchaltungen/z_tikz_4.tikz)
-
-
-./topics/SPSchaltungen/smain.tex:255: LaTeX Error: File `topics/Koppler/z_img_4' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.255 \bildf{z_img_4}
-                     
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./topics/SPSchaltungen/smain.tex:259: LaTeX Error: File `topics/Koppler/z_img_5' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.259 \bildf{z_img_5}
-                     
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./topics/SPSchaltungen/smain.tex:295: LaTeX Error: File `topics/Koppler/z_img_3' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.295 \bildf{z_img_3}
-                     
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-[5]
-
-./topics/SPSchaltungen/smain.tex:328: LaTeX Error: File `topics/Koppler/z_img_6' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.328         \item \bildf{z_img_6}
-                                   
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./topics/SPSchaltungen/smain.tex:338: LaTeX Error: File `topics/Koppler/z_img_7' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.338         \item \bildf{z_img_7}
-                                   
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./topics/SPSchaltungen/smain.tex:358: LaTeX Error: File `topics/Koppler/z_img_1' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.358         \item \bildf{z_img_1}
-                                   
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./topics/SPSchaltungen/smain.tex:367: LaTeX Error: File `topics/Koppler/z_img_2' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.367 \bildf{z_img_2}
-                     
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] (./topics/SPSchaltungen/z_tikz_3.tikz) (./topics/SPSchaltungen/z_tikz_4.tikz)
+
+<topics/SPSchaltungen/zimg4.png, id=25, 2194.1975pt x 415.5525pt>
+File: topics/SPSchaltungen/zimg4.png Graphic file (type png)
+<use topics/SPSchaltungen/zimg4.png>
+Package pdftex.def Info: topics/SPSchaltungen/zimg4.png  used on input line 255.
+(pdftex.def)             Requested size: 142.87697pt x 27.05624pt.
+<topics/SPSchaltungen/zimg5.png, id=26, 1690.315pt x 431.6125pt>
+File: topics/SPSchaltungen/zimg5.png Graphic file (type png)
+<use topics/SPSchaltungen/zimg5.png>
+Package pdftex.def Info: topics/SPSchaltungen/zimg5.png  used on input line 259.
+(pdftex.def)             Requested size: 142.87697pt x 36.47911pt.
+<topics/SPSchaltungen/zimg3.png, id=27, 1051.93pt x 419.5675pt>
+File: topics/SPSchaltungen/zimg3.png Graphic file (type png)
+<use topics/SPSchaltungen/zimg3.png>
+Package pdftex.def Info: topics/SPSchaltungen/zimg3.png  used on input line 295.
+(pdftex.def)             Requested size: 142.87697pt x 56.98488pt.
+<topics/SPSchaltungen/zimg6.png, id=28, 983.675pt x 449.68pt>
+File: topics/SPSchaltungen/zimg6.png Graphic file (type png)
+<use topics/SPSchaltungen/zimg6.png>
+Package pdftex.def Info: topics/SPSchaltungen/zimg6.png  used on input line 328.
+(pdftex.def)             Requested size: 119.88193pt x 54.79637pt.
+
+
+[2 <./topics/SPSchaltungen/zimg4.png> <./topics/SPSchaltungen/zimg5.png> <./topics/SPSchaltungen/zimg3.png> <./topics/SPSchaltungen/zimg6.png>]
+<topics/SPSchaltungen/zimg7.png, id=32, 1336.995pt x 523.9575pt>
+File: topics/SPSchaltungen/zimg7.png Graphic file (type png)
+<use topics/SPSchaltungen/zimg7.png>
+Package pdftex.def Info: topics/SPSchaltungen/zimg7.png  used on input line 338.
+(pdftex.def)             Requested size: 119.88193pt x 46.97824pt.
+<topics/SPSchaltungen/zimg1.png, id=33, 1515.6625pt x 664.4825pt>
+File: topics/SPSchaltungen/zimg1.png Graphic file (type png)
+<use topics/SPSchaltungen/zimg1.png>
+Package pdftex.def Info: topics/SPSchaltungen/zimg1.png  used on input line 358.
+(pdftex.def)             Requested size: 119.88193pt x 52.55133pt.
+<topics/SPSchaltungen/zimg2.png, id=34, 1043.9pt x 483.8075pt>
+File: topics/SPSchaltungen/zimg2.png Graphic file (type png)
+<use topics/SPSchaltungen/zimg2.png>
+Package pdftex.def Info: topics/SPSchaltungen/zimg2.png  used on input line 367.
+(pdftex.def)             Requested size: 142.87697pt x 66.21182pt.
+<topics/SPSchaltungen/zimg9.png, id=35, 429.605pt x 170.6375pt>
+File: topics/SPSchaltungen/zimg9.png Graphic file (type png)
+<use topics/SPSchaltungen/zimg9.png>
+Package pdftex.def Info: topics/SPSchaltungen/zimg9.png  used on input line 382.
+(pdftex.def)             Requested size: 142.87697pt x 56.75056pt.
+<topics/SPSchaltungen/zimg10.png, id=36, 1507.6325pt x 311.1625pt>
+File: topics/SPSchaltungen/zimg10.png Graphic file (type png)
+<use topics/SPSchaltungen/zimg10.png>
+Package pdftex.def Info: topics/SPSchaltungen/zimg10.png  used on input line 396.
+(pdftex.def)             Requested size: 285.75394pt x 58.9743pt.
+
+
+<topics/SPSchaltungen/zimg8.png, id=37, 664.4825pt x 222.8325pt>
+File: topics/SPSchaltungen/zimg8.png Graphic file (type png)
+<use topics/SPSchaltungen/zimg8.png>
+Package pdftex.def Info: topics/SPSchaltungen/zimg8.png  used on input line 419.
+(pdftex.def)             Requested size: 142.87697pt x 47.91145pt.
+<topics/SPSchaltungen/zimg11.png, id=38, 977.6525pt x 236.885pt>
+File: topics/SPSchaltungen/zimg11.png Graphic file (type png)
+<use topics/SPSchaltungen/zimg11.png>
+Package pdftex.def Info: topics/SPSchaltungen/zimg11.png  used on input line 445.
+(pdftex.def)             Requested size: 142.87697pt x 34.61673pt.
+<topics/SPSchaltungen/zimg12.png, id=39, 1901.1025pt x 443.6575pt>
+File: topics/SPSchaltungen/zimg12.png Graphic file (type png)
+<use topics/SPSchaltungen/zimg12.png>
+Package pdftex.def Info: topics/SPSchaltungen/zimg12.png  used on input line 446.
+(pdftex.def)             Requested size: 142.87697pt x 33.34056pt.
+<topics/SPSchaltungen/zimg13.png, id=40, 1919.17pt x 383.4325pt>
+File: topics/SPSchaltungen/zimg13.png Graphic file (type png)
+<use topics/SPSchaltungen/zimg13.png>
+Package pdftex.def Info: topics/SPSchaltungen/zimg13.png  used on input line 447.
+(pdftex.def)             Requested size: 142.87697pt x 28.54556pt.
+<topics/SPSchaltungen/zimg14.png, id=41, 1730.465pt x 301.125pt>
+File: topics/SPSchaltungen/zimg14.png Graphic file (type png)
+<use topics/SPSchaltungen/zimg14.png>
+Package pdftex.def Info: topics/SPSchaltungen/zimg14.png  used on input line 448.
+(pdftex.def)             Requested size: 142.87697pt x 24.86241pt.
+<topics/SPSchaltungen/zimg15.png, id=42, 2117.9125pt x 423.5825pt>
+File: topics/SPSchaltungen/zimg15.png Graphic file (type png)
+<use topics/SPSchaltungen/zimg15.png>
+Package pdftex.def Info: topics/SPSchaltungen/zimg15.png  used on input line 451.
+(pdftex.def)             Requested size: 142.87697pt x 28.57442pt.
+<topics/SPSchaltungen/zimg16.png, id=43, 1989.4325pt x 580.1675pt>
+File: topics/SPSchaltungen/zimg16.png Graphic file (type png)
+<use topics/SPSchaltungen/zimg16.png>
+Package pdftex.def Info: topics/SPSchaltungen/zimg16.png  used on input line 456.
+(pdftex.def)             Requested size: 142.87697pt x 41.66048pt.
+<topics/SPSchaltungen/zimg17.png, id=44, 1989.4325pt x 580.1675pt>
+File: topics/SPSchaltungen/zimg17.png Graphic file (type png)
+<use topics/SPSchaltungen/zimg17.png>
+Package pdftex.def Info: topics/SPSchaltungen/zimg17.png  used on input line 457.
+(pdftex.def)             Requested size: 142.87697pt x 41.66048pt.
+<topics/SPSchaltungen/zimg18.png, id=46, 1238.6275pt x 475.7775pt>
+File: topics/SPSchaltungen/zimg18.png Graphic file (type png)
+<use topics/SPSchaltungen/zimg18.png>
+Package pdftex.def Info: topics/SPSchaltungen/zimg18.png  used on input line 460.
+(pdftex.def)             Requested size: 142.87697pt x 54.8766pt.
+
+
+[3 <./topics/SPSchaltungen/zimg7.png> <./topics/SPSchaltungen/zimg1.png> <./topics/SPSchaltungen/zimg2.png> <./topics/SPSchaltungen/zimg9.png> <./topics/SPSchaltungen/zimg10.png> <./topics/SPSchaltungen/zimg8.png> <./topics/SPSchaltungen/zimg11.png> <./topics/SPSchaltungen/zimg12.png> <./topics/SPSchaltungen/zimg13.png> <./topics/SPSchaltungen/zimg14.png> <./topics/SPSchaltungen/zimg15.png> <./topics/SPSchaltungen/zimg16.png> <./topics/SPSchaltungen/zimg17.png> <./topics/SPSchaltungen/zimg18.png>]
+<topics/SPSchaltungen/zimg19.png, id=51, 1469.49pt x 550.055pt>
+File: topics/SPSchaltungen/zimg19.png Graphic file (type png)
+<use topics/SPSchaltungen/zimg19.png>
+Package pdftex.def Info: topics/SPSchaltungen/zimg19.png  used on input line 468.
+(pdftex.def)             Requested size: 142.87697pt x 53.48116pt.
+<topics/SPSchaltungen/zimg20.png, id=52, 2015.53pt x 1061.9675pt>
+File: topics/SPSchaltungen/zimg20.png Graphic file (type png)
+<use topics/SPSchaltungen/zimg20.png>
+Package pdftex.def Info: topics/SPSchaltungen/zimg20.png  used on input line 469.
+(pdftex.def)             Requested size: 142.87697pt x 75.26895pt.
+<topics/SPSchaltungen/zimg23.png, id=53, 1407.2575pt x 628.3475pt>
+File: topics/SPSchaltungen/zimg23.png Graphic file (type png)
+<use topics/SPSchaltungen/zimg23.png>
+Package pdftex.def Info: topics/SPSchaltungen/zimg23.png  used on input line 471.
+(pdftex.def)             Requested size: 85.72705pt x 38.27449pt.
+<topics/SPSchaltungen/zimg21.png, id=54, 2015.53pt x 1061.9675pt>
+File: topics/SPSchaltungen/zimg21.png Graphic file (type png)
+<use topics/SPSchaltungen/zimg21.png>
+Package pdftex.def Info: topics/SPSchaltungen/zimg21.png  used on input line 472.
+(pdftex.def)             Requested size: 85.72705pt x 45.16138pt.
+<topics/SPSchaltungen/zimg31.png, id=55, 911.405pt x 580.1675pt>
+File: topics/SPSchaltungen/zimg31.png Graphic file (type png)
+<use topics/SPSchaltungen/zimg31.png>
+Package pdftex.def Info: topics/SPSchaltungen/zimg31.png  used on input line 473.
+(pdftex.def)             Requested size: 85.72705pt x 54.56761pt.
+<topics/SPSchaltungen/zimg24.png, id=56, 1268.74pt x 556.0775pt>
+File: topics/SPSchaltungen/zimg24.png Graphic file (type png)
+<use topics/SPSchaltungen/zimg24.png>
+Package pdftex.def Info: topics/SPSchaltungen/zimg24.png  used on input line 475.
+(pdftex.def)             Requested size: 85.72705pt x 37.5718pt.
+<topics/SPSchaltungen/zimg22.png, id=57, 2015.53pt x 1061.9675pt>
+File: topics/SPSchaltungen/zimg22.png Graphic file (type png)
+<use topics/SPSchaltungen/zimg22.png>
+Package pdftex.def Info: topics/SPSchaltungen/zimg22.png  used on input line 476.
+(pdftex.def)             Requested size: 85.72705pt x 45.16138pt.
+<topics/SPSchaltungen/zimg32.png, id=58, 700.6175pt x 461.725pt>
+File: topics/SPSchaltungen/zimg32.png Graphic file (type png)
+<use topics/SPSchaltungen/zimg32.png>
+Package pdftex.def Info: topics/SPSchaltungen/zimg32.png  used on input line 477.
+(pdftex.def)             Requested size: 85.72705pt x 56.49663pt.
+<topics/SPSchaltungen/zimg25.png, id=59, 957.5775pt x 437.635pt>
+File: topics/SPSchaltungen/zimg25.png Graphic file (type png)
+<use topics/SPSchaltungen/zimg25.png>
+Package pdftex.def Info: topics/SPSchaltungen/zimg25.png  used on input line 479.
+(pdftex.def)             Requested size: 85.72705pt x 39.17844pt.
+<topics/SPSchaltungen/zimg33.png, id=60, 2015.53pt x 1061.9675pt>
+File: topics/SPSchaltungen/zimg33.png Graphic file (type png)
+<use topics/SPSchaltungen/zimg33.png>
+Package pdftex.def Info: topics/SPSchaltungen/zimg33.png  used on input line 480.
+(pdftex.def)             Requested size: 85.72705pt x 45.16138pt.
+<topics/SPSchaltungen/zimg39.png, id=61, 1860.9525pt x 726.715pt>
+File: topics/SPSchaltungen/zimg39.png Graphic file (type png)
+<use topics/SPSchaltungen/zimg39.png>
+Package pdftex.def Info: topics/SPSchaltungen/zimg39.png  used on input line 481.
+(pdftex.def)             Requested size: 85.72705pt x 33.47697pt.
+<topics/SPSchaltungen/zimg26.png, id=62, 885.3075pt x 461.725pt>
+File: topics/SPSchaltungen/zimg26.png Graphic file (type png)
+<use topics/SPSchaltungen/zimg26.png>
+Package pdftex.def Info: topics/SPSchaltungen/zimg26.png  used on input line 484.
+(pdftex.def)             Requested size: 85.72705pt x 44.70976pt.
+<topics/SPSchaltungen/zimg34.png, id=63, 2015.53pt x 1061.9675pt>
+File: topics/SPSchaltungen/zimg34.png Graphic file (type png)
+<use topics/SPSchaltungen/zimg34.png>
+Package pdftex.def Info: topics/SPSchaltungen/zimg34.png  used on input line 485.
+(pdftex.def)             Requested size: 85.72705pt x 45.16138pt.
+<topics/SPSchaltungen/zimg40.png, id=64, 1897.0875pt x 704.6325pt>
+File: topics/SPSchaltungen/zimg40.png Graphic file (type png)
+<use topics/SPSchaltungen/zimg40.png>
+Package pdftex.def Info: topics/SPSchaltungen/zimg40.png  used on input line 486.
+(pdftex.def)             Requested size: 85.72705pt x 31.8361pt.
+<topics/SPSchaltungen/zimg27.png, id=65, 941.5175pt x 391.4625pt>
+File: topics/SPSchaltungen/zimg27.png Graphic file (type png)
+<use topics/SPSchaltungen/zimg27.png>
+Package pdftex.def Info: topics/SPSchaltungen/zimg27.png  used on input line 488.
+(pdftex.def)             Requested size: 85.72705pt x 35.64224pt.
+<topics/SPSchaltungen/zimg35.png, id=66, 2015.53pt x 1061.9675pt>
+File: topics/SPSchaltungen/zimg35.png Graphic file (type png)
+<use topics/SPSchaltungen/zimg35.png>
+Package pdftex.def Info: topics/SPSchaltungen/zimg35.png  used on input line 489.
+(pdftex.def)             Requested size: 85.72705pt x 45.16138pt.
+<topics/SPSchaltungen/zimg41.png, id=67, 1061.9675pt x 371.3875pt>
+File: topics/SPSchaltungen/zimg41.png Graphic file (type png)
+<use topics/SPSchaltungen/zimg41.png>
+Package pdftex.def Info: topics/SPSchaltungen/zimg41.png  used on input line 490.
+(pdftex.def)             Requested size: 85.72705pt x 29.97795pt.
+<topics/SPSchaltungen/zimg28.png, id=68, 859.21pt x 367.3725pt>
+File: topics/SPSchaltungen/zimg28.png Graphic file (type png)
+<use topics/SPSchaltungen/zimg28.png>
+Package pdftex.def Info: topics/SPSchaltungen/zimg28.png  used on input line 492.
+(pdftex.def)             Requested size: 85.72705pt x 36.6497pt.
+<topics/SPSchaltungen/zimg36.png, id=69, 2015.53pt x 1061.9675pt>
+File: topics/SPSchaltungen/zimg36.png Graphic file (type png)
+<use topics/SPSchaltungen/zimg36.png>
+Package pdftex.def Info: topics/SPSchaltungen/zimg36.png  used on input line 493.
+(pdftex.def)             Requested size: 85.72705pt x 45.16138pt.
+<topics/SPSchaltungen/zimg42.png, id=70, 1114.1625pt x 403.5075pt>
+File: topics/SPSchaltungen/zimg42.png Graphic file (type png)
+<use topics/SPSchaltungen/zimg42.png>
+Package pdftex.def Info: topics/SPSchaltungen/zimg42.png  used on input line 494.
+(pdftex.def)             Requested size: 85.72705pt x 31.04369pt.
+<topics/SPSchaltungen/zimg29.png, id=71, 875.27pt x 379.4175pt>
+File: topics/SPSchaltungen/zimg29.png Graphic file (type png)
+<use topics/SPSchaltungen/zimg29.png>
+Package pdftex.def Info: topics/SPSchaltungen/zimg29.png  used on input line 496.
+(pdftex.def)             Requested size: 85.72705pt x 37.1566pt.
+<topics/SPSchaltungen/zimg37.png, id=72, 2015.53pt x 1061.9675pt>
+File: topics/SPSchaltungen/zimg37.png Graphic file (type png)
+<use topics/SPSchaltungen/zimg37.png>
+Package pdftex.def Info: topics/SPSchaltungen/zimg37.png  used on input line 497.
+(pdftex.def)             Requested size: 85.72705pt x 45.16138pt.
+<topics/SPSchaltungen/zimg43.png, id=73, 1182.4175pt x 441.65pt>
+File: topics/SPSchaltungen/zimg43.png Graphic file (type png)
+<use topics/SPSchaltungen/zimg43.png>
+Package pdftex.def Info: topics/SPSchaltungen/zimg43.png  used on input line 498.
+(pdftex.def)             Requested size: 85.72705pt x 32.0171pt.
+<topics/SPSchaltungen/zimg30.png, id=74, 861.2175pt x 401.5pt>
+File: topics/SPSchaltungen/zimg30.png Graphic file (type png)
+<use topics/SPSchaltungen/zimg30.png>
+Package pdftex.def Info: topics/SPSchaltungen/zimg30.png  used on input line 500.
+(pdftex.def)             Requested size: 85.72705pt x 39.96243pt.
+<topics/SPSchaltungen/zimg38.png, id=75, 2015.53pt x 1061.9675pt>
+File: topics/SPSchaltungen/zimg38.png Graphic file (type png)
+<use topics/SPSchaltungen/zimg38.png>
+Package pdftex.def Info: topics/SPSchaltungen/zimg38.png  used on input line 501.
+(pdftex.def)             Requested size: 85.72705pt x 45.16138pt.
+<topics/SPSchaltungen/zimg44.png, id=76, 1166.3575pt x 411.5375pt>
+File: topics/SPSchaltungen/zimg44.png Graphic file (type png)
+<use topics/SPSchaltungen/zimg44.png>
+Package pdftex.def Info: topics/SPSchaltungen/zimg44.png  used on input line 502.
+(pdftex.def)             Requested size: 85.72705pt x 30.2423pt.
 )
 
 
 
-[6
+[4
 
-] (./main.aux)
+ <./topics/SPSchaltungen/zimg19.png> <./topics/SPSchaltungen/zimg20.png> <./topics/SPSchaltungen/zimg23.png> <./topics/SPSchaltungen/zimg21.png> <./topics/SPSchaltungen/zimg31.png> <./topics/SPSchaltungen/zimg24.png> <./topics/SPSchaltungen/zimg22.png> <./topics/SPSchaltungen/zimg32.png> <./topics/SPSchaltungen/zimg25.png> <./topics/SPSchaltungen/zimg33.png> <./topics/SPSchaltungen/zimg39.png> <./topics/SPSchaltungen/zimg26.png> <./topics/SPSchaltungen/zimg34.png> <./topics/SPSchaltungen/zimg40.png> <./topics/SPSchaltungen/zimg27.png> <./topics/SPSchaltungen/zimg35.png> <./topics/SPSchaltungen/zimg41.png> <./topics/SPSchaltungen/zimg28.png> <./topics/SPSchaltungen/zimg36.png> <./topics/SPSchaltungen/zimg42.png> <./topics/SPSchaltungen/zimg29.png> <./topics/SPSchaltungen/zimg37.png> <./topics/SPSchaltungen/zimg43.png> <./topics/SPSchaltungen/zimg30.png> <./topics/SPSchaltungen/zimg38.png> <./topics/SPSchaltungen/zimg44.png>] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 15248 strings out of 473197
- 318140 string characters out of 5718606
- 706559 words of memory out of 5000000
- 38223 multiletter control sequences out of 15000+600000
+ 14927 strings out of 473197
+ 305838 string characters out of 5718606
+ 699179 words of memory out of 5000000
+ 37911 multiletter control sequences out of 15000+600000
  579959 words of font info for 113 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,13n,121p,600b,682s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on main.pdf (6 pages, 1472774 bytes).
+ 117i,9n,121p,600b,566s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb>
+Output written on main.pdf (4 pages, 1956007 bytes).
 PDF statistics:
- 138 PDF objects out of 1000 (max. 8388607)
- 70 compressed objects within 1 object stream
+ 156 PDF objects out of 1000 (max. 8388607)
+ 63 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 133 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 233 words of extra memory for PDF output out of 10000 (max. 10000000)
 

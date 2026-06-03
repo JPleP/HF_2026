@@ -1,4 +1,4 @@
-\section{Messung}
+\section{Synthe Passiver Schaltungen}
 \renewcommand{\ort}{topics/SPSchaltungen}
 
 
@@ -252,11 +252,11 @@ HP da $\lim_{s\rightarrow\infty} = 1$
 
 
 \subsection{Filter aus Induktivitäten und Kapazitäten sowie Leitungselementen}
-\bildf{z_img_4}
+\bildf{zimg4}
 
 nicht rendudant
 
-\bildf{z_img_5}
+\bildf{zimg5}
 
 rendudant
 
@@ -292,7 +292,7 @@ $\abs{\Sigma_{21}(s)}^2 = \left(\frac{s^2}{s_c^2}\right)^m \left(\frac{s^2}{s_c^
 
 geg:: $W_{in}(s)$:
 
-\bildf{z_img_3}
+\bildf{zimg3}
 $W_{in} = Z_1 \frac{W_1(s) + sZ_1}{Z_1 + sW_1(s)}$
 
 Auflösen nach $W_1(s)$: 
@@ -325,7 +325,7 @@ $W_{in}(s) = \frac{1 + 3s + \frac{1}{2}s^2}{1 + \frac{3}{2}s + 2 s^2}$
     \begin{pitemize}
         \item $W_{in}(1) = \frac{1 + 3 + \frac{1}{2}}{1 + \frac{3}{2} + 2} = 1 = Z_1$
         \item $-W_{in}(1) = -\frac{1 - 3 + \frac{1}{2}}{1 - \frac{3}{2} + 2} = 1$
-        \item \bildf{z_img_6}
+        \item \bildf{zimg6}
     \end{pitemize}
     \item Abspaltung
     \begin{pitemize}
@@ -335,7 +335,7 @@ $W_{in}(s) = \frac{1 + 3s + \frac{1}{2}s^2}{1 + \frac{3}{2}s + 2 s^2}$
     \begin{pitemize}
         \item $W_{in}'(1) = \frac{3}{\frac{3}{2}} = 2 = Z_2$
         \item $-W_{in}+(-1) = -\frac{-1}{\frac{1}{2}} = 2$
-        \item \bildf{z_img_7}
+        \item \bildf{zimg7}
     \end{pitemize}
     \item Abspaltung
     \begin{pitemize}
@@ -355,7 +355,7 @@ $W_{in}(s) = \frac{1 + 3s + \frac{1}{2}s^2}{1 + \frac{1}{2}s}$
     \begin{pitemize}
         \item $W_{in}(1) = \frac{1 + 3 + \frac{1}{2}}{1 + \frac{1}{2}} = 3 = Z_1$
         \item $W_{in}(-1) = \frac{1 - 3 + \frac{1}{2}}{1 - \frac{1}{2}} = -3$
-        \item \bildf{z_img_1}
+        \item \bildf{zimg1}
     \end{pitemize}
     \item Abspaltung: $W_{in}'(s) = \frac{3 (3s - \frac{1 + 3s + \frac{1}{2}s^2}{1 + \frac{1}{2}s})}{s\frac{1 + 3s + \frac{1}{2}s^2}{1 + \frac{1}{2}s} - 3} = 3\frac{3s + \frac{3}{2}s^2 - 1 - 3s - \frac{1}{2}s^2}{s + 3 s^2 + \frac{1}{2}s^3 - 3 - \frac{3}{2}s} = 3\frac{s^2 - 1}{\frac{1}{2}s^3 + 3s^2 - \frac{1}{2}s - 3} = \frac{3}{2}\frac{s^2 - 1}{s^3 + 6s^2 - s - 6} = \frac{3}{2} \frac{s^2 -1}{(s^2 - 1)(s + 6)} = \frac{3}{2} \frac{1}{s + 6}$
     \item $V_1(s)' = \frac{1}{6}s + 1$ : Parallelschaltung aus $C$ und $Z_0$ 
@@ -364,8 +364,139 @@ $W_{in}(s) = \frac{1 + 3s + \frac{1}{2}s^2}{1 + \frac{1}{2}s}$
 
 \subsubsection{Beispiel}
 
-\bildf{z_img_2}
+\bildf{zimg2}
 
 $W_{in} = s \frac{\frac{1}{s} s}{\frac{1}{s} + s}$
 
 Überprüfung mit Realisierung
+
+
+
+
+
+
+
+
+\subsection{Gekoppelte Streifenleitungen}
+
+\bildf{zimg9}
+
+geg. $Z_e, Z_d$
+
+$[U] = [Z][I]$
+\begin{pitemize}
+    \item $Z_{11} = Z_{22} = Z_{33} = Z_{44} = \frac{Z_e + Z_d}{2s}$
+    \item $Z_{12} = Z_{12} = Z_{34} = Z_{34} = \frac{Z_e + Z_d}{2s} \sqrt{1 -s^2}$
+    \item $Z_{13} = Z_{31} = Z_{24} = Z_{42} = \frac{Z_e + Z_d}{2s} \sqrt{1 -s^2}$
+    \item $Z_{14} = Z_{41} = Z_{23} = Z_{32} = \frac{Z_e + Z_d}{2s}$
+\end{pitemize}
+
+
+
+\bildfV{zimg10}
+
+4 $\rightarrow$ KS $\Rightarrow U_4 = 0$ und 3 $rightarrow$ LL $\Rightarrow I = 0$
+$\begin{bmatrix}
+    U_1 \\ U_2 \\ U_3 \\ 0
+\end{bmatrix} = [Z] \begin{bmatrix}
+    I_1 \\ I_2 \\ 0 \\ I_4
+\end{bmatrix}$
+4. Gl.: $0 = Z_{41} I_1 + Z_{42}I_2 + Z_{44} I_4 \Leftrightarrow I_4 = \frac{Z_41}{Z_44} I_1 - \frac{Z_{42}}{Z_{44}}I_2$
+
+$I_4$ in 1 und 2 Gl. einsetzen:\\
+$\begin{bmatrix}
+    U_1 \\ U_2
+\end{bmatrix} =
+\begin{bmatrix}
+    Z_{11} - \frac{Z_{14}Z_{41}}{Z_{44}} & Z_{12} - \frac{Z_{14}Z_{42}}{Z_{44}} \\
+    Z_{21} - \frac{Z_{24}Z_{41}}{Z_{44}} & Z_{22} - \frac{Z_{24}Z_{42}}{Z_{44}}
+\end{bmatrix}\begin{bmatrix}
+    I_1 \\ I_2
+\end{bmatrix}$
+
+$[U] = [Z'][I]$
+
+\bildf{zimg8}
+
+$\begin{bmatrix}
+    A & B \\ C & D
+\end{bmatrix} = 
+\frac{1}{\sqrt{1 - s^2}} \begin{bmatrix}
+    1 & sZ_{ue} \\ \frac{2}{Z_{ue}} & 1
+\end{bmatrix} \begin{bmatrix}
+    1 & sL \\ 0 & 1
+\end{bmatrix} = \begin{bmatrix}
+    1 & s(L + Z_{ue}) \\ \frac{s}{Z_{ue}} & \frac{s^2L}{Z_{ue}} + 1
+\end{bmatrix}$
+
+für Koeffizientenvergleic: $[Z'']$
+
+$[Z''] = \begin{bmatrix}
+    \frac{A}{C} & \frac{AD - BC}{C} \\ \frac{1}{C} & \frac{D}{C}
+\end{bmatrix} \Rightarrow Z_{11}'' = \frac{A}{C} \overset{!}{=} \frac{Z_{ue}}{s}$
+
+$Z_{11}' = \frac{2Z_eZ_d}{s(Z_e + Z_d)} \overset{!}{=} Z_{11}'' \Rightarrow Z_{ue} = \frac{2Z_eZ_d}{Z_e + Z_d}$
+
+$L = \frac{(Z_e - Z_d)^2}{2(Z_e + Z_d)}$
+
+
+\subsubsection{Beispiel}
+
+\bildf{zimg11}
+\bildf{zimg12}
+\bildf{zimg13}
+\bildf{zimg14}
+
+Die Drauf sicht der Realisierung:
+\bildf{zimg15}
+
+\subsection{Beispiel}
+ESB mit 3 ungekoppelten Leitungselementen
+
+\bildf{zimg16}
+\bildf{zimg17}
+KS and 2 und 4
+
+\bildf{zimg18}
+
+
+2. ESB mit 2 ungekoppelt Leitungselementen und 2 idealen Transformatoren 
+
+Leerlaufendes Unity Element is kapazitiv
+KS Unity Element is induktiv
+
+\bildf{zimg19}
+\bildf{zimg20}
+
+\bildfR{0.3}{zimg23}
+\bildfR{0.3}{zimg21}
+\bildfR{0.3}{zimg31}
+
+\bildfR{0.3}{zimg24}
+\bildfR{0.3}{zimg22}
+\bildfR{0.3}{zimg32}
+
+\bildfR{0.3}{zimg25}
+\bildfR{0.3}{zimg33}
+\bildfR{0.3}{zimg39}
+
+
+\bildfR{0.3}{zimg26}
+\bildfR{0.3}{zimg34}
+\bildfR{0.3}{zimg40}
+
+\bildfR{0.3}{zimg27}
+\bildfR{0.3}{zimg35}
+\bildfR{0.3}{zimg41}
+
+\bildfR{0.3}{zimg28}
+\bildfR{0.3}{zimg36}
+\bildfR{0.3}{zimg42}
+
+\bildfR{0.3}{zimg29}
+\bildfR{0.3}{zimg37}
+\bildfR{0.3}{zimg43}
+
+\bildfR{0.3}{zimg30}
+\bildfR{0.3}{zimg38}
+\bildfR{0.3}{zimg44}
