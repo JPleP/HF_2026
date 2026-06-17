@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.1.4)  8 JUN 2026 12:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.1.4)  17 JUN 2026 11:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -352,20 +352,20 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -419,413 +419,78 @@ Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-)) (./topics/SPSchaltungen/smain.tex
-<topics/SPSchaltungen/Prototypfilter.png, id=4, 338.01282pt x 87.32625pt>
-File: topics/SPSchaltungen/Prototypfilter.png Graphic file (type png)
-<use topics/SPSchaltungen/Prototypfilter.png>
-Package pdftex.def Info: topics/SPSchaltungen/Prototypfilter.png  used on input line 7.
-(pdftex.def)             Requested size: 142.87697pt x 36.91261pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 8.
+)) (./topics/Mischer/smain.tex
+<topics/Mischer/6. Mischer.pdf, id=4, page=1, 925.7787pt x 845.07718pt>
+File: topics/Mischer/6. Mischer.pdf Graphic file (type pdf)
+<use topics/Mischer/6. Mischer.pdf, page 1>
+Package pdftex.def Info: topics/Mischer/6. Mischer.pdf , page1 used on input line 4.
+(pdftex.def)             Requested size: 285.75394pt x 260.84937pt.
+<topics/Mischer/6. Mischer.pdf, id=5, page=2, 925.7787pt x 845.07718pt>
+File: topics/Mischer/6. Mischer.pdf Graphic file (type pdf)
+<use topics/Mischer/6. Mischer.pdf, page 2>
+Package pdftex.def Info: topics/Mischer/6. Mischer.pdf , page2 used on input line 5.
+(pdftex.def)             Requested size: 285.75394pt x 260.84937pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 12.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 8.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 12.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<topics/SPSchaltungen/Butterworth.png, id=5, 436.63126pt x 208.52907pt>
-File: topics/SPSchaltungen/Butterworth.png Graphic file (type png)
-<use topics/SPSchaltungen/Butterworth.png>
-Package pdftex.def Info: topics/SPSchaltungen/Butterworth.png  used on input line 15.
-(pdftex.def)             Requested size: 142.87697pt x 68.23569pt.
-<topics/SPSchaltungen/Leitungselement1.png, id=6, 520.94624pt x 191.21437pt>
-File: topics/SPSchaltungen/Leitungselement1.png Graphic file (type png)
-<use topics/SPSchaltungen/Leitungselement1.png>
-Package pdftex.def Info: topics/SPSchaltungen/Leitungselement1.png  used on input line 22.
-(pdftex.def)             Requested size: 142.87697pt x 52.4426pt.
-<topics/SPSchaltungen/Leitungselement2.jpg, id=7, 2489.3pt x 1003.75pt>
-File: topics/SPSchaltungen/Leitungselement2.jpg Graphic file (type jpg)
-<use topics/SPSchaltungen/Leitungselement2.jpg>
-Package pdftex.def Info: topics/SPSchaltungen/Leitungselement2.jpg  used on input line 27.
-(pdftex.def)             Requested size: 142.87697pt x 57.60336pt.
-<topics/SPSchaltungen/Leitungselement3.jpg, id=8, 2542.49875pt x 1003.75pt>
-File: topics/SPSchaltungen/Leitungselement3.jpg Graphic file (type jpg)
-<use topics/SPSchaltungen/Leitungselement3.jpg>
-Package pdftex.def Info: topics/SPSchaltungen/Leitungselement3.jpg  used on input line 31.
-(pdftex.def)             Requested size: 142.87697pt x 56.3934pt.
-<topics/SPSchaltungen/LeitungsfilterUebertragung.jpg, id=9, 2479.2625pt x 1003.75pt>
-File: topics/SPSchaltungen/LeitungsfilterUebertragung.jpg Graphic file (type jpg)
-<use topics/SPSchaltungen/LeitungsfilterUebertragung.jpg>
-Package pdftex.def Info: topics/SPSchaltungen/LeitungsfilterUebertragung.jpg  used on input line 48.
-(pdftex.def)             Requested size: 142.87697pt x 57.8331pt.
-<topics/SPSchaltungen/2DrahtESB.jpg, id=10, 2329.70375pt x 1002.74625pt>
-File: topics/SPSchaltungen/2DrahtESB.jpg Graphic file (type jpg)
-<use topics/SPSchaltungen/2DrahtESB.jpg>
-Package pdftex.def Info: topics/SPSchaltungen/2DrahtESB.jpg  used on input line 56.
-(pdftex.def)             Requested size: 142.87697pt x 61.49333pt.
-<topics/SPSchaltungen/Stichleitung Induktiv.jpg, id=11, 4013.99625pt x 765.86125pt>
-File: topics/SPSchaltungen/Stichleitung Induktiv.jpg Graphic file (type jpg)
-<use topics/SPSchaltungen/Stichleitung Induktiv.jpg>
-Package pdftex.def Info: topics/SPSchaltungen/Stichleitung Induktiv.jpg  used on input line 61.
-(pdftex.def)             Requested size: 131.92694pt x 25.16014pt.
 
-
-<topics/SPSchaltungen/Stichleitung Kapazitiv.jpg, id=12, 4013.99625pt x 623.32875pt>
-File: topics/SPSchaltungen/Stichleitung Kapazitiv.jpg Graphic file (type jpg)
-<use topics/SPSchaltungen/Stichleitung Kapazitiv.jpg>
-Package pdftex.def Info: topics/SPSchaltungen/Stichleitung Kapazitiv.jpg  used on input line 62.
-(pdftex.def)             Requested size: 131.92694pt x 20.47765pt.
-<topics/SPSchaltungen/PrototypfilterBW.jpg, id=13, 2127.95pt x 1003.75pt>
-File: topics/SPSchaltungen/PrototypfilterBW.jpg Graphic file (type jpg)
-<use topics/SPSchaltungen/PrototypfilterBW.jpg>
-Package pdftex.def Info: topics/SPSchaltungen/PrototypfilterBW.jpg  used on input line 69.
-(pdftex.def)             Requested size: 142.87697pt x 67.39027pt.
-<topics/SPSchaltungen/Prototypfilter2.jpg, id=14, 1686.3pt x 1003.75pt>
-File: topics/SPSchaltungen/Prototypfilter2.jpg Graphic file (type jpg)
-<use topics/SPSchaltungen/Prototypfilter2.jpg>
-Package pdftex.def Info: topics/SPSchaltungen/Prototypfilter2.jpg  used on input line 71.
-(pdftex.def)             Requested size: 142.87697pt x 85.03427pt.
-<topics/SPSchaltungen/UebergangLeitungsfilter.jpg, id=15, 3384.645pt x 1002.74625pt>
-File: topics/SPSchaltungen/UebergangLeitungsfilter.jpg Graphic file (type jpg)
-<use topics/SPSchaltungen/UebergangLeitungsfilter.jpg>
-Package pdftex.def Info: topics/SPSchaltungen/UebergangLeitungsfilter.jpg  used on input line 75.
-(pdftex.def)             Requested size: 142.87697pt x 42.32161pt.
-<topics/SPSchaltungen/UebergangLeitungsfilter2.jpg, id=16, 2438.10875pt x 1003.75pt>
-File: topics/SPSchaltungen/UebergangLeitungsfilter2.jpg Graphic file (type jpg)
-<use topics/SPSchaltungen/UebergangLeitungsfilter2.jpg>
-Package pdftex.def Info: topics/SPSchaltungen/UebergangLeitungsfilter2.jpg  used on input line 76.
-(pdftex.def)             Requested size: 142.87697pt x 58.81332pt.
-<topics/SPSchaltungen/Kuroda.jpg, id=17, 4015.0pt x 931.48pt>
-File: topics/SPSchaltungen/Kuroda.jpg Graphic file (type jpg)
-<use topics/SPSchaltungen/Kuroda.jpg>
-Package pdftex.def Info: topics/SPSchaltungen/Kuroda.jpg  used on input line 82.
-(pdftex.def)             Requested size: 142.87697pt x 33.14523pt.
-<topics/SPSchaltungen/Leitungsfilter1.jpg, id=18, 2206.2425pt x 1003.75pt>
-File: topics/SPSchaltungen/Leitungsfilter1.jpg Graphic file (type jpg)
-<use topics/SPSchaltungen/Leitungsfilter1.jpg>
-Package pdftex.def Info: topics/SPSchaltungen/Leitungsfilter1.jpg  used on input line 113.
-(pdftex.def)             Requested size: 142.87697pt x 65.00098pt.
-<topics/SPSchaltungen/Leitungsfilter2.jpg, id=19, 2619.7875pt x 1002.74625pt>
-File: topics/SPSchaltungen/Leitungsfilter2.jpg Graphic file (type jpg)
-<use topics/SPSchaltungen/Leitungsfilter2.jpg>
-Package pdftex.def Info: topics/SPSchaltungen/Leitungsfilter2.jpg  used on input line 124.
-(pdftex.def)             Requested size: 142.87697pt x 54.68454pt.
+<topics/Mischer/zimg1.png, id=6, 459.7175pt x 271.0125pt>
+File: topics/Mischer/zimg1.png Graphic file (type png)
+<use topics/Mischer/zimg1.png>
+Package pdftex.def Info: topics/Mischer/zimg1.png  used on input line 93.
+(pdftex.def)             Requested size: 26.387pt x 15.5529pt.
+<topics/Mischer/zimg2.png, id=7, 431.6125pt x 244.915pt>
+File: topics/Mischer/zimg2.png Graphic file (type png)
+<use topics/Mischer/zimg2.png>
+Package pdftex.def Info: topics/Mischer/zimg2.png  used on input line 94.
+(pdftex.def)             Requested size: 26.387pt x 14.97081pt.
+<topics/Mischer/zimg4.png, id=8, 425.59pt x 347.2975pt>
+File: topics/Mischer/zimg4.png Graphic file (type png)
+<use topics/Mischer/zimg4.png>
+Package pdftex.def Info: topics/Mischer/zimg4.png  used on input line 95.
+(pdftex.def)             Requested size: 26.387pt x 21.53116pt.
+<topics/Mischer/zimg3.png, id=9, 415.5525pt x 343.2825pt>
+File: topics/Mischer/zimg3.png Graphic file (type png)
+<use topics/Mischer/zimg3.png>
+Package pdftex.def Info: topics/Mischer/zimg3.png  used on input line 96.
+(pdftex.def)             Requested size: 26.387pt x 21.79556pt.
 
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./topics/SPSchaltungen/Prototypfilter.png (PNG copy)> <./topics/SPSchaltungen/Butterworth.png (PNG copy)> <./topics/SPSchaltungen/Leitungselement1.png (PNG copy)> <./topics/SPSchaltungen/Leitungselement2.JPG> <./topics/SPSchaltungen/Leitungselement3.JPG> <./topics/SPSchaltungen/LeitungsfilterUebertragung.JPG> <./topics/SPSchaltungen/2DrahtESB.JPG> <./topics/SPSchaltungen/Stichleitung Induktiv.JPG> <./topics/SPSchaltungen/Stichleitung Kapazitiv.JPG> <./topics/SPSchaltungen/PrototypfilterBW.JPG> <./topics/SPSchaltungen/Prototypfilter2.JPG> <./topics/SPSchaltungen/UebergangLeitungsfilter.JPG> <./topics/SPSchaltungen/UebergangLeitungsfilter2.JPG> <./topics/SPSchaltungen/Kuroda.JPG> <./topics/SPSchaltungen/Leitungsfilter1.JPG>]
-<topics/SPSchaltungen/Leitungsfilter3.jpg, id=37, 3762.055pt x 1003.75pt>
-File: topics/SPSchaltungen/Leitungsfilter3.jpg Graphic file (type jpg)
-<use topics/SPSchaltungen/Leitungsfilter3.jpg>
-Package pdftex.def Info: topics/SPSchaltungen/Leitungsfilter3.jpg  used on input line 126.
-(pdftex.def)             Requested size: 142.87697pt x 38.10612pt.
-<topics/SPSchaltungen/Leitungsfilter4.jpg, id=38, 3132.70375pt x 1003.75pt>
-File: topics/SPSchaltungen/Leitungsfilter4.jpg Graphic file (type jpg)
-<use topics/SPSchaltungen/Leitungsfilter4.jpg>
-Package pdftex.def Info: topics/SPSchaltungen/Leitungsfilter4.jpg  used on input line 128.
-(pdftex.def)             Requested size: 142.87697pt x 45.76411pt.
- (./topics/SPSchaltungen/z_tikz_1.tikz) (./topics/SPSchaltungen/z_tikz_2.tikz)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./topics/Mischer/6. Mischer.pdf> <./topics/Mischer/6. Mischer.pdf
 
-(./topics/SPSchaltungen/z_tikz_3.tikz) (./topics/SPSchaltungen/z_tikz_4.tikz)
-<topics/SPSchaltungen/zimg45.png, id=39, 770.88pt x 329.23pt>
-File: topics/SPSchaltungen/zimg45.png Graphic file (type png)
-<use topics/SPSchaltungen/zimg45.png>
-Package pdftex.def Info: topics/SPSchaltungen/zimg45.png  used on input line 222.
-(pdftex.def)             Requested size: 131.92694pt x 56.3401pt.
-
-
-[2 <./topics/SPSchaltungen/Leitungsfilter2.JPG> <./topics/SPSchaltungen/Leitungsfilter3.JPG> <./topics/SPSchaltungen/Leitungsfilter4.JPG> <./topics/SPSchaltungen/zimg45.png>]
-<topics/SPSchaltungen/zimg46.png, id=47, 786.94pt x 355.3275pt>
-File: topics/SPSchaltungen/zimg46.png Graphic file (type png)
-<use topics/SPSchaltungen/zimg46.png>
-Package pdftex.def Info: topics/SPSchaltungen/zimg46.png  used on input line 252.
-(pdftex.def)             Requested size: 131.92694pt x 59.56448pt.
-<topics/SPSchaltungen/zimg47.png, id=48, 790.955pt x 315.1775pt>
-File: topics/SPSchaltungen/zimg47.png Graphic file (type png)
-<use topics/SPSchaltungen/zimg47.png>
-Package pdftex.def Info: topics/SPSchaltungen/zimg47.png  used on input line 265.
-(pdftex.def)             Requested size: 131.92694pt x 52.56952pt.
-<topics/SPSchaltungen/zimg4.png, id=49, 755.07094pt x 143.03438pt>
-File: topics/SPSchaltungen/zimg4.png Graphic file (type png)
-<use topics/SPSchaltungen/zimg4.png>
-Package pdftex.def Info: topics/SPSchaltungen/zimg4.png  used on input line 273.
-(pdftex.def)             Requested size: 142.87697pt x 27.06549pt.
-<topics/SPSchaltungen/zimg5.png, id=50, 599.23875pt x 152.82094pt>
-File: topics/SPSchaltungen/zimg5.png Graphic file (type png)
-<use topics/SPSchaltungen/zimg5.png>
-Package pdftex.def Info: topics/SPSchaltungen/zimg5.png  used on input line 275.
-(pdftex.def)             Requested size: 142.87697pt x 36.43524pt.
-<topics/SPSchaltungen/zimg3.png, id=51, 516.42938pt x 206.27063pt>
-File: topics/SPSchaltungen/zimg3.png Graphic file (type png)
-<use topics/SPSchaltungen/zimg3.png>
-Package pdftex.def Info: topics/SPSchaltungen/zimg3.png  used on input line 309.
-(pdftex.def)             Requested size: 142.87697pt x 57.06609pt.
-
-
-<topics/SPSchaltungen/zimg6.png, id=52, 484.05844pt x 221.32687pt>
-File: topics/SPSchaltungen/zimg6.png Graphic file (type png)
-<use topics/SPSchaltungen/zimg6.png>
-Package pdftex.def Info: topics/SPSchaltungen/zimg6.png  used on input line 344.
-(pdftex.def)             Requested size: 119.88193pt x 54.81148pt.
-<topics/SPSchaltungen/zimg7.png, id=53, 410.2828pt x 160.34906pt>
-File: topics/SPSchaltungen/zimg7.png Graphic file (type png)
-<use topics/SPSchaltungen/zimg7.png>
-Package pdftex.def Info: topics/SPSchaltungen/zimg7.png  used on input line 354.
-(pdftex.def)             Requested size: 119.88193pt x 46.85236pt.
-<topics/SPSchaltungen/zimg1.png, id=54, 544.28343pt x 238.64156pt>
-File: topics/SPSchaltungen/zimg1.png Graphic file (type png)
-<use topics/SPSchaltungen/zimg1.png>
-Package pdftex.def Info: topics/SPSchaltungen/zimg1.png  used on input line 377.
-(pdftex.def)             Requested size: 131.92694pt x 57.84319pt.
-
-
-[3 <./topics/SPSchaltungen/zimg46.png> <./topics/SPSchaltungen/zimg47.png> <./topics/SPSchaltungen/zimg4.png (PNG copy)> <./topics/SPSchaltungen/zimg5.png (PNG copy)> <./topics/SPSchaltungen/zimg3.png (PNG copy)> <./topics/SPSchaltungen/zimg6.png (PNG copy)> <./topics/SPSchaltungen/zimg7.png (PNG copy)> <./topics/SPSchaltungen/zimg1.png (PNG copy)>]
-<topics/SPSchaltungen/zimg48.png, id=58, 768.8725pt x 283.0575pt>
-File: topics/SPSchaltungen/zimg48.png Graphic file (type png)
-<use topics/SPSchaltungen/zimg48.png>
-Package pdftex.def Info: topics/SPSchaltungen/zimg48.png  used on input line 392.
-(pdftex.def)             Requested size: 131.92694pt x 48.56831pt.
-<topics/SPSchaltungen/zimg54.png, id=59, 1090.0725pt x 361.35pt>
-File: topics/SPSchaltungen/zimg54.png Graphic file (type png)
-<use topics/SPSchaltungen/zimg54.png>
-Package pdftex.def Info: topics/SPSchaltungen/zimg54.png  used on input line 398.
-(pdftex.def)             Requested size: 142.87697pt x 47.35759pt.
-<topics/SPSchaltungen/zimg2.png, id=60, 1660.2025pt x 475.7775pt>
-File: topics/SPSchaltungen/zimg2.png Graphic file (type png)
-<use topics/SPSchaltungen/zimg2.png>
-Package pdftex.def Info: topics/SPSchaltungen/zimg2.png  used on input line 422.
-(pdftex.def)             Requested size: 131.92694pt x 37.80162pt.
-<topics/SPSchaltungen/zimg53.png, id=61, 1258.7025pt x 481.8pt>
-File: topics/SPSchaltungen/zimg53.png Graphic file (type png)
-<use topics/SPSchaltungen/zimg53.png>
-Package pdftex.def Info: topics/SPSchaltungen/zimg53.png  used on input line 423.
-(pdftex.def)             Requested size: 131.92694pt x 50.4986pt.
-<topics/SPSchaltungen/zimg9.png, id=62, 234.1247pt x 92.59593pt>
-File: topics/SPSchaltungen/zimg9.png Graphic file (type png)
-<use topics/SPSchaltungen/zimg9.png>
-Package pdftex.def Info: topics/SPSchaltungen/zimg9.png  used on input line 434.
-(pdftex.def)             Requested size: 142.87697pt x 56.51027pt.
-
-
-<topics/SPSchaltungen/zimg10.png, id=63, 740.0147pt x 152.82094pt>
-File: topics/SPSchaltungen/zimg10.png Graphic file (type png)
-<use topics/SPSchaltungen/zimg10.png>
-Package pdftex.def Info: topics/SPSchaltungen/zimg10.png  used on input line 448.
-(pdftex.def)             Requested size: 285.75394pt x 59.00995pt.
-<topics/SPSchaltungen/zimg8.png, id=64, 403.5075pt x 135.50626pt>
-File: topics/SPSchaltungen/zimg8.png Graphic file (type png)
-<use topics/SPSchaltungen/zimg8.png>
-Package pdftex.def Info: topics/SPSchaltungen/zimg8.png  used on input line 471.
-(pdftex.def)             Requested size: 142.87697pt x 47.97995pt.
-<topics/SPSchaltungen/zimg11.png, id=65, 533.74406pt x 129.48375pt>
-File: topics/SPSchaltungen/zimg11.png Graphic file (type png)
-<use topics/SPSchaltungen/zimg11.png>
-Package pdftex.def Info: topics/SPSchaltungen/zimg11.png  used on input line 497.
-(pdftex.def)             Requested size: 142.87697pt x 34.66075pt.
-<topics/SPSchaltungen/zimg12.png, id=66, 757.32938pt x 176.91093pt>
-File: topics/SPSchaltungen/zimg12.png Graphic file (type png)
-<use topics/SPSchaltungen/zimg12.png>
-Package pdftex.def Info: topics/SPSchaltungen/zimg12.png  used on input line 498.
-(pdftex.def)             Requested size: 142.87697pt x 33.37587pt.
-<topics/SPSchaltungen/zimg13.png, id=67, 557.08125pt x 111.41624pt>
-File: topics/SPSchaltungen/zimg13.png Graphic file (type png)
-<use topics/SPSchaltungen/zimg13.png>
-Package pdftex.def Info: topics/SPSchaltungen/zimg13.png  used on input line 499.
-(pdftex.def)             Requested size: 142.87697pt x 28.57481pt.
-<topics/SPSchaltungen/zimg14.png, id=68, 449.42906pt x 78.2925pt>
-File: topics/SPSchaltungen/zimg14.png Graphic file (type png)
-<use topics/SPSchaltungen/zimg14.png>
-Package pdftex.def Info: topics/SPSchaltungen/zimg14.png  used on input line 500.
-(pdftex.def)             Requested size: 142.87697pt x 24.88924pt.
-<topics/SPSchaltungen/zimg15.png, id=69, 447.92343pt x 89.58469pt>
-File: topics/SPSchaltungen/zimg15.png Graphic file (type png)
-<use topics/SPSchaltungen/zimg15.png>
-Package pdftex.def Info: topics/SPSchaltungen/zimg15.png  used on input line 503.
-(pdftex.def)             Requested size: 142.87697pt x 28.57472pt.
-<topics/SPSchaltungen/zimg16.png, id=70, 639.89063pt x 186.6975pt>
-File: topics/SPSchaltungen/zimg16.png Graphic file (type png)
-<use topics/SPSchaltungen/zimg16.png>
-Package pdftex.def Info: topics/SPSchaltungen/zimg16.png  used on input line 508.
-(pdftex.def)             Requested size: 142.87697pt x 41.68605pt.
-<topics/SPSchaltungen/zimg17.png, id=71, 466.74374pt x 136.25906pt>
-File: topics/SPSchaltungen/zimg17.png Graphic file (type png)
-<use topics/SPSchaltungen/zimg17.png>
-Package pdftex.def Info: topics/SPSchaltungen/zimg17.png  used on input line 509.
-(pdftex.def)             Requested size: 142.87697pt x 41.70969pt.
-<topics/SPSchaltungen/zimg18.png, id=72, 444.15938pt x 170.88844pt>
-File: topics/SPSchaltungen/zimg18.png Graphic file (type png)
-<use topics/SPSchaltungen/zimg18.png>
-Package pdftex.def Info: topics/SPSchaltungen/zimg18.png  used on input line 512.
-(pdftex.def)             Requested size: 142.87697pt x 54.96964pt.
-
-
-[4 <./topics/SPSchaltungen/zimg48.png> <./topics/SPSchaltungen/zimg54.png> <./topics/SPSchaltungen/zimg2.png> <./topics/SPSchaltungen/zimg53.png> <./topics/SPSchaltungen/zimg9.png (PNG copy)> <./topics/SPSchaltungen/zimg10.png (PNG copy)> <./topics/SPSchaltungen/zimg8.png (PNG copy)> <./topics/SPSchaltungen/zimg11.png (PNG copy)> <./topics/SPSchaltungen/zimg12.png (PNG copy)> <./topics/SPSchaltungen/zimg13.png (PNG copy)> <./topics/SPSchaltungen/zimg14.png (PNG copy)> <./topics/SPSchaltungen/zimg15.png (PNG copy)> <./topics/SPSchaltungen/zimg16.png (PNG copy)> <./topics/SPSchaltungen/zimg17.png>]
-<topics/SPSchaltungen/zimg50.png, id=76, 877.2775pt x 349.305pt>
-File: topics/SPSchaltungen/zimg50.png Graphic file (type png)
-<use topics/SPSchaltungen/zimg50.png>
-Package pdftex.def Info: topics/SPSchaltungen/zimg50.png  used on input line 519.
-(pdftex.def)             Requested size: 142.87697pt x 56.88664pt.
-<topics/SPSchaltungen/zimg51.png, id=77, 953.5625pt x 297.11pt>
-File: topics/SPSchaltungen/zimg51.png Graphic file (type png)
-<use topics/SPSchaltungen/zimg51.png>
-Package pdftex.def Info: topics/SPSchaltungen/zimg51.png  used on input line 520.
-(pdftex.def)             Requested size: 142.87697pt x 44.5147pt.
-<topics/SPSchaltungen/zimg19.png, id=78, 383.93437pt x 143.03438pt>
-File: topics/SPSchaltungen/zimg19.png Graphic file (type png)
-<use topics/SPSchaltungen/zimg19.png>
-Package pdftex.def Info: topics/SPSchaltungen/zimg19.png  used on input line 527.
-(pdftex.def)             Requested size: 142.87697pt x 53.22961pt.
-<topics/SPSchaltungen/zimg20.png, id=79, 649.67719pt x 342.5297pt>
-File: topics/SPSchaltungen/zimg20.png Graphic file (type png)
-<use topics/SPSchaltungen/zimg20.png>
-Package pdftex.def Info: topics/SPSchaltungen/zimg20.png  used on input line 528.
-(pdftex.def)             Requested size: 142.87697pt x 75.3254pt.
-<topics/SPSchaltungen/zimg23.png, id=80, 503.63156pt x 225.09094pt>
-File: topics/SPSchaltungen/zimg23.png Graphic file (type png)
-<use topics/SPSchaltungen/zimg23.png>
-Package pdftex.def Info: topics/SPSchaltungen/zimg23.png  used on input line 530.
-(pdftex.def)             Requested size: 85.72705pt x 38.31303pt.
-<topics/SPSchaltungen/zimg21.png, id=81, 402.75468pt x 212.29312pt>
-File: topics/SPSchaltungen/zimg21.png Graphic file (type png)
-<use topics/SPSchaltungen/zimg21.png>
-Package pdftex.def Info: topics/SPSchaltungen/zimg21.png  used on input line 531.
-(pdftex.def)             Requested size: 85.72705pt x 45.18538pt.
-<topics/SPSchaltungen/zimg31.png, id=82, 325.96782pt x 207.77625pt>
-File: topics/SPSchaltungen/zimg31.png Graphic file (type png)
-<use topics/SPSchaltungen/zimg31.png>
-Package pdftex.def Info: topics/SPSchaltungen/zimg31.png  used on input line 532.
-(pdftex.def)             Requested size: 85.72705pt x 54.64194pt.
-<topics/SPSchaltungen/zimg24.png, id=83, 331.2375pt x 145.29282pt>
-File: topics/SPSchaltungen/zimg24.png Graphic file (type png)
-<use topics/SPSchaltungen/zimg24.png>
-Package pdftex.def Info: topics/SPSchaltungen/zimg24.png  used on input line 534.
-(pdftex.def)             Requested size: 85.72705pt x 37.60231pt.
-<topics/SPSchaltungen/zimg22.png, id=84, 382.42876pt x 201.75375pt>
-File: topics/SPSchaltungen/zimg22.png Graphic file (type png)
-<use topics/SPSchaltungen/zimg22.png>
-Package pdftex.def Info: topics/SPSchaltungen/zimg22.png  used on input line 535.
-(pdftex.def)             Requested size: 85.72705pt x 45.22638pt.
-<topics/SPSchaltungen/zimg32.png, id=85, 344.03531pt x 226.59656pt>
-File: topics/SPSchaltungen/zimg32.png Graphic file (type png)
-<use topics/SPSchaltungen/zimg32.png>
-Package pdftex.def Info: topics/SPSchaltungen/zimg32.png  used on input line 536.
-(pdftex.def)             Requested size: 85.72705pt x 56.46228pt.
-<topics/SPSchaltungen/zimg25.png, id=86, 470.50781pt x 215.30438pt>
-File: topics/SPSchaltungen/zimg25.png Graphic file (type png)
-<use topics/SPSchaltungen/zimg25.png>
-Package pdftex.def Info: topics/SPSchaltungen/zimg25.png  used on input line 538.
-(pdftex.def)             Requested size: 85.72705pt x 39.22618pt.
-<topics/SPSchaltungen/zimg33.png, id=87, 425.33907pt x 224.33812pt>
-File: topics/SPSchaltungen/zimg33.png Graphic file (type png)
-<use topics/SPSchaltungen/zimg33.png>
-Package pdftex.def Info: topics/SPSchaltungen/zimg33.png  used on input line 539.
-(pdftex.def)             Requested size: 85.72705pt x 45.21255pt.
-<topics/SPSchaltungen/zimg39.png, id=88, 485.56406pt x 189.70876pt>
-File: topics/SPSchaltungen/zimg39.png Graphic file (type png)
-<use topics/SPSchaltungen/zimg39.png>
-Package pdftex.def Info: topics/SPSchaltungen/zimg39.png  used on input line 540.
-(pdftex.def)             Requested size: 85.72705pt x 33.49188pt.
-<topics/SPSchaltungen/zimg26.png, id=89, 435.87843pt x 227.34938pt>
-File: topics/SPSchaltungen/zimg26.png Graphic file (type png)
-<use topics/SPSchaltungen/zimg26.png>
-Package pdftex.def Info: topics/SPSchaltungen/zimg26.png  used on input line 542.
-(pdftex.def)             Requested size: 85.72705pt x 44.7128pt.
-<topics/SPSchaltungen/zimg34.png, id=90, 649.67719pt x 342.5297pt>
-File: topics/SPSchaltungen/zimg34.png Graphic file (type png)
-<use topics/SPSchaltungen/zimg34.png>
-Package pdftex.def Info: topics/SPSchaltungen/zimg34.png  used on input line 543.
-(pdftex.def)             Requested size: 85.72705pt x 45.1942pt.
-<topics/SPSchaltungen/zimg40.png, id=91, 291.33844pt x 108.405pt>
-File: topics/SPSchaltungen/zimg40.png Graphic file (type png)
-<use topics/SPSchaltungen/zimg40.png>
-Package pdftex.def Info: topics/SPSchaltungen/zimg40.png  used on input line 544.
-(pdftex.def)             Requested size: 85.72705pt x 31.89813pt.
-<topics/SPSchaltungen/zimg27.png, id=92, 462.97969pt x 192.72pt>
-File: topics/SPSchaltungen/zimg27.png Graphic file (type png)
-<use topics/SPSchaltungen/zimg27.png>
-Package pdftex.def Info: topics/SPSchaltungen/zimg27.png  used on input line 546.
-(pdftex.def)             Requested size: 85.72705pt x 35.68204pt.
-<topics/SPSchaltungen/zimg35.png, id=93, 649.67719pt x 342.5297pt>
-File: topics/SPSchaltungen/zimg35.png Graphic file (type png)
-<use topics/SPSchaltungen/zimg35.png>
-Package pdftex.def Info: topics/SPSchaltungen/zimg35.png  used on input line 547.
-(pdftex.def)             Requested size: 85.72705pt x 45.1942pt.
-<topics/SPSchaltungen/zimg41.png, id=94, 335.75438pt x 117.43875pt>
-File: topics/SPSchaltungen/zimg41.png Graphic file (type png)
-<use topics/SPSchaltungen/zimg41.png>
-Package pdftex.def Info: topics/SPSchaltungen/zimg41.png  used on input line 548.
-(pdftex.def)             Requested size: 85.72705pt x 29.985pt.
-<topics/SPSchaltungen/zimg28.png, id=95, 420.06938pt x 179.92218pt>
-File: topics/SPSchaltungen/zimg28.png Graphic file (type png)
-<use topics/SPSchaltungen/zimg28.png>
-Package pdftex.def Info: topics/SPSchaltungen/zimg28.png  used on input line 550.
-(pdftex.def)             Requested size: 85.72705pt x 36.71681pt.
-<topics/SPSchaltungen/zimg36.png, id=96, 584.1825pt x 307.90031pt>
-File: topics/SPSchaltungen/zimg36.png Graphic file (type png)
-<use topics/SPSchaltungen/zimg36.png>
-Package pdftex.def Info: topics/SPSchaltungen/zimg36.png  used on input line 551.
-(pdftex.def)             Requested size: 85.72705pt x 45.18233pt.
-<topics/SPSchaltungen/zimg42.png, id=97, 493.0922pt x 178.41656pt>
-File: topics/SPSchaltungen/zimg42.png Graphic file (type png)
-<use topics/SPSchaltungen/zimg42.png>
-Package pdftex.def Info: topics/SPSchaltungen/zimg42.png  used on input line 552.
-(pdftex.def)             Requested size: 85.72705pt x 31.01645pt.
-<topics/SPSchaltungen/zimg29.png, id=98, 428.35031pt x 185.94469pt>
-File: topics/SPSchaltungen/zimg29.png Graphic file (type png)
-<use topics/SPSchaltungen/zimg29.png>
-Package pdftex.def Info: topics/SPSchaltungen/zimg29.png  used on input line 554.
-(pdftex.def)             Requested size: 85.72705pt x 37.2138pt.
-<topics/SPSchaltungen/zimg37.png, id=99, 584.1825pt x 307.90031pt>
-File: topics/SPSchaltungen/zimg37.png Graphic file (type png)
-<use topics/SPSchaltungen/zimg37.png>
-Package pdftex.def Info: topics/SPSchaltungen/zimg37.png  used on input line 555.
-(pdftex.def)             Requested size: 85.72705pt x 45.18233pt.
-<topics/SPSchaltungen/zimg43.png, id=100, 469.00218pt x 175.40532pt>
-File: topics/SPSchaltungen/zimg43.png Graphic file (type png)
-<use topics/SPSchaltungen/zimg43.png>
-Package pdftex.def Info: topics/SPSchaltungen/zimg43.png  used on input line 556.
-(pdftex.def)             Requested size: 85.72705pt x 32.06139pt.
-<topics/SPSchaltungen/zimg30.png, id=101, 423.08063pt x 197.23688pt>
-File: topics/SPSchaltungen/zimg30.png Graphic file (type png)
-<use topics/SPSchaltungen/zimg30.png>
-Package pdftex.def Info: topics/SPSchaltungen/zimg30.png  used on input line 558.
-(pdftex.def)             Requested size: 85.72705pt x 39.96431pt.
-<topics/SPSchaltungen/zimg38.png, id=102, 525.46312pt x 277.035pt>
-File: topics/SPSchaltungen/zimg38.png Graphic file (type png)
-<use topics/SPSchaltungen/zimg38.png>
-Package pdftex.def Info: topics/SPSchaltungen/zimg38.png  used on input line 559.
-(pdftex.def)             Requested size: 85.72705pt x 45.19307pt.
-<topics/SPSchaltungen/zimg44.png, id=103, 374.90062pt x 132.495pt>
-File: topics/SPSchaltungen/zimg44.png Graphic file (type png)
-<use topics/SPSchaltungen/zimg44.png>
-Package pdftex.def Info: topics/SPSchaltungen/zimg44.png  used on input line 560.
-(pdftex.def)             Requested size: 85.72705pt x 30.29529pt.
-)
+pdfTeX warning: pdflatex (file ./topics/Mischer/6. Mischer.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./topics/Mischer/zimg1.png> <./topics/Mischer/zimg2.png> <./topics/Mischer/zimg4.png> <./topics/Mischer/zimg3.png>])
 
 
 
-[5
+[2
 
- <./topics/SPSchaltungen/zimg18.png (PNG copy)> <./topics/SPSchaltungen/zimg50.png> <./topics/SPSchaltungen/zimg51.png> <./topics/SPSchaltungen/zimg19.png (PNG copy)> <./topics/SPSchaltungen/zimg20.png> <./topics/SPSchaltungen/zimg23.png (PNG copy)> <./topics/SPSchaltungen/zimg21.png> <./topics/SPSchaltungen/zimg31.png (PNG copy)> <./topics/SPSchaltungen/zimg24.png (PNG copy)> <./topics/SPSchaltungen/zimg22.png> <./topics/SPSchaltungen/zimg32.png (PNG copy)> <./topics/SPSchaltungen/zimg25.png (PNG copy)> <./topics/SPSchaltungen/zimg33.png> <./topics/SPSchaltungen/zimg39.png (PNG copy)> <./topics/SPSchaltungen/zimg26.png (PNG copy)> <./topics/SPSchaltungen/zimg34.png> <./topics/SPSchaltungen/zimg40.png (PNG copy)> <./topics/SPSchaltungen/zimg27.png (PNG copy)> <./topics/SPSchaltungen/zimg35.png> <./topics/SPSchaltungen/zimg41.png (PNG copy)> <./topics/SPSchaltungen/zimg28.png (PNG copy)> <./topics/SPSchaltungen/zimg36.png> <./topics/SPSchaltungen/zimg42.png (PNG copy)> <./topics/SPSchaltungen/zimg29.png (PNG copy)> <./topics/SPSchaltungen/zimg37.png> <./topics/SPSchaltungen/zimg43.png (PNG copy)> <./topics/SPSchaltungen/zimg30.png (PNG copy)> <./topics/SPSchaltungen/zimg38.png> <./topics/SPSchaltungen/zimg44.png (PNG copy)>] (./main.aux)
+] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 15243 strings out of 473197
- 319863 string characters out of 5718606
- 702821 words of memory out of 5000000
- 38227 multiletter control sequences out of 15000+600000
- 579959 words of font info for 113 fonts, out of 8000000 for 9000
+ 14134 strings out of 473197
+ 283837 string characters out of 5718606
+ 677179 words of memory out of 5000000
+ 37136 multiletter control sequences out of 15000+600000
+ 568113 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,9n,121p,613b,566s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on main.pdf (5 pages, 4816182 bytes).
+ 117i,9n,121p,448b,206s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb>
+Output written on main.pdf (2 pages, 1630923 bytes).
 PDF statistics:
- 174 PDF objects out of 1000 (max. 8388607)
- 64 compressed objects within 1 object stream
+ 98 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 363 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 43 words of extra memory for PDF output out of 10000 (max. 10000000)
 

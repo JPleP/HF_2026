@@ -1,0 +1,160 @@
+\section{Mischer}
+\renewcommand{\ort}{topics/Mischer}
+
+\includegraphics[width=\linewidth,page=1]{topics/Mischer/6. Mischer.pdf}
+\includegraphics[width=\linewidth,page=2]{topics/Mischer/6. Mischer.pdf}
+
+\subsection{Breitband-Mischer}
+
+\fb \\
+
+\fb \\
+$\begin{bmatrix}
+    I_s \\ I_i \\ I^*_{sp}
+\end{bmatrix} = \begin{bmatrix}
+    G_0 & G_1 & G_2 \\ G_1^* & G_0 & G_1 \\ G_2^* & G_1^* & G_0 \\
+\end{bmatrix} \begin{bmatrix}
+    U_2 \\ U_i \\ U_sp^*
+\end{bmatrix}$
+
+
+\fb \\
+
+$\begin{bmatrix}
+    I_s \\ I_i
+\end{bmatrix} = \begin{bmatrix}
+    G_0 & G_1 \\ G_1^* & G_0
+\end{bmatrix}\begin{bmatrix}
+    U_s \\ U_i
+\end{bmatrix}$
+
+
+$I_sg = I_s + Y_s U_s$
+
+
+$I_i = -Y_i U_i$
+
+$\begin{bmatrix}
+    I_{sg} \\ 0
+\end{bmatrix} = \begin{bmatrix}
+    G_0 + Y_s & G_1 \\ G_1^* & G_0 + Y_i
+\end{bmatrix}\begin{bmatrix}
+    U_s \\ U_i
+\end{bmatrix}$
+
+Gewinn $G_P = \frac{\text{Ausgangsleistung}}{\text{verfügbare Generatorleistung}}$
+
+\fb \\
+
+$P_{g,av} = \frac{1}{2} \Re \{U_s I_s^*\}$
+
+$U_s = \frac{I_{sg}}{Y_s + Y_s^*}$
+
+$I_s = I_{sg} \frac{Y_s^*}{Y_s + Y_s^*}$
+
+$\Rightarrow P_{g,av} = \frac{1}{2} \Re \left\{ \frac{I_{sg}I_{sg}^*Y_s}{(Y_s + Y_s^*)(Y_s + Y_s^*)^*}\right\}
+= \frac{\abs{I_{sg}}^2}{8\Re \{Y_s\}}$
+
+Ausgangsleistung: $P_2 = \frac{1}{2} \Re \{U_iI_i^*\} = \frac{1}{2} \Re \{U_iU_i^*Y_i\} = \frac{1}{2} \abs{U_i}^2 \Re\{Y_i\}$
+
+
+$G_P = \frac{\frac{1}{2}\abs{U_i}^2 \Re\{Y_i\}}{\frac{1}{8}\abs{I_{sg}}^2 \frac{1}{\Re \{Y_s\}}}
+= 4\abs{\frac{U_i}{I_sg}}^2 \Re\{Y_i\}\Re\{Y_s\}$
+
+
+$\begin{bmatrix}
+    U_s \\ U_i \end{bmatrix}= \begin{bmatrix}
+        \tilde{G}
+    \end{bmatrix}^{-1} \begin{bmatrix}
+        I_{sg} \\ 0
+    \end{bmatrix} = \frac{1}{(G_0 + Y_s)(G_0 + Y_i) - \abs{G_1}^2} \begin{bmatrix}
+        G_0 + Y_i & -G_1 \\ -G_1^* & G_0 + Y_s
+    \end{bmatrix} \begin{bmatrix}
+        I_{sg} \\ 0
+    \end{bmatrix}
+$
+$\frac{U_i}{I_{sg}} = \frac{-G_1^*}{(G_0 + Y_s)(G_0 + Y_i) - \abs{G_1}^2}$
+
+
+$\Rightarrow G_P = 4 \frac{\abs{G_1}^2\Re\{Y_i\}\Re\{Y_s\}}{\abs{(G_0 + Y_s)(G_0 + Y_i) - \abs{G_1}^2}^2}$
+
+
+\subsection{Ausführungsformen von Mischern}
+
+\subsubsection{Ein Dioden Mischer}
+\fb \\
+
+\fb \\
+
+
+
+Elemente zu Verfügung
+\begin{pitemize}
+    \item \bildfR{0.1}{zimg1}
+    \item \bildfR{0.1}{zimg2}
+    \item \bildfR{0.1}{zimg4}
+    \item \bildfR{0.1}{zimg3}
+\end{pitemize}
+
+\fb \\
+
+\fb \\
+
+
+
+\subsubsection{Zwei Dioden Mischer}
+
+
+\fb \\
+
+
+$u_p(t) = \hat{u}_p \cos(\omega_p t)$
+
+$u_s(t) = \hat{u}_s \cos(\omega_s t + \varphi_s)$
+
+Diode 1: $u_{D1}(t) \frac{1}{\sqrt{2}} \hat{u}_p \cos(\omega_p t) + \frac{1}{\sqrt{2}} \hat{u}_s \cos(\omega_s t + \varphi_s + 90^\circ)$
+
+Diode 2: $u_{D2}(t) \frac{1}{\sqrt{2}} \hat{u}_p \cos(\omega_p t + 90^\circ) + \frac{1}{\sqrt{2}} \hat{u}_s \cos(\omega_s t + \varphi_s)$
+
+$\Rightarrow u_i(t) = \kappa G_1 \hat{u}_s \cos\left((\omega_s - \omega_p)t + \varphi_s  90^\circ\right)$
+
+$u_i(t) = \kappa G_1 \hat{u}_s \cos\left( \omega_i t + \varphi_s + 90^\circ\right)$
+
+
+Einfach balancierter Mischer
+Rauschbalancierung $\Rightarrow$ Amplitudenschwankungen eben sich auf durch guten Gleichlauf der Dioden.
+und ihre entgegengesetzt orientierte Einbaurichtung.
+
+\subsubsection{4-Dioden-Mischer}
+
+
+\fb \\
+
+ZF$-$Phase resultiert als Differenzphase hier all ZF$-$Pfeile.
+Parallel $Rightarrow$ summieren sich auf.
+\begin{pitemize}
+    \item Rauschbalancierung $\rightarrow$ Amplitudenschwankungen heben sich auf.
+    \item Signalbalancierung: RF$-$LO, RF$-$ZF, LO$-$ZF, da alle Tore entkoppelt sind.
+\end{pitemize}
+
+
+Für höherfrequente Realisierung $\Rightarrow$ Einsatz von Kopplern
+
+\fb \\
+
+
+Phasenregelkreise
+\begin{pitemize}
+    \item Synthesegenerator
+    \item Stabilisierung von Signalen
+\end{pitemize}
+
+
+
+Skalare Netzwerkanalysator
+
+\fb \\
+
+Vektorielle Netzwerkanalysatoren
+
+\fb \\

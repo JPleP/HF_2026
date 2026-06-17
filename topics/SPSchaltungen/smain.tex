@@ -537,11 +537,11 @@ KS Unity Element is induktiv
 \hrule
 \bildfR{0.3}{zimg25}
 \bildfR{0.3}{zimg33}
-\bildfR{0.3}{zimg39}
+\bildfR{0.3}{zimg40}\textcolor{red}{1}
 \hrule
 \bildfR{0.3}{zimg26}
 \bildfR{0.3}{zimg34}
-\bildfR{0.3}{zimg40}
+\bildfR{0.3}{zimg39}\textcolor{red}{4}
 \hrule
 \bildfR{0.3}{zimg27}
 \bildfR{0.3}{zimg35}
@@ -558,3 +558,55 @@ KS Unity Element is induktiv
 \bildfR{0.3}{zimg30}
 \bildfR{0.3}{zimg38}
 \bildfR{0.3}{zimg44}
+
+
+
+\subsubsection{Realisierung eines BP mit BW-Verhalten}
+
+$\abs{\Sigma_{12}(s)}^2 = \left(\frac{s_c^2}{s^2}\right)^m \left(\frac{1 - s_c^2}{1 - s^2}\right)^n$
+\begin{pitemize}
+    \item $m \hat{=}$ Anzahl Ind. und Kap.
+    \item $n \hat{=}$ Anzahl LeitungsEle.
+\end{pitemize}
+
+für $m=1, n=2 \Rightarrow$
+$\abs{\Sigma_{12}(s)}^2 = \left(\frac{s_c^2}{s^2}\right) \left(\frac{1 - s_c^2}{1 - s^2}\right)^2$
+
+\fb \\
+
+$\frac{\omega_L}{\omega_0} = 0.65$
+
+$s_c = j \tan(\frac{\pi}{2} \frac{\omega_L}{\omega_0}) = j1.6343 \Rightarrow (s_c)^2(1 - s_c^2)^2 = -36$
+
+$\abs{S_{11}(s)}^2 = \frac{\abs{\Sigma_{12}(s)}^2}{1 + \abs{\Sigma_{12}(s)}^2} = \frac{-36}{s^2 (1- s^2)^2} \frac{1}{1 - \frac{36}{s^2 (1- s^2)^2}} = \frac{-36}{s^2(1-s^2)^2 - 36} = S_{11}(s)S_{11}(-s) = \frac{\pm 6}{s^3 + 4s^2 + 7s + 6} \frac{\mp 6}{s^3 + 4s^2 + 7s - 6}$ Erster Frac is $S_{11}$
+
+Aufstellen von $W_{in}$:\\
+$W_{in} = \frac{1 + S_{11}(s)}{1 - S_{11}(s)}$
+
+Pos. VZ:
+\begin{penumerate}
+    \item $W_{in}(s) = \frac{s^3 + 4s^2 + 7s + 12}{s^3 + 4s^2 + 7s}$
+    \item $W_{in}(1) = -W_{in}(-1)$?:
+    \begin{pitemize}
+        \item $W_{in}(1) = \frac{1 + 4 + 7 + 12}{1 + 4 + 7} = 2 = Z_1$
+        \item $W_{in}(s) = \frac{-1 + 4 - 7 + 12}{-1 + 4 - 7} = -2$
+    \end{pitemize}
+    \item Leitungs Element abspalten
+    \begin{enumerate}
+        \item $W_{in}'(s) = Z_1 \frac{sW_{in}(1) - W_{in}(s)}{sW_{in}(s) - W_{in}(1)}$
+        \item $W_{in}'(s) = 2\frac{2s - \frac{s^3 + 4s^2 + 7s + 12}{s^3 + 4s^2 + 7s}}{s(\frac{s^3 + 4s^2 + 7s + 12}{s^3 + 4s^2 + 7s}) - 2} = 2\frac{2s^4 + 8s^3 + 14s^2 - s^3 - 4s^2 - 7s - 12}{s^4 + 4s^3 + 7s^2 + 12s - 2s^3 - 8s^2 - 14s} = 2\frac{2s^4 + 7s^3 +10s^2 - 7s -12}{s^4 + 2s^3 - s^2 - 2s} = 2\frac{2s^2(s^2-1) + 7s(s^2-1) + 12(s^2-1)}{s^2(s^2-1)+2s(s^2-1)} = 2\frac{2s^2 + 7s + 12}{s^2 + 2s}$
+    \end{enumerate}
+    \item HP: da $\lim_{s\rightarrow \infty}\limits W_{in}'(s)= 1$
+    \item $\lim_{s\rightarrow 0}\limits W_{in}'(s) = \frac{12}{s} \Rightarrow C_2 = \frac{1}{10}$ Serie da HP 
+    \item $W_{in}''(s) = W_{in}' - \frac{12}{s} = 2\frac{2s^2 + 7s + 12 - 6s - 12}{s^2 +2s} = 2\frac{2s^2 + s}{s^2 + 2s} = 2\frac{2s + 1}{s + 2}$
+    \item Leitungselement mit $Z_3 = 2$ und $Z_0 = 1$
+    \item \bildf{zimg56}
+\end{penumerate}
+Realisierung mit Mikrostreifenleitungen 
+
+\begin{itemize}
+    \item \bildf{zimg52}
+    \item \bildf{zimg58}
+    \item \bildf{zimg57}
+    \item \bildf{zimg55}
+\end{itemize}
