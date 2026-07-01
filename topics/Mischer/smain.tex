@@ -158,3 +158,154 @@ Vektorielle Netzwerkanalysatoren
 \includegraphics[width=\linewidth,page=3]{topics/Mischer/7.Phasenregelkreise.pdf}
 \includegraphics[width=\linewidth,page=4]{topics/Mischer/7.Phasenregelkreise.pdf}
 
+
+
+
+\subsection{Digitale Phasendiskriminatoren}
+
+\subsubsection{Exklusiv Oder- Gatter}
+
+\fb \\
+
+\begin{tabular}{cc|c}
+    R & V & Y\\
+    0 & 0 & 0\\
+    0 & 1 & 1\\
+    1 & 0 & 1\\
+    1 & 1 & 0
+\end{tabular}
+
+Vor.: Tastverhältnis der Signale 50\%
+
+\fb \\
+
+$\theta_e = \theta_R - \theta_V$
+
+stabiler Regelpunkt bei $90^\circ$: 
+\begin{itemize}
+    \item Nicht seitenbandselektiv.
+    \item Recktecksingale mit 50\% Tastverhältnis
+\end{itemize}
+
+
+\subsubsection{Flip Flop als unsymmetris. PD}
+
+\fb \\
+
+S = Set 
+R = Reset 
+
+\fb FF\\
+
+\fb Die 9 Plots. \\ 
+
+\fb Plot von Uq und Theta e\\
+
+\begin{itemize}
+    \item seitenbandselektiv
+    \item flankengesteuert
+\end{itemize}
+
+
+\subsection{Phasen-Frequenz-Diskriminatoren PFD}
+
+\fb Shaltbild\\
+
+Zustandgraph:\\
+
+\begin{pitemize}
+    \item $\uparrow 0 \hat{=}$ Flanke am Ref. Eingang.
+    \item $0 \uparrow \hat{=}$ Flanke am VCO Eingang.
+    \item $00 \hat{=}$ Keine Flanke.
+    \item $\uparrow \uparrow \hat{=}$ Flanke am Ref. und VCO Eingang.
+\end{pitemize}
+
+$U_q = A-B$
+
+3 Zustände $\Rightarrow$ frequenzselektiv
+$K_d = \frac{U_h}{2 \pi}$
+
+
+\subsection{Schritt-/Synthesegeneratoren}
+\fb \\
+
+\begin{pitemize}
+    \item Reproduzierbare Frequenzeinstellung
+    \item Kleine Einschwingzeit für schnelle Einstellung
+    \item Kleines $\Delta f$ für lineare Rampe
+    \item Optimales Phasenrauschen
+\end{pitemize}
+
+
+\subsubsection{Einschleifiger Phasenregelkreis}
+Realisierung eines Schrittgenerators
+
+\fb \\
+
+\begin{pitemize}
+    \item $\Delta f = f_{Ref}$
+    \subitem $\Delta f \downarrow \rightarrow f_{Ref} \downarrow \rightarrow N \uparrow$
+    \item Phasenrauschen des VCO
+    \subitem $W_V \sim N^2$
+    \item Eckfrequenz des Regelkreises $F(s)$
+    \subitem $f_c \approx \frac{1}{20} f_{Ref}$
+    \subitem $f_{Ref} \downarrow \rightarrow f_c \downarrow \rightarrow$ Langsames Einschwingungsverhalten
+\end{pitemize}
+
+
+\subsubsection{PLL mit Mischer}
+
+\fb \\
+
+\begin{pitemize}
+    \item $f_V = f_{Lo} \pm N f_{Ref}$
+    \item $\Delta f_V = f_{Ref}$
+    \item Kleinere Teilungsfaktor $\rightarrow$ geringeres Phasenrauschen
+    \item keine Reduktion der Frequenzschrittweite
+\end{pitemize}
+
+\subsubsection{Verschachtelte PLL}
+
+\fb \\
+
+
+\begin{pitemize}
+    \item $f_z = \abs{f_v - f_{v2}}$
+    \item $f_{v2} = L f_{Ref}$
+    \item $f_{v3} = N f_{Ref}$
+    \item $f_{v3} = M f_{z} $
+    \item $f_v = f_{v2} \pm f_z = L \cdot f_{Ref} \pm \frac{N \cdot f_{Ref}}{M}$
+    \item $\Delta f_v = \frac{f_{Ref}}{M}$
+\end{pitemize}
+
+
+\subsection{PLL mit fraktionalem Teiler}
+
+\fb Schaltbild\\
+
+\fb N über Zeit\\
+
+\begin{pitemize}
+    \item M Takte einer Periode T
+    \item Zeitl. Mittelwert: $\bar{N} = \frac{(M - k)N + k(N + 1)}{M} = N + \frac{k}{M}$
+    \item $f_v = (N + \frac{k}{M}) f_{Ref}$
+\end{pitemize}          
+
+Frequenzrampe
+\fb Frequenzrampe \\
+
+wirkt wie zufälliges "Umschalten" des Teilungsfaktor $\rightarrow$ noise shaping $\rightarrow$ um Störsignale zu unterdrücken, die bei periodischen umschalten erscheinen.
+
+\fb Spektrum \\
+
+\fb Frequenzrampe \\
+
+\begin{pitemize}
+    \item N wird im gleichen Zeitabständen $\Delta T$ verändert
+    \item Bandbreite $B = f_{max} - f_{min} = N_{max} f_{Ref} - N_{min} f_{Ref} = Zf_{Ref} $
+    \item Rampendauer: $T = Z \Delta T = Z \frac{1}{f_{Ref}}$
+    \item $BT = Z^2 \Leftrightarrow Z = \sqrt{BT}$
+\end{pitemize}
+
+
+

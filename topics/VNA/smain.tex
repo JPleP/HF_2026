@@ -1,0 +1,104 @@
+\section{VNA}
+\renewcommand{\ort}{topics/VNA}
+
+
+\subsection{skalares NWA}
+
+\fb NWA\\
+
+
+\begin{pitemize}
+    \item $\abs{S_{21}}^2 ,\abs{S_{11}}^2$ können aus Leistungsmessungen
+    \item durch Umdrehen des MO
+    \item nur Fehlerabschätzung
+\end{pitemize}
+
+VNA
+
+\fb VNA\\
+
+
+\fb \\
+
+\begin{pitemize}
+    \item Amplituden und Phasen in (was hier) und durch Mischung gewonnen.
+    \item Betrag und Phase von $S_{21}, S_{11}$
+    \item Durch umdrehen von MO $S_{12}, S_{22}$
+    \item Systemfehler
+    \begin{pitemize}
+        \item Verlust der Zuleitungen und der Systemkomponenten
+        \item Fehleranpassung an Steckern, Kabel, Leitungskoppler, Generator
+        \item Nichtidealitäten der Mischer und Verstärker
+    \end{pitemize} 
+\end{pitemize}
+
+
+
+\subsection{Linear Fehlermodell}
+
+\fb \\
+
+$\begin{bmatrix}
+    b_1 \\ b_2 \\b_3 \\ b_4
+\end{bmatrix} = 
+\begin{bmatrix}
+    K_{11} & K_{12} & K_{13} & K_{14} \\
+    K_{21} & K_{22} & K_{23} & K_{24} \\
+    K_{31} & K_{32} & K_{33} & K_{34} \\
+    K_{41} & K_{42} & K_{43} & K_{44} \\
+\end{bmatrix} \begin{bmatrix}
+    a_1 \\ a_2 \\ a_3 \\ a_4
+\end{bmatrix}$
+
+\begin{pitemize}
+    \item $a_2 = r_2 b_2$
+    \item $a_4 = r_4 b_4$
+\end{pitemize}
+
+\begin{pitemize}
+    \item $b_1 = K_{11} a_1 + K_{12} r_2 b_2 + K_{13} a_3 + K_{14} r_4b_4$
+\end{pitemize}
+Es gelingt, $a_1$ und $b_1$ zu eliminieren durch Umformen und Einsetzen.
+Zusammenhang zwischen $b_2, b_4, a_3, b_3$
+Viertor-Zweitor-Reduktion
+
+\begin{pitemize}
+    \item $m_f = \nu_2 b_2$
+    \item $m_r = \nu_4 b_4$
+    \item $\nu_2,\nu_4 = $ f(Mischerkonversionsfaktors, ZF-Verstärkung) 
+    \item $R_{11} f(K_{11}, ..., r_2, r_4, \nu_2, \nu_4)$
+\end{pitemize}
+
+\fb R block\\
+
+\begin{pitemize}
+    \item $m_r = R_{11}m_f + R_{12} a_3$
+    \item $b_3 = R_{21} m_f + R_{22} a_3$
+\end{pitemize}
+
+
+
+\subsubsection{Nach Viertor-Zweitor-Reducktion}
+
+\fb \\
+
+\begin{pitemize}
+    \item bestimmbar/bekannt aus Messungen:
+    \subitem $m_r, m_f, m_t$
+    \item unbekannt: $[R], [T]$
+    \subitem Bestimmung aus Kalibrierung
+    \item Kalibrierung:Ersetzen des MO durch bekannte Reflektionstandards.
+    \begin{pitemize}
+            \item $m_r = R_{11}m_f + R_{12}\Gamma b_3$
+            \item $b_3 = R_{21}m_f + R_{22} \Gamma b_3$
+            \item $b_3 = \frac{R_{21}m_f}{1 - R_{22}\Gamma}$
+            \item $\mu = \frac{m_r}{m_f} = R_{11} + \frac{R_{12}R_{21}\Gamma}{1 - R_{22}\Gamma}$
+        \end{pitemize}
+    \begin{penumerate}
+        \item Anpassung: $\Gamma = 0 \Rightarrow \mu_1 = \frac{m_{r1}}{m_{f1}} = R_{11}$
+        \item KS: $\Gamma = -1 \Rightarrow \mu_2 = \frac{m_{r2}}{m_{f2}} = R_{11} - \frac{R_{12}R_{21}}{1 + R_{22}}$
+        \item LL: $\Gamma = 1 \Rightarrow \mu_3 = \frac{m_{r3}}{m_{f3}} = R_{11}+ \frac{R_{12}R_{21}}{1 - R_{22}}$
+    \end{penumerate} 
+\end{pitemize}
+
+
