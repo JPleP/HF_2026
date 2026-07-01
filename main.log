@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.1.4)  1 JUL 2026 11:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.1.4)  1 JUL 2026 11:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -419,39 +419,172 @@ Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-)) (./topics/VNA/smain.tex
-LaTeX Font Info:    Trying to load font information for U+msa on input line 11.
+)) (./topics/Mischer/smain.tex
+<topics/Mischer/6. Mischer.pdf, id=4, page=1, 925.7787pt x 845.07718pt>
+File: topics/Mischer/6. Mischer.pdf Graphic file (type pdf)
+<use topics/Mischer/6. Mischer.pdf, page 1>
+Package pdftex.def Info: topics/Mischer/6. Mischer.pdf , page1 used on input line 4.
+(pdftex.def)             Requested size: 285.75394pt x 260.84937pt.
+<topics/Mischer/6. Mischer.pdf, id=5, page=2, 925.7787pt x 845.07718pt>
+File: topics/Mischer/6. Mischer.pdf Graphic file (type pdf)
+<use topics/Mischer/6. Mischer.pdf, page 2>
+Package pdftex.def Info: topics/Mischer/6. Mischer.pdf , page2 used on input line 5.
+(pdftex.def)             Requested size: 285.75394pt x 260.84937pt.
+<topics/Mischer/BreitbandMischer.jpeg, id=6, 1345.025pt x 1003.75pt>
+File: topics/Mischer/BreitbandMischer.jpeg Graphic file (type jpg)
+<use topics/Mischer/BreitbandMischer.jpeg>
+Package pdftex.def Info: topics/Mischer/BreitbandMischer.jpeg  used on input line 9.
+(pdftex.def)             Requested size: 142.87697pt x 106.61447pt.
+<topics/Mischer/ESB BB Mischer.jpeg, id=7, 1757.56625pt x 1003.75pt>
+File: topics/Mischer/ESB BB Mischer.jpeg Graphic file (type jpg)
+<use topics/Mischer/ESB BB Mischer.jpeg>
+Package pdftex.def Info: topics/Mischer/ESB BB Mischer.jpeg  used on input line 11.
+(pdftex.def)             Requested size: 142.87697pt x 81.58818pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 12.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 11.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 12.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
-)
+<topics/Mischer/ESB Mischer.jpeg, id=8, 1956.30875pt x 1003.75pt>
+File: topics/Mischer/ESB Mischer.jpeg Graphic file (type jpg)
+<use topics/Mischer/ESB Mischer.jpeg>
+Package pdftex.def Info: topics/Mischer/ESB Mischer.jpeg  used on input line 21.
+(pdftex.def)             Requested size: 142.87697pt x 73.30223pt.
+<topics/Mischer/verf Pgen.jpeg, id=9, 2163.08125pt x 1003.75pt>
+File: topics/Mischer/verf Pgen.jpeg Graphic file (type jpg)
+<use topics/Mischer/verf Pgen.jpeg>
+Package pdftex.def Info: topics/Mischer/verf Pgen.jpeg  used on input line 47.
+(pdftex.def)             Requested size: 142.87697pt x 66.28752pt.
+<topics/Mischer/1DiodenMischer.jpeg, id=10, 1511.6475pt x 1003.75pt>
+File: topics/Mischer/1DiodenMischer.jpeg Graphic file (type jpg)
+<use topics/Mischer/1DiodenMischer.jpeg>
+Package pdftex.def Info: topics/Mischer/1DiodenMischer.jpeg  used on input line 85.
+(pdftex.def)             Requested size: 142.87697pt x 94.86713pt.
+<topics/Mischer/zimg1.png, id=11, 459.7175pt x 271.0125pt>
+File: topics/Mischer/zimg1.png Graphic file (type png)
+<use topics/Mischer/zimg1.png>
+Package pdftex.def Info: topics/Mischer/zimg1.png  used on input line 89.
+(pdftex.def)             Requested size: 26.387pt x 15.5529pt.
+<topics/Mischer/zimg2.png, id=12, 431.6125pt x 244.915pt>
+File: topics/Mischer/zimg2.png Graphic file (type png)
+<use topics/Mischer/zimg2.png>
+Package pdftex.def Info: topics/Mischer/zimg2.png  used on input line 90.
+(pdftex.def)             Requested size: 26.387pt x 14.97081pt.
+<topics/Mischer/zimg4.png, id=13, 425.59pt x 347.2975pt>
+File: topics/Mischer/zimg4.png Graphic file (type png)
+<use topics/Mischer/zimg4.png>
+Package pdftex.def Info: topics/Mischer/zimg4.png  used on input line 91.
+(pdftex.def)             Requested size: 26.387pt x 21.53116pt.
+<topics/Mischer/zimg3.png, id=14, 415.5525pt x 343.2825pt>
+File: topics/Mischer/zimg3.png Graphic file (type png)
+<use topics/Mischer/zimg3.png>
+Package pdftex.def Info: topics/Mischer/zimg3.png  used on input line 92.
+(pdftex.def)             Requested size: 26.387pt x 21.79556pt.
+<topics/Mischer/DiodeKS.jpeg, id=15, 2306.6175pt x 1002.74625pt>
+File: topics/Mischer/DiodeKS.jpeg Graphic file (type jpg)
+<use topics/Mischer/DiodeKS.jpeg>
+Package pdftex.def Info: topics/Mischer/DiodeKS.jpeg  used on input line 95.
+(pdftex.def)             Requested size: 142.87697pt x 62.10536pt.
+<topics/Mischer/2DiodenMischer.jpeg, id=16, 1720.4275pt x 1003.75pt>
+File: topics/Mischer/2DiodenMischer.jpeg Graphic file (type jpg)
+<use topics/Mischer/2DiodenMischer.jpeg>
+Package pdftex.def Info: topics/Mischer/2DiodenMischer.jpeg  used on input line 101.
+(pdftex.def)             Requested size: 142.87697pt x 83.34952pt.
+
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] (./main.aux)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./topics/Mischer/6. Mischer.pdf> <./topics/Mischer/6. Mischer.pdf
+
+pdfTeX warning: pdflatex (file ./topics/Mischer/6. Mischer.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./topics/Mischer/BreitbandMischer.jpeg> <./topics/Mischer/ESB BB Mischer.jpeg> <./topics/Mischer/ESB Mischer.jpeg> <./topics/Mischer/verf Pgen.jpeg> <./topics/Mischer/1DiodenMischer.jpeg> <./topics/Mischer/zimg1.png> <./topics/Mischer/zimg2.png> <./topics/Mischer/zimg4.png> <./topics/Mischer/zimg3.png> <./topics/Mischer/DiodeKS.jpeg>]
+<topics/Mischer/4DiodenMischer.jpeg, id=47, 1562.83875pt x 1003.75pt>
+File: topics/Mischer/4DiodenMischer.jpeg Graphic file (type jpg)
+<use topics/Mischer/4DiodenMischer.jpeg>
+Package pdftex.def Info: topics/Mischer/4DiodenMischer.jpeg  used on input line 124.
+(pdftex.def)             Requested size: 142.87697pt x 91.75798pt.
+<topics/Mischer/4DiodenMischer mit RK.jpeg, id=48, 3949.75626pt x 1003.75pt>
+File: topics/Mischer/4DiodenMischer mit RK.jpeg Graphic file (type jpg)
+<use topics/Mischer/4DiodenMischer mit RK.jpeg>
+Package pdftex.def Info: topics/Mischer/4DiodenMischer mit RK.jpeg  used on input line 136.
+(pdftex.def)             Requested size: 142.87697pt x 36.29884pt.
+<topics/Mischer/skalarNWA.jpeg, id=49, 2729.19624pt x 1003.75pt>
+File: topics/Mischer/skalarNWA.jpeg Graphic file (type jpg)
+<use topics/Mischer/skalarNWA.jpeg>
+Package pdftex.def Info: topics/Mischer/skalarNWA.jpeg  used on input line 149.
+(pdftex.def)             Requested size: 142.87697pt x 52.53378pt.
+<topics/Mischer/vektorNWA.jpeg, id=50, 2322.6775pt x 1003.75pt>
+File: topics/Mischer/vektorNWA.jpeg Graphic file (type jpg)
+<use topics/Mischer/vektorNWA.jpeg>
+Package pdftex.def Info: topics/Mischer/vektorNWA.jpeg  used on input line 153.
+(pdftex.def)             Requested size: 142.87697pt x 61.73868pt.
+<topics/Mischer/7.Phasenregelkreise.pdf, id=51, page=1, 733.29959pt x 700.77808pt>
+File: topics/Mischer/7.Phasenregelkreise.pdf Graphic file (type pdf)
+<use topics/Mischer/7.Phasenregelkreise.pdf, page 1>
+Package pdftex.def Info: topics/Mischer/7.Phasenregelkreise.pdf , page1 used on input line 156.
+(pdftex.def)             Requested size: 285.75394pt x 273.07779pt.
+<topics/Mischer/7.Phasenregelkreise.pdf, id=52, page=2, 733.29959pt x 700.77808pt>
+File: topics/Mischer/7.Phasenregelkreise.pdf Graphic file (type pdf)
+<use topics/Mischer/7.Phasenregelkreise.pdf, page 2>
+Package pdftex.def Info: topics/Mischer/7.Phasenregelkreise.pdf , page2 used on input line 157.
+(pdftex.def)             Requested size: 285.75394pt x 273.07779pt.
+<topics/Mischer/7.Phasenregelkreise.pdf, id=53, page=3, 733.29959pt x 700.77808pt>
+File: topics/Mischer/7.Phasenregelkreise.pdf Graphic file (type pdf)
+<use topics/Mischer/7.Phasenregelkreise.pdf, page 3>
+Package pdftex.def Info: topics/Mischer/7.Phasenregelkreise.pdf , page3 used on input line 158.
+(pdftex.def)             Requested size: 285.75394pt x 273.07779pt.
+<topics/Mischer/7.Phasenregelkreise.pdf, id=54, page=4, 733.29959pt x 700.77808pt>
+File: topics/Mischer/7.Phasenregelkreise.pdf Graphic file (type pdf)
+<use topics/Mischer/7.Phasenregelkreise.pdf, page 4>
+Package pdftex.def Info: topics/Mischer/7.Phasenregelkreise.pdf , page4 used on input line 159.
+(pdftex.def)             Requested size: 285.75394pt x 273.07779pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[2 <./topics/Mischer/2DiodenMischer.jpeg> <./topics/Mischer/4DiodenMischer.jpeg> <./topics/Mischer/4DiodenMischer mit RK.jpeg> <./topics/Mischer/skalarNWA.jpeg> <./topics/Mischer/vektorNWA.jpeg> <./topics/Mischer/7.Phasenregelkreise.pdf> <./topics/Mischer/7.Phasenregelkreise.pdf
+
+pdfTeX warning: pdflatex (file ./topics/Mischer/7.Phasenregelkreise.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./topics/Mischer/7.Phasenregelkreise.pdf
+
+pdfTeX warning: pdflatex (file ./topics/Mischer/7.Phasenregelkreise.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+
+) (./topics/VNA/smain.tex
+
+[3 <./topics/Mischer/7.Phasenregelkreise.pdf>]
+
+)
+
+[4] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 14084 strings out of 473197
- 282204 string characters out of 5718606
- 669179 words of memory out of 5000000
- 37086 multiletter control sequences out of 15000+600000
+ 14350 strings out of 473197
+ 292088 string characters out of 5718606
+ 672179 words of memory out of 5000000
+ 37349 multiletter control sequences out of 15000+600000
  568113 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,8n,121p,448b,209s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on main.pdf (1 page, 129196 bytes).
+ 117i,9n,121p,448b,211s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb>
+Output written on main.pdf (4 pages, 6712996 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
- 44 compressed objects within 1 object stream
+ 144 PDF objects out of 1000 (max. 8388607)
+ 77 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 118 words of extra memory for PDF output out of 10000 (max. 10000000)
 
