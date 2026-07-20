@@ -66,7 +66,7 @@ Viertor-Zweitor-Reduktion
     \item $m_f = \nu_2 b_2$
     \item $m_r = \nu_4 b_4$
     \item $\nu_2,\nu_4 = $ f(Mischerkonversionsfaktors, ZF-Verstärkung) 
-    \item $R_{11} f(K_{11}, ..., r_2, r_4, \nu_2, \nu_4)$
+    \item $R_{11} = f(K_{11}, ..., r_2, r_4, \nu_2, \nu_4)$
 \end{pitemize}
 
 \fb R block\\
@@ -96,9 +96,313 @@ Viertor-Zweitor-Reduktion
         \end{pitemize}
     \begin{penumerate}
         \item Anpassung: $\Gamma = 0 \Rightarrow \mu_1 = \frac{m_{r1}}{m_{f1}} = R_{11}$
-        \item KS: $\Gamma = -1 \Rightarrow \mu_2 = \frac{m_{r2}}{m_{f2}} = R_{11} - \frac{R_{12}R_{21}}{1 + R_{22}}$
-        \item LL: $\Gamma = 1 \Rightarrow \mu_3 = \frac{m_{r3}}{m_{f3}} = R_{11}+ \frac{R_{12}R_{21}}{1 - R_{22}}$
+        \subitem $\mu_1 = R_{11}$
+        \item KS: $\Gamma = -1 \Rightarrow \mu_2 = \frac{m_{r2}}{m_{f2}} = R_{11} - \frac{R_{12}R_{21}}{1 + R_{22}} \Leftrightarrow\mu_2 - \mu_1 = -\frac{R_{12}R_{21}}{1 + R_{22}}$
+        \item LL: $\Gamma = 1 \Rightarrow \mu_3 = \frac{m_{r3}}{m_{f3}} = R_{11}+ \frac{R_{12}R_{21}}{1 - R_{22}} \Leftrightarrow \mu_3 - \mu_1 = \frac{R_{12}R_{21}}{1 - R_{22}}$
+        \item $\mu_x = \frac{\mu_2 - \mu_1}{\mu_3 - \mu_1} = - \frac{-(1-R_{22})}{(1 + R_{22})}$
+        \subitem $\frac{1 + \mu_x}{1 - \mu_x} = R_{22}$
+        \subitem $(\mu_3 - \mu_1)(1 - R_{22}) = R_{12}R_{21}$
     \end{penumerate} 
 \end{pitemize}
 
+3-Term-Verfahren: 
+\begin{pitemize}
+    \item $R_{11}, R_{22}, R_{12}R_{21}$
+    \item Kalibrierstand.: \textbf{M}atch, \textbf{O}pen, \textbf{S}hort
+    \item $\Rightarrow$ Messung des Eingangsreflexionsfaktors eines MO Systemfehlerkorrigiert möglich
+    \subitem $\Rightarrow \mu_{MO} = \frac{m_{r_{MO}}}{m_{f_{MO}}} = R_{11} + \frac{R_{12}R_{21}\Gamma_{MO}}{1 - R_{22}\Gamma_{MO}}$
+    \subitem $\Gamma_{MO} = \frac{R_{11}-\mu_{MO}}{R_{22}\mu_{MO}+ R_{11}R_{22}-R_{12}R_{21}}$ 
+\end{pitemize}
 
+
+für Transmissionsmessungen:
+\begin{pitemize}
+    \item Durchverbindungen: \textbf{T}hru
+    \item $\mu_4 = \frac{m_{r_4}}{m_{f_4}} = R_{11} + \frac{R_{12}R_{21}T_{11}}{1-R_{22}T_{11}} \Rightarrow$
+    \subitem $T_{11} = \frac{R_{11} - \mu_4}{R_{22}\mu_4 + R_{11}R_{22} - R_{12}R_{21}}$
+    \item $m_{t_4} = R_{21}T_{21}m_{f_4} + R_{22}T_{11}m_{t_4}$
+    \item $\mu_5 = \frac{m_{t_4}}{m_{f_4}} = \frac{R_{21}T_{21}}{1 - R_{22}T_{11}}$
+    \subitem $\mu_5 (1- R_{22}T_{11}) = R_{21}T_{21}$
+\end{pitemize}
+
+5-Term-Verfahren:
+\begin{pitemize}
+    \item $R_{11}, R_{22}, R_{12}R_{21}, T_{11}, R_{21}T_{21}$
+    \item Kalibrierstand.: M,O,S,T
+\end{pitemize}
+
+
+Streumatrix $[S]$ eines MO bestimmen:
+
+\fb \\
+
+Alle Matrizen sind Streumatrizen.
+\begin{pitemize}
+    \item $[W] \Rightarrow m_{r_1}, m_{f_1}, m_{t_1}$
+    \item $[X] \Rightarrow m_{r_2}, m_{f_2}, m_{t_2}$
+\end{pitemize}
+
+Übergang zu Transmissionsmatrizen
+
+\begin{align*}
+    \bmat{T_{W_{12}} \\ T_{W_{22}}} &= \bmat{\frac{W_{11}}{W_{21}} \\ \frac{1}{W_{21}}} = \bmat{T_R}\bmat{T_S}\bmat{T_{T_{12}} \\ T_{T_{22}}} \\
+    \bmat{T_{X_{12}} \\ T_{X_{22}}} &= \bmat{\frac{X_{11}}{X_{21}} \\ \frac{1}{X_{21}}} = \bmat{T_R}\bmat{T_S}\bmat{T_{T_{12}} \\ T_{T_{22}}} \\
+    &= \frac{1}{R_{21}} \bmat{-\Delta_R & R_{11} \\ -R_{22} & 1} \frac{1}{S_{21}}\bmat{-\Delta_S & S_{11} \\ -S_{22} & 1} \bmat{T_{11} \\ 1} 
+\end{align*}
+$\bmat{\tilde{R}} = \frac{1}{R_{21}} \bmat{-\Delta_R & R_{11} \\ -R_{22} & 1}$
+
+Multiplikation mit $\bmat{\tilde{R}}^{-1}$
+\begin{align*}
+    \bmat{\tilde{R}}^{-1}\bmat{T_{W_{12}} \\ T_{W_{22}}} &= \bmat{Y_1 \\ Y_2} = \frac{1}{S_{21}}\bmat{-\Delta_S & S_{11} \\ -S_{22} & 1} \bmat{T_{11} \\ 1} \\
+    \bmat{\tilde{R}}^{-1}\bmat{T_{X_{12}} \\ T_{X_{22}}} &= \bmat{Y_1 \\ Y_2} = \frac{1}{S_{21}}\bmat{-\Delta_S & S_{11} \\ -S_{22} & 1} \bmat{T_{11} \\ 1} \\
+\end{align*}
+
+Man erhält 4 Gleichungen z.B. $y_1= ..., ...$
+Umformen und Auflösen nach:
+\begin{pitemize}
+    \item $S_{11} = \frac{Y_1Y_4 - T_{11}}{Y_2Y_4 - T_{11}^2}$
+    \item $S_{22} = \frac{Y_2Y_3 - T_{11}}{Y_2Y_4 - T_{11}^2}$
+    \item $S_{12} = \frac{1 - T_{11}S_{11}}{Y_4}$
+    \item $S_{21} = \frac{1 - T_{11}S_{22}}{Y_2}$ 
+\end{pitemize}
+
+Streumatrix des MO fehlerkorrigiert bestimmbar
+MO muss gedreht werden.
+
+\subsection{VNA mit 3 Messstellen und Schalter}
+
+\fb \\
+
+\fb Falls relevant. Ist ja nur gespiegelt\\
+
+\begin{pitemize}
+    \item Pos. I: $R_{11}',R_{22}',R_{12}',R_{21}', T_{11}', R_{21}' T_{21}'$
+    \item Pos. II: $R_{11}',R_{22}',R_{12}',R_{21}', T_{11}', R_{21}' T_{21}'$
+    \item Schalter muss reproduzierbar sein. Darf aber fehlerangepasst, verlustbehaftet und in Positionen unterschiedlich sein.
+\end{pitemize}
+
+
+\subsection{VNA mit 4 Messstellen und Schalter}
+
+\fb \\
+
+Schalter braucht nicht reproduzierbar sein.
+nach Viertor-Zweitor-Reduktion
+
+
+\fb \\
+
+$\bmat{b_1 \\ b_2} = \bmat{S_{11} & S_{12} \\ S_{21} & S_{22}} \bmat{a_1 \\ a_2}$ \\
+$\bmat{b_1 \\ a_1} = \bmat{\Sigma_D} \bmat{a_2 \\ b_2}$ \\
+$\bmat{b_1 \\ a_1} = \bmat{G_{11} & G_{12} \\ G_{21} & G_{22}} \bmat{m_1 \\ m_2}$ \\
+$\bmat{a_2 \\ b_2} = \bmat{H_{11} & H_{12} \\ H_{21} & H_{22}} \bmat{m_3 \\ m_4}$ \\
+
+$\bmat{m_1 \\ m_2} = \bmat{G}^{-1} \bmat{\Sigma_D} \bmat{H} \bmat{m_3 \\ m_4}$
+
+
+\begin{pitemize}
+    \item Fehlerzweitore $\bmat{G}$ und $\bmat{G}$ sin unbekannt $\Rightarrow$ Kalibrierung
+    \item Messstellengrößen für Schalterpos:
+    \subitem I: $m_1', m_2', m_3', m_4'$
+    \subitem I: $m_1'', m_2'', m_3'', m_4''$
+\end{pitemize}
+
+$\bmat{m_1'& m_1''\\ m_2'& m_2''} = \bmat{G}^{-1} \bmat{\Sigma_D} \bmat{H} \bmat{m_3'& m_3''\\ m_4'& m_4''}$
+
+$\bmat{P} = \bmat{m_1' & m_1'' \\ m_2' & m_2''}\bmat{m_3' & m_3'' \\ m_4' & m_4''}^{-1} =  \bmat{G}^{-1} \bmat{\Sigma_D} \bmat{H}$
+
+Kalibrierung: anstelle des MO, bekannte Kalibrierstands vermessen.
+
+$\bmat{b_1 \\ b_2} = \bmat{S_{11} & S_{12} \\ S_{21} & S_{22}} \bmat{a_1 \\ a_2}$
+
+$\bmat{G_{11}m_1' + G_{12}m_2' & G_{11}m_1'' + G_{12}m_2'' \\ H_{21}m_3' + H_{22}m_4' & H_{21}m_3'' + H_{22}m_4''} = \bmat{S_{11} & S_{12} \\ S_{21} & S_{22}} \bmat{G_{21}m_1' + G_{22}m_2' & G_{21}m_1'' + G_{22}m_2'' \\ H_{11}m_3' + H_{12}m_4' & H_{11}m_3'' + H_{12}m_4''}$
+
+\begin{pitemize}
+    \item $G_{11}m_1' + G_{12}m_2' = G_{21}m_1'S_{11} + G_{22}m_2'S_{11} +H_{11}m_3'S_{12} + H_{12}m_4'S_{12}$
+    \subitem  $-G_{11}m_1' - G_{12}m_2' + G_{21}m_1'S_{11} + G_{22}m_2'S_{11} +H_{11}m_3'S_{12} + H_{12}m_4'S_{12} + H_{21}0 + H_{22}0= 0$
+\end{pitemize}
+
+$\scalebox{0.8}{$\bmat{
+    -m_1' &-m_2' &m_1'S_{11} &m_2'S_{11} &m_3'S_{12} &m_4'S_{12} &0 &0 \\
+    -m_1'' &-m_2'' &m_1''S_{11} &m_2''S_{11} &m_3''S_{12} &m_4''S_{12} &0 &0 \\
+    0 & 0           &m_1'S_{21} &m_2'S_{21} & m_3'S_{22} &m_4'S_{22} &-m_3' & -m_4'\\
+    0 & 0           &m_1''S_{21} &m_2''S_{21} & m_3''S_{22} &m_4''S_{22} &-m_3'' & -m_4''\\
+    \vdots
+}
+\bmat{G_{11} \\ G_{12} \\ G_{21} \\ G_{22} \\ H_{11} \\ H_{12} \\ H_{21} \\ H_{22} } =
+\bmat{0 \\ 0 \\ 0 \\ 0 \\ \vdots}$}$
+
+4 Gleichung für Kalibrierstandard.
+
+Man dividiert alle Gleichungen druch $H_{22} \overset{!}{=}$ Normierung von Fehlertermen $\frac{G_{11}}{H_{22}},\frac{G_{12}}{H_{22}}, \dots, \frac{H_{22}}{H_{22}} = 1$ 
+
+$\scalebox{0.8}{$\bmat{
+    -m_1' &-m_2' &m_1'S_{11} &m_2'S_{11} &m_3'S_{12} &m_4'S_{12} &0 \\
+    -m_1'' &-m_2'' &m_1''S_{11} &m_2''S_{11} &m_3''S_{12} &m_4''S_{12} &0\\
+    0 & 0           &m_1'S_{21} &m_2'S_{21} & m_3'S_{22} &m_4'S_{22} &-m_3' \\
+    0 & 0           &m_1''S_{21} &m_2''S_{21} & m_3''S_{22} &m_4''S_{22} &-m_3''\\
+    \vdots
+}
+\bmat{\frac{G_{11}}{H_{22}} \\ \frac{G_{12}}{H_{22}} \\ \frac{G_{21}}{H_{22}} \\ \frac{G_{22}}{H_{22}} \\ \frac{H_{11}}{H_{22}} \\ \frac{H_{12}}{H_{22}} \\ \frac{H_{21}}{H_{22}}} =
+\bmat{0 \\ 0 \\ m_4' \\ m_4'' \\ \vdots}$}$
+
+\begin{pitemize}
+    \item 7 Unbekannte
+    \item mind. 3 Kalibrierstandards um genügend lin. unabh. Gleichungen zu bekommen
+    \item 7-Term-Modell
+    \item Nach Kalibrierung sind $\bmat{G}$ und $\bmat{H}$ bekannt und damit kann man MO fehlerkorrigiert bestimmen.
+    \item bei 3 Kalibrierstandards 12 Gleichungen $\Rightarrow$ mehr Info als eigentlich benötigt.
+    \item Kalibrierverfahren mit teilwise unbekannten Kalibrierschaltungen.
+    \item Selbstkalibrierungsverfahren.
+\end{pitemize}
+
+
+\subsection{Selbstkalibrierungsverfahren}
+
+\subsubsection{Durchverbindung $\bmat{T}$}
+Streumatrix: $\bmat{C_1} = \bmat{0 & 1\\ 1& 0}$ bzw. $\bmat{\Sigma_{C_1}} = \bmat{1 & 0 \\ 0 & 1} \Rightarrow \bmat{P_1}$
+
+\subsubsection{beidseitig angepasstes reziprokes Zweitor}
+Dämpfungsglied $A$  oder Leitung $L$: $\bmat{C_2} = \bmat{0 & k \\ k & 0}$ bzw. $\bmat{\Sigma_{C_2}} = \bmat{k & 0 \\ 0 & \frac{1}{k}} \Rightarrow \bmat{P_2}$
+\begin{pitemize}
+    \item $\bmat{P_1} = \bmat{G}^-1\bmat{\Sigma_{C_1}}\bmat{H}$
+    \item $\bmat{P_2} = \bmat{G}^-1\bmat{\Sigma_{C_2}}\bmat{H}$
+\end{pitemize}
+$\bmat{G}^{-1},\bmat{H}$ und $k$ sind unbekannt.
+
+Ähnlichkeitstransformation: $\bmat{B} = \bmat{A}^{-1} \bmat{X} \bmat{A} \Rightarrow \text{spur}\{\bmat{B}\} = \text{spur}\{\bmat{A} \bmat{A}^{-1} \bmat{X}\} = \text{spur}\{\bmat{X}\}$
+
+\begin{penumerate}
+    \item Fehlerzweitore $\bmat{G}^{-1}$ und $\bmat{H}$ eliminieren.
+    \begin{pitemize}
+        \item $\bmat{P_2}\bmat{P_1}^{-1} = \bmat{G}^{-1}\bmat{\Sigma_{C_2}}\bmat{H}\left(\bmat{G}^-1\bmat{\Sigma_{C_1}}\bmat{H}\right)^{-1}$
+        \item $\bmat{P_2}\bmat{P_1}^{-1} = \bmat{G}^{-1}\bmat{\Sigma_{C_2}}\bmat{H}\bmat{H}^{-1} \bmat{\Sigma_{C_1}}^{-1}\bmat{G}$
+        \item $\bmat{P_2}\bmat{P_1}^{-1} = \bmat{G}^{-1}\bmat{\Sigma_{C_2}}\bmat{\Sigma_{C_1}}^{-1}\bmat{G}$
+        \item $\beta_{21} = \text{spur}\{\bmat{P_2}\bmat{P_1}^{-1}\} = \text{spur}\{\bmat{\Sigma_{C_2}}\bmat{\Sigma_{C_1}}^{-1}\}$
+        \item $\beta_{21} = \text{spur}\{\bmat{0 & k \\ k & 0}\bmat{1 & 0 \\ 0 & 1}^{-1}\} = \text{spur}\{\bmat{0 & k \\ k & 0}\} = k + \frac{1}{k}$
+        \item $k_{1,2} = \frac{\beta_{21}}{2} \pm \sqrt{\frac{\beta_{21}^2}{4} - 1}$
+        \item VZ-Entscheidung: Dämpfungsglied $\abs{k} < 1$, Leitung elek. Länge auf $\pm 90 ^{\circ}$ bekannt sein.
+        \item 2 bekannte Kalibrierstandards
+    \end{pitemize}
+    
+\end{penumerate}
+
+
+
+\subsubsection{rexiprokes, reflexionssymmetrische Netzwerk: $N$}
+\begin{pitemize}
+    \item $S_{12} = S_{21} = \mu$
+    \item $S_{11} = S_{22} = \varrho$
+    \item $\bmat{C_3} = \bmat{\varrho & \mu \\ \mu & \varrho}$
+    \item $\bmat{\Sigma_{C_3}} = \frac{1}{\mu} \bmat{\mu^2 - \varrho^2 & \varrho \\ -\varrho & 1}$
+    \item $\bmat{P_3}\bmat{P_1}^{-1} = \bmat{G}^{-1}\bmat{\Sigma_{C_3}}\bmat{H}\bmat{H}^{-1}\bmat{\Sigma_{C_1}}^{-1}\bmat{G}$
+    \item $\beta_{31} = \text{spur}\{\bmat{P_3}\bmat{P_1}^{-1}\} = \text{spur}\{\bmat{\Sigma_{C_3}}\bmat{\Sigma_{C_1}}^{-1}\} = \frac{1}{\mu} \bmat{\mu^2-\varrho^2 + 1}$
+    \item $\beta_{32} = \text{spur}\{\bmat{P_3}\bmat{P_2}^{-1}\} = \text{spur}\{\bmat{\Sigma_{C_3}}\bmat{\Sigma_{C_2}}^{-1}\} = \frac{1}{\mu} \bmat{\frac{\mu^2-\varrho^2}{k} + k}$
+    \item $\varrho^2 = \mu^2 - \mu\beta_{31} + 1$
+    \item $\mu = \frac{k^2 - 1}{k\beta_{32} - \beta_{31}}$
+\end{pitemize}
+
+\subsubsection{Selbstkalibrierungsverfahren}
+
+\begin{pitemize}
+    \item T $\rightarrow$ T
+    \item A $\rightarrow$ M
+    \item N $\rightarrow$ R
+    \subitem N: Transmissions 
+    \subitem R: Reflexion $\rightarrow$ Transmissionsverhalten $\rightarrow$ Pseudo-Transmissions-Matrizen.
+\end{pitemize}
+
+Messwertmatrix:
+$\bmat{P} = \bmat{m_1' & m_1'' \\ m_2' & m_2''} \bmat{m_3' & m_3'' \\ m_4' & m_4''}^{-1} =
+\bmat{m_1' & m_1'' \\ m_2' & m_2''} \frac{1}{m_3'm_4'' - m_3''m_4'} \bmat{m_4'' & -m_3'' \\ -m_4' & m_3'}$
+
+$\Delta m = m_3'm_4'' - m_3''m_4'$
+
+Pseudo-Transmissionsmatrix:
+$\Delta m \bmat{\tilde{P}} = \bmat{m_1' & m_1'' \\ m_2' & m_2''} \bmat{m_4'' & -m_3'' \\ -m_4' & m_3'}$
+
+\fb \\
+
+$\bmat{P_1} = \bmat{G}^{-1} \bmat{\Sigma_{C_1}} \bmat{H}$
+
+$\bmat{P_2} = \bmat{G}^{-1} \bmat{\Sigma_{C_2}} \bmat{H} = \frac{1}{\Delta m} \bmat{\tilde{P}_2} \Rightarrow
+\bmat{\tilde{P}_2} = \bmat{G}^{-1} \Delta m \bmat{\Sigma_{C_2}} \bmat{H}$
+
+$\bmat{\tilde{P}_3} = \bmat{G}^{-1} \Delta m \bmat{\Sigma_{C_3}} \bmat{H}$
+
+$\bmat{C_1} = \bmat{0 & 1 \\ 1 & 0} \Rightarrow \bmat{\Sigma_{C_1}} = \bmat{1 & 0 \\ 0 & 1}$
+
+$A/L \Rightarrow \bmat{C_2} = \bmat{0 & C_{2,12} \\ C_{2,21} & 0} \Leftrightarrow \Delta m_2 \bmat{\Sigma_{C_2}} = \frac{\Delta m_2}{C_{2,21}} \bmat{C_{2,12}C_{2,21} & 0 \\ 0 & 1} \overset{!}{=} \bmat{k_r & 0 \\ 0 & \frac{1}{k_f}}$
+
+$N/R \Rightarrow \bmat{C_3} = \bmat{C_{3,11} & C_{3,12} \\ C_{3,21} & C_{3,11}} \Leftrightarrow \Delta m_3 \bmat{\Sigma_{C_3}} = \frac{\Delta m_3}{C_{3,21}} \bmat{C_{3,12}C_{3,21} -C_{3,11}^2 & C_{3,11} \\ -C_{3,11} & 1} \overset{!}{=} \frac{1}{\mu_f} \bmat{\mu_f\mu_r - \varrho^2 & \varrho \\ -\varrho & 1}$
+
+Koeffizienten Vergleich:
+
+\begin{pitemize}
+    \item $k_f = \frac{C_{2,21}}{\Delta m_2}$
+    \item $k_r = \Delta m_2 C_{2,12}$
+    \item $\mu_f = \frac{C_{3,21}}{\Delta m_3}$
+    \item $\varrho = C_{3,11}$
+    \item $\mu_r = \Delta m_3 C_{3,12}$ 
+\end{pitemize}
+
+
+Bestimmung von $k_f,k_r,\mu_f,\varrho,\mu_r$
+
+$\bmat{\tilde{P}_2} \bmat{P_1}^{-1} = \bmat{G}^{-1} \Delta m_2 \bmat{\Sigma_{C_2}} \bmat{H} \left(\bmat{G}^{-1}\bmat{\Sigma_{C_1}} \bmat{H}\right) ^{-1}
+= \bmat{G}^{-1} \Delta m_2 \bmat{\Sigma_{C_2}} \bmat{H} \bmat{H}^{-1}\bmat{\Sigma_{C_1}}^{-1} \bmat{G} \Rightarrow
+$
+\begin{pitemize}
+    \item $\beta_{1} = \text{spur}\{\bmat{\tilde{P}_2} \bmat{P_1}^{-1}\} = \text{spur}\{\bmat{\Sigma_{C_2}} \bmat{\Sigma_{C_1}}^{-1}\} = \text{spur}\{\bmat{k_r & 0 \\ 0 & \frac{1}{k_f}} \bmat{1 & 0 \\ 0 & 1}\} = k_r + \frac{1}{k_f}$
+    \item $\beta_{2} = \text{spur}\{\bmat{\tilde{P}_3} \bmat{P_1}^{-1}\} = \text{spur}\{\frac{1}{\mu_f}\bmat{\mu_f \mu_r - \varrho^2 & \varrho \\ \varrho & 1} \} = \frac{1}{\mu_f} \left(\mu_f \mu_r - \varrho^2 + 1\right)$
+    \item $\beta_{3} = \text{spur}\{\bmat{\tilde{P}_3} \bmat{P_1}^{-1} \bmat{\tilde{P}_2} \bmat{P_1}^{-1}\} = \text{spur}\{\Delta m_3 \bmat{\Sigma_{C_3} \Delta m_2 \bmat{\Sigma_{C_2}}}\} = \text{spur}\{\frac{1}{\mu_f}\bmat{\mu_f \mu_r - \varrho^2 & \varrho \\ \varrho & 1} \bmat{k_r & 0 \\ 0 & \frac{1}{k_f}}\} = \frac{1}{\mu_f} \left[\left(\mu_f \mu_r - \varrho^2\right) k_r + \frac{1}{k_f}\right]$
+    \item $\beta_{4} = \det \{\bmat{\tilde{P}_2} \bmat{P_1}^{-1}\} = \det \{\bmat{\Sigma_{C_2}} \bmat{\Sigma_{C_1}}^{-1}\}  = \det \{\bmat{k_r & 0 \\ 0 & \frac{1}{k_f}}\} = \frac{k_r}{k_f} \Leftrightarrow$ 
+    \subitem $k_r = \beta_4 k_f$
+    \item $\beta_{5} = \det \{\bmat{\tilde{P}_3} \bmat{P_1}^{-1}\} = \det \{\bmat{\Sigma_{C_2}} \bmat{\Sigma_{C_1}}^{-1}\}  = \det \{\frac{1}{\mu_f}\bmat{\mu_f \mu_r - \varrho^2 & \varrho \\ \varrho & 1} \} = \frac{1}{\mu_f^2} \left(\mu_f\mu_r\right) = \frac{\mu_r}{\mu_f} \Leftrightarrow$ 
+    \subitem $\mu_r = \beta_5 \mu_f$
+    \item $\beta_1 = k_r + \frac{1}{k_f} = k_r + \frac{\beta_4}{k_r} \Rightarrow k_{r_{1,2}} = \frac{\beta_1}{2} \pm \sqrt{\frac{\beta_1^2}{4} - \beta_4}$
+    \item $\beta_2 \Rightarrow \varrho^2 = \mu_f \mu_r - \mu_r \beta_2 + \frac{1}{\mu_f}$
+    \item $\mu_f = \frac{\frac{1}{k_f} - k_r}{\beta_3 - k_r \beta_2}$
+
+\end{pitemize}
+
+\subsubsection{Spezialisierung auf TMR-Verfahren}
+\begin{pitemize}
+    \item $k_r = 0$
+    \item $\mu_r = 0$
+    \item $k_f = \frac{1}{\beta_1}$
+    \item $\mu_f = \frac{1}{k_r \beta_3} = \frac{\beta_1}{\beta_3}$
+    \item $\varrho^2 = 1 - \frac{\beta_1 \beta_2}{\beta_3}$
+\end{pitemize}
+
+\begin{pitemize}
+    \item Match $\bmat{C_2} = \bmat{ 0 & 0 \\ 0 & 0}$
+    \item Reflexionsstandard: $\bmat{C_3} =\bmat{\varrho & 0 \\ 0 & \varrho}$
+\end{pitemize}
+
+\subsubsection{Spezialisierung auf TLR-Verfahren}
+\begin{pitemize}
+    \item $\mu_r = 0$
+    \item $k_r = k_f \Rightarrow \beta_4 = 1$
+    \item $k_{r_{1,2}} = \frac{\beta_1}{2} \pm \sqrt{\frac{\beta_1^2}{4} - \beta_4}$
+    \item $\mu_f = \frac{\frac{1}{k_f} - k_r}{\beta_3 - k_r \beta_2}$
+    \item$\varrho^2 = 1 - \mu_f \beta_2$
+\end{pitemize}
+
+
+\subsubsection{Bedeutung von TLR für Messbettkalibrierung}
+
+\fb \\
+
+Phasenbezugsebene festgelegt durch Reflektionstandards
+Kalibrierpyramide
+
+
+\begin{pitemize}
+    \item $T \Rightarrow \bmat{C_1} = \bmat{0 & 1 \\ 1&0} \Rightarrow \bmat{P_1} = \bmat{G}^{-1}\bmat{\Sigma_{C_1}}\bmat{H} = \bmat{G}^{-1} \bmat{H}$ 
+    \item $R \Rightarrow \bmat{C_3} = \bmat{\varrho & 0 \\ 0&\varrho}$
+    \item $L \Rightarrow \bmat{C_2} = \bmat{0 & k \\ k&0}$
+\end{pitemize}
+
+
+\fb \\
