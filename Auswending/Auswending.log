@@ -1,0 +1,1329 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.1.4)  21 AUG 2026 16:42
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/home/jannes/Desktop/Files/University/M_ETIT/2_Semester/HF/ZF/Auswending/Auswending.tex
+(/home/jannes/Desktop/Files/University/M_ETIT/2_Semester/HF/ZF/Auswending/Auswending.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count196
+\c@section=\count197
+\c@subsection=\count198
+\c@subsubsection=\count199
+\c@paragraph=\count266
+\c@subparagraph=\count267
+\c@figure=\count268
+\c@table=\count269
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen141
+) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+) (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))
+\Gm@cnth=\count270
+\Gm@cntv=\count271
+\c@Gm@tempcnt=\count272
+\Gm@bindingoffset=\dimen142
+\Gm@wd@mp=\dimen143
+\Gm@odd@mp=\dimen144
+\Gm@even@mp=\dimen145
+\Gm@layoutwidth=\dimen146
+\Gm@layoutheight=\dimen147
+\Gm@layouthoffset=\dimen148
+\Gm@layoutvoffset=\dimen149
+\Gm@dimlist=\toks18
+) (/home/jannes/texmf/tex/latex/ZFPredef/ZFPredef.sty
+Package: ZFPredef 
+ (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2024/11/05 v2.17t AMS math features
+\@mathmargin=\skip51
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen150
+)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen151
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count273
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count274
+\leftroot@=\count275
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count276
+\DOTSCASE@=\count277
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box52
+\strutbox@=\box53
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen152
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count278
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count279
+\dotsspace@=\muskip17
+\c@parentequation=\count280
+\dspbrk@lvl=\count281
+\tag@help=\toks20
+\row@=\count282
+\column@=\count283
+\maxfields@=\count284
+\andhelp@=\toks21
+\eqnshift@=\dimen153
+\alignsep@=\dimen154
+\tagshift@=\dimen155
+\tagwidth@=\dimen156
+\totwidth@=\dimen157
+\lineht@=\dimen158
+\@envbody=\toks22
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks24
+\pgfutil@tempdima=\dimen159
+\pgfutil@tempdimb=\dimen160
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box54
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen161
+\Gin@req@width=\dimen162
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks25
+\pgfkeys@temptoks=\toks26
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks27
+))
+\pgf@x=\dimen163
+\pgf@y=\dimen164
+\pgf@xa=\dimen165
+\pgf@ya=\dimen166
+\pgf@xb=\dimen167
+\pgf@yb=\dimen168
+\pgf@xc=\dimen169
+\pgf@yc=\dimen170
+\pgf@xd=\dimen171
+\pgf@yd=\dimen172
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count285
+\c@pgf@countb=\count286
+\c@pgf@countc=\count287
+\c@pgf@countd=\count288
+\t@pgf@toka=\toks28
+\t@pgf@tokb=\toks29
+\t@pgf@tokc=\toks30
+\pgf@sys@id@count=\count289
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count290
+\pgfsyssoftpath@bigbuffer@items=\count291
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen173
+\pgfmath@count=\count292
+\pgfmath@box=\box55
+\pgfmath@toks=\toks31
+\pgfmath@stack@operand=\toks32
+\pgfmath@stack@operation=\toks33
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count293
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen174
+\pgf@picmaxx=\dimen175
+\pgf@picminy=\dimen176
+\pgf@picmaxy=\dimen177
+\pgf@pathminx=\dimen178
+\pgf@pathmaxx=\dimen179
+\pgf@pathminy=\dimen180
+\pgf@pathmaxy=\dimen181
+\pgf@xx=\dimen182
+\pgf@xy=\dimen183
+\pgf@yx=\dimen184
+\pgf@yy=\dimen185
+\pgf@zx=\dimen186
+\pgf@zy=\dimen187
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen188
+\pgf@path@lasty=\dimen189
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen190
+\pgf@shorten@start@additional=\dimen191
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box56
+\pgf@hbox=\box57
+\pgf@layerbox@main=\box58
+\pgf@picture@serial@count=\count294
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen192
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen193
+\pgf@pt@y=\dimen194
+\pgf@pt@temp=\dimen195
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen196
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen197
+\pgf@sys@shading@range@num=\count295
+\pgf@shadingcount=\count296
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box59
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box60
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen198
+\pgf@nodesepend=\dimen199
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen256
+\pgffor@skip=\dimen257
+\pgffor@stack=\toks34
+\pgffor@toks=\toks35
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count297
+\pgfplotmarksize=\dimen258
+)
+\tikz@lastx=\dimen259
+\tikz@lasty=\dimen260
+\tikz@lastxsaved=\dimen261
+\tikz@lastysaved=\dimen262
+\tikz@lastmovetox=\dimen263
+\tikz@lastmovetoy=\dimen264
+\tikzleveldistance=\dimen265
+\tikzsiblingdistance=\dimen266
+\tikz@figbox=\box61
+\tikz@figbox@bg=\box62
+\tikz@tempbox=\box63
+\tikz@tempbox@bg=\box64
+\tikztreelevel=\count298
+\tikznumberofchildren=\count299
+\tikznumberofcurrentchild=\count300
+\tikz@fig@count=\count301
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count302
+\pgfmatrixcurrentcolumn=\count303
+\pgf@matrix@numberofcolumns=\count304
+)
+\tikz@expandcount=\count305
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowinset=\dimen267
+\pgfarrowlength=\dimen268
+\pgfarrowwidth=\dimen269
+\pgfarrowlinewidth=\dimen270
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2023/12/19 v1.2f Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
+Package bm Info: No bold for \U/msa/m/n, using \pmb.
+Package bm Info: No bold for \U/msb/m/n, using \pmb.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
+)) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count306
+\l__pdf_internal_box=\box65
+) (./Auswending.aux)
+\openout1 = `Auswending.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(8.0pt, 581.50787pt, 8.0pt)
+* v-part:(T,H,B)=(8.0pt, 829.04684pt, 8.0pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=581.50787pt
+* \textheight=829.04684pt
+* \oddsidemargin=-64.26999pt
+* \evensidemargin=-64.26999pt
+* \topmargin=-101.26999pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumntrue
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count307
+\scratchdimen=\dimen271
+\scratchbox=\box66
+\nofMPsegments=\count308
+\nofMParguments=\count309
+\everyMPshowfont=\toks36
+\MPscratchCnt=\count310
+\MPscratchDim=\dimen272
+\MPnumerator=\count311
+\makeMPintoPDFobject=\count312
+\everyMPtoPDFconversion=\toks37
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+)) (../topics/Grundlagen/smain.tex
+LaTeX Font Info:    Trying to load font information for U+msa on input line 7.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 7.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+<../topics/Grundlagen/Streuparameter.png, id=4, 751.30687pt x 233.37187pt>
+File: ../topics/Grundlagen/Streuparameter.png Graphic file (type png)
+<use ../topics/Grundlagen/Streuparameter.png>
+Package pdftex.def Info: ../topics/Grundlagen/Streuparameter.png  used on input line 62.
+(pdftex.def)             Requested size: 119.88193pt x 37.23698pt.
+<../topics/Grundlagen/Impedanzparameter.png, id=5, 716.6775pt x 291.33844pt>
+File: ../topics/Grundlagen/Impedanzparameter.png Graphic file (type png)
+<use ../topics/Grundlagen/Impedanzparameter.png>
+Package pdftex.def Info: ../topics/Grundlagen/Impedanzparameter.png  used on input line 69.
+(pdftex.def)             Requested size: 119.88193pt x 48.73114pt.
+<../topics/Grundlagen/Kettenparameter.png, id=6, 553.31718pt x 258.9675pt>
+File: ../topics/Grundlagen/Kettenparameter.png Graphic file (type png)
+<use ../topics/Grundlagen/Kettenparameter.png>
+Package pdftex.def Info: ../topics/Grundlagen/Kettenparameter.png  used on input line 83.
+(pdftex.def)             Requested size: 119.88193pt x 56.10764pt.
+
+
+<../topics/Grundlagen/Transmissionsparamter.png, id=7, 710.655pt x 258.9675pt>
+File: ../topics/Grundlagen/Transmissionsparamter.png Graphic file (type png)
+<use ../topics/Grundlagen/Transmissionsparamter.png>
+Package pdftex.def Info: ../topics/Grundlagen/Transmissionsparamter.png  used on input line 96.
+(pdftex.def)             Requested size: 119.88193pt x 43.68405pt.
+<../topics/Grundlagen/Hintereinanderschaltung.png, id=8, 895.84688pt x 352.31625pt>
+File: ../topics/Grundlagen/Hintereinanderschaltung.png Graphic file (type png)
+<use ../topics/Grundlagen/Hintereinanderschaltung.png>
+Package pdftex.def Info: ../topics/Grundlagen/Hintereinanderschaltung.png  used on input line 97.
+(pdftex.def)             Requested size: 119.88193pt x 47.14668pt.
+<../topics/Grundlagen/Bsp Dämpfungsglied.png, id=9, 496.85625pt x 235.63031pt>
+File: ../topics/Grundlagen/Bsp Dämpfungsglied.png Graphic file (type png)
+<use ../topics/Grundlagen/Bsp Dämpfungsglied.png>
+Package pdftex.def Info: ../topics/Grundlagen/Bsp Dämpfungsglied.png  used on input line 131.
+(pdftex.def)             Requested size: 142.87697pt x 67.75935pt.
+) (../topics/Koppler/smain.tex
+<../topics/Koppler/Leitungskoppler.png, id=10, 836.3747pt x 288.3272pt>
+File: ../topics/Koppler/Leitungskoppler.png Graphic file (type png)
+<use ../topics/Koppler/Leitungskoppler.png>
+Package pdftex.def Info: ../topics/Koppler/Leitungskoppler.png  used on input line 25.
+(pdftex.def)             Requested size: 142.87697pt x 49.25253pt.
+<../topics/Koppler/Bsp Leitungskoppler.png, id=11, 651.93562pt x 483.30562pt>
+File: ../topics/Koppler/Bsp Leitungskoppler.png Graphic file (type png)
+<use ../topics/Koppler/Bsp Leitungskoppler.png>
+Package pdftex.def Info: ../topics/Koppler/Bsp Leitungskoppler.png  used on input line 27.
+(pdftex.def)             Requested size: 142.87697pt x 105.92195pt.
+<../topics/Koppler/Leitungskoppler 2.png, id=12, 575.90157pt x 399.74344pt>
+File: ../topics/Koppler/Leitungskoppler 2.png Graphic file (type png)
+<use ../topics/Koppler/Leitungskoppler 2.png>
+Package pdftex.def Info: ../topics/Koppler/Leitungskoppler 2.png  used on input line 33.
+(pdftex.def)             Requested size: 142.87697pt x 99.17316pt.
+
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <../topics/Grundlagen/Streuparameter.png (PNG copy)> <../topics/Grundlagen/Impedanzparameter.png (PNG copy)> <../topics/Grundlagen/Kettenparameter.png (PNG copy)> <../topics/Grundlagen/Transmissionsparamter.png (PNG copy)> <../topics/Grundlagen/Hintereinanderschaltung.png (PNG copy)> <../topics/Grundlagen/Bsp Dämpfungsglied.png (PNG copy)> <../topics/Koppler/Leitungskoppler.png (PNG copy)> <../topics/Koppler/Bsp Leitungskoppler.png (PNG copy)>]
+<../topics/Koppler/Ringkoppler.png, id=31, 774.64406pt x 323.70938pt>
+File: ../topics/Koppler/Ringkoppler.png Graphic file (type png)
+<use ../topics/Koppler/Ringkoppler.png>
+Package pdftex.def Info: ../topics/Koppler/Ringkoppler.png  used on input line 75.
+(pdftex.def)             Requested size: 142.87697pt x 59.70253pt.
+<../topics/Koppler/Ringkoppler Gleichtakt.png, id=32, 147.4308pt x 71.3064pt>
+File: ../topics/Koppler/Ringkoppler Gleichtakt.png Graphic file (type png)
+<use ../topics/Koppler/Ringkoppler Gleichtakt.png>
+Package pdftex.def Info: ../topics/Koppler/Ringkoppler Gleichtakt.png  used on input line 89.
+(pdftex.def)             Requested size: 119.88193pt x 57.98198pt.
+<../topics/Koppler/Ringkoppler Gegentakt.png, id=33, 118.041pt x 54.4434pt>
+File: ../topics/Koppler/Ringkoppler Gegentakt.png Graphic file (type png)
+<use ../topics/Koppler/Ringkoppler Gegentakt.png>
+Package pdftex.def Info: ../topics/Koppler/Ringkoppler Gegentakt.png  used on input line 94.
+(pdftex.def)             Requested size: 119.88193pt x 55.29309pt.
+
+
+<../topics/Koppler/Leitungsdarstellung.png, id=34, 406.51875pt x 137.7647pt>
+File: ../topics/Koppler/Leitungsdarstellung.png Graphic file (type png)
+<use ../topics/Koppler/Leitungsdarstellung.png>
+Package pdftex.def Info: ../topics/Koppler/Leitungsdarstellung.png  used on input line 99.
+(pdftex.def)             Requested size: 142.87697pt x 48.41806pt.
+<../topics/Koppler/Rat-Race-Koppler.png, id=35, 388.45125pt x 261.97874pt>
+File: ../topics/Koppler/Rat-Race-Koppler.png Graphic file (type png)
+<use ../topics/Koppler/Rat-Race-Koppler.png>
+Package pdftex.def Info: ../topics/Koppler/Rat-Race-Koppler.png  used on input line 142.
+(pdftex.def)             Requested size: 142.87697pt x 96.35898pt.
+<../topics/Koppler/ResKop.png, id=36, 732.7375pt x 414.54875pt>
+File: ../topics/Koppler/ResKop.png Graphic file (type png)
+<use ../topics/Koppler/ResKop.png>
+Package pdftex.def Info: ../topics/Koppler/ResKop.png  used on input line 156.
+(pdftex.def)             Requested size: 142.87697pt x 80.82718pt.
+<../topics/Koppler/r_koppler.png, id=38, 697.10437pt x 261.97874pt>
+File: ../topics/Koppler/r_koppler.png Graphic file (type png)
+<use ../topics/Koppler/r_koppler.png>
+Package pdftex.def Info: ../topics/Koppler/r_koppler.png  used on input line 166.
+(pdftex.def)             Requested size: 142.87697pt x 53.69398pt.
+
+
+[2 <../topics/Koppler/Leitungskoppler 2.png (PNG copy)> <../topics/Koppler/Ringkoppler.png (PNG copy)> <../topics/Koppler/Ringkoppler Gleichtakt.png (PNG copy)> <../topics/Koppler/Ringkoppler Gegentakt.png (PNG copy)> <../topics/Koppler/Leitungsdarstellung.png (PNG copy)> <../topics/Koppler/Rat-Race-Koppler.png (PNG copy)> <../topics/Koppler/ResKop.png>]
+<../topics/Koppler/r_koppler_plus.png, id=45, 425.33907pt x 212.29312pt>
+File: ../topics/Koppler/r_koppler_plus.png Graphic file (type png)
+<use ../topics/Koppler/r_koppler_plus.png>
+Package pdftex.def Info: ../topics/Koppler/r_koppler_plus.png  used on input line 170.
+(pdftex.def)             Requested size: 131.92694pt x 65.84581pt.
+<../topics/Koppler/r_koppler_minus.png, id=46, 603.75563pt x 261.97874pt>
+File: ../topics/Koppler/r_koppler_minus.png Graphic file (type png)
+<use ../topics/Koppler/r_koppler_minus.png>
+Package pdftex.def Info: ../topics/Koppler/r_koppler_minus.png  used on input line 176.
+(pdftex.def)             Requested size: 131.92694pt x 57.24374pt.
+<../topics/Koppler/trafo_koppler.png, id=47, 654.19406pt x 323.70938pt>
+File: ../topics/Koppler/trafo_koppler.png Graphic file (type png)
+<use ../topics/Koppler/trafo_koppler.png>
+Package pdftex.def Info: ../topics/Koppler/trafo_koppler.png  used on input line 193.
+(pdftex.def)             Requested size: 142.87697pt x 70.69765pt.
+<../topics/Koppler/NullGradKoppler.png, id=48, 343.2825pt x 188.20313pt>
+File: ../topics/Koppler/NullGradKoppler.png Graphic file (type png)
+<use ../topics/Koppler/NullGradKoppler.png>
+Package pdftex.def Info: ../topics/Koppler/NullGradKoppler.png  used on input line 206.
+(pdftex.def)             Requested size: 142.87697pt x 78.3297pt.
+<../topics/Koppler/null_grad_koppler_EB.png, id=49, 457.71pt x 233.37187pt>
+File: ../topics/Koppler/null_grad_koppler_EB.png Graphic file (type png)
+<use ../topics/Koppler/null_grad_koppler_EB.png>
+Package pdftex.def Info: ../topics/Koppler/null_grad_koppler_EB.png  used on input line 207.
+(pdftex.def)             Requested size: 142.87697pt x 72.84662pt.
+<../topics/Koppler/null_grad_koppler_plus.png, id=50, 682.80093pt x 261.97874pt>
+File: ../topics/Koppler/null_grad_koppler_plus.png Graphic file (type png)
+<use ../topics/Koppler/null_grad_koppler_plus.png>
+Package pdftex.def Info: ../topics/Koppler/null_grad_koppler_plus.png  used on input line 212.
+(pdftex.def)             Requested size: 119.88193pt x 45.99487pt.
+
+
+<../topics/Koppler/null_grad_koppler_minus.png, id=51, 624.08156pt x 320.69812pt>
+File: ../topics/Koppler/null_grad_koppler_minus.png Graphic file (type png)
+<use ../topics/Koppler/null_grad_koppler_minus.png>
+Package pdftex.def Info: ../topics/Koppler/null_grad_koppler_minus.png  used on input line 217.
+(pdftex.def)             Requested size: 119.88193pt x 61.60367pt.
+) (../topics/Messung/smain.tex
+<../topics/Messung/BBDet.png, id=52, 557.83406pt x 457.71pt>
+File: ../topics/Messung/BBDet.png Graphic file (type png)
+<use ../topics/Messung/BBDet.png>
+Package pdftex.def Info: ../topics/Messung/BBDet.png  used on input line 7.
+(pdftex.def)             Requested size: 142.87697pt x 117.22783pt.
+<../topics/Messung/BBDetErg.png, id=53, 507.39563pt x 341.77687pt>
+File: ../topics/Messung/BBDetErg.png Graphic file (type png)
+<use ../topics/Messung/BBDetErg.png>
+Package pdftex.def Info: ../topics/Messung/BBDetErg.png  used on input line 9.
+(pdftex.def)             Requested size: 142.87697pt x 96.23923pt.
+<../topics/Messung/skalar_zt_substitution.png, id=54, 652.68843pt x 323.70938pt>
+File: ../topics/Messung/skalar_zt_substitution.png Graphic file (type png)
+<use ../topics/Messung/skalar_zt_substitution.png>
+Package pdftex.def Info: ../topics/Messung/skalar_zt_substitution.png  used on input line 15.
+(pdftex.def)             Requested size: 142.87697pt x 70.86064pt.
+<../topics/Messung/skalar_zt_1.png, id=55, 807.015pt x 261.22594pt>
+File: ../topics/Messung/skalar_zt_1.png Graphic file (type png)
+<use ../topics/Messung/skalar_zt_1.png>
+Package pdftex.def Info: ../topics/Messung/skalar_zt_1.png  used on input line 19.
+(pdftex.def)             Requested size: 142.87697pt x 46.24535pt.
+<../topics/Messung/skalar_zt_2.png, id=56, 681.29532pt x 191.21437pt>
+File: ../topics/Messung/skalar_zt_2.png Graphic file (type png)
+<use ../topics/Messung/skalar_zt_2.png>
+Package pdftex.def Info: ../topics/Messung/skalar_zt_2.png  used on input line 23.
+(pdftex.def)             Requested size: 142.87697pt x 40.10075pt.
+<../topics/Messung/skalar_zt_3.png, id=57, 600.74437pt x 291.33844pt>
+File: ../topics/Messung/skalar_zt_3.png Graphic file (type png)
+<use ../topics/Messung/skalar_zt_3.png>
+Package pdftex.def Info: ../topics/Messung/skalar_zt_3.png  used on input line 36.
+(pdftex.def)             Requested size: 142.87697pt x 69.28694pt.
+
+Underfull \vbox (badness 1642) has occurred while \output is active []
+
+
+
+[3 <../topics/Koppler/r_koppler.png (PNG copy)> <../topics/Koppler/r_koppler_plus.png (PNG copy)> <../topics/Koppler/r_koppler_minus.png (PNG copy)> <../topics/Koppler/trafo_koppler.png (PNG copy)> <../topics/Koppler/NullGradKoppler.png (PNG copy)> <../topics/Koppler/null_grad_koppler_EB.png (PNG copy)> <../topics/Koppler/null_grad_koppler_plus.png (PNG copy)> <../topics/Koppler/null_grad_koppler_minus.png (PNG copy)> <../topics/Messung/BBDet.png (PNG copy)> <../topics/Messung/BBDetErg.png (PNG copy)> <../topics/Messung/skalar_zt_substitution.png (PNG copy)> <../topics/Messung/skalar_zt_1.png (PNG copy)> <../topics/Messung/skalar_zt_2.png (PNG copy)>]
+<../topics/Messung/transmission_error.png, id=61, 744.53156pt x 212.29312pt>
+File: ../topics/Messung/transmission_error.png Graphic file (type png)
+<use ../topics/Messung/transmission_error.png>
+Package pdftex.def Info: ../topics/Messung/transmission_error.png  used on input line 51.
+(pdftex.def)             Requested size: 142.87697pt x 40.73778pt.
+<../topics/Messung/error_ohne_MO.png, id=62, 662.475pt x 323.70938pt>
+File: ../topics/Messung/error_ohne_MO.png Graphic file (type png)
+<use ../topics/Messung/error_ohne_MO.png>
+Package pdftex.def Info: ../topics/Messung/error_ohne_MO.png  used on input line 57.
+(pdftex.def)             Requested size: 119.88193pt x 58.57635pt.
+<../topics/Messung/error_mit_MO.png, id=63, 504.38437pt x 212.29312pt>
+File: ../topics/Messung/error_mit_MO.png Graphic file (type png)
+<use ../topics/Messung/error_mit_MO.png>
+Package pdftex.def Info: ../topics/Messung/error_mit_MO.png  used on input line 80.
+(pdftex.def)             Requested size: 119.88193pt x 50.45576pt.
+
+
+<../topics/Messung/vektor_netzwerkanalyse.png, id=64, 760.34062pt x 261.97874pt>
+File: ../topics/Messung/vektor_netzwerkanalyse.png Graphic file (type png)
+<use ../topics/Messung/vektor_netzwerkanalyse.png>
+Package pdftex.def Info: ../topics/Messung/vektor_netzwerkanalyse.png  used on input line 100.
+(pdftex.def)             Requested size: 228.60402pt x 78.76611pt.
+<../topics/Messung/vna rampe.png, id=65, 424.58624pt x 481.8pt>
+File: ../topics/Messung/vna rampe.png Graphic file (type png)
+<use ../topics/Messung/vna rampe.png>
+Package pdftex.def Info: ../topics/Messung/vna rampe.png  used on input line 106.
+(pdftex.def)             Requested size: 131.92694pt x 149.70198pt.
+) (../topics/SPSchaltungen/smain.tex
+<../topics/SPSchaltungen/Prototypfilter.png, id=66, 338.01282pt x 87.32625pt>
+File: ../topics/SPSchaltungen/Prototypfilter.png Graphic file (type png)
+<use ../topics/SPSchaltungen/Prototypfilter.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/Prototypfilter.png  used on input line 7.
+(pdftex.def)             Requested size: 142.87697pt x 36.91261pt.
+<../topics/SPSchaltungen/Butterworth.png, id=67, 436.63126pt x 208.52907pt>
+File: ../topics/SPSchaltungen/Butterworth.png Graphic file (type png)
+<use ../topics/SPSchaltungen/Butterworth.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/Butterworth.png  used on input line 15.
+(pdftex.def)             Requested size: 142.87697pt x 68.23569pt.
+<../topics/SPSchaltungen/Leitungselement1.png, id=68, 520.94624pt x 191.21437pt>
+File: ../topics/SPSchaltungen/Leitungselement1.png Graphic file (type png)
+<use ../topics/SPSchaltungen/Leitungselement1.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/Leitungselement1.png  used on input line 22.
+(pdftex.def)             Requested size: 142.87697pt x 52.4426pt.
+<../topics/SPSchaltungen/Leitungselement2.jpg, id=69, 2489.3pt x 1003.75pt>
+File: ../topics/SPSchaltungen/Leitungselement2.jpg Graphic file (type jpg)
+<use ../topics/SPSchaltungen/Leitungselement2.jpg>
+Package pdftex.def Info: ../topics/SPSchaltungen/Leitungselement2.jpg  used on input line 27.
+(pdftex.def)             Requested size: 142.87697pt x 57.60336pt.
+<../topics/SPSchaltungen/Leitungselement3.jpg, id=70, 2542.49875pt x 1003.75pt>
+File: ../topics/SPSchaltungen/Leitungselement3.jpg Graphic file (type jpg)
+<use ../topics/SPSchaltungen/Leitungselement3.jpg>
+Package pdftex.def Info: ../topics/SPSchaltungen/Leitungselement3.jpg  used on input line 31.
+(pdftex.def)             Requested size: 142.87697pt x 56.3934pt.
+
+
+[4 <../topics/Messung/skalar_zt_3.png (PNG copy)> <../topics/Messung/transmission_error.png (PNG copy)> <../topics/Messung/error_ohne_MO.png (PNG copy)> <../topics/Messung/error_mit_MO.png (PNG copy)> <../topics/Messung/vektor_netzwerkanalyse.png (PNG copy)> <../topics/Messung/vna rampe.png (PNG copy)> <../topics/SPSchaltungen/Prototypfilter.png (PNG copy)> <../topics/SPSchaltungen/Butterworth.png (PNG copy)> <../topics/SPSchaltungen/Leitungselement1.png (PNG copy)> <../topics/SPSchaltungen/Leitungselement2.JPG>]
+<../topics/SPSchaltungen/LeitungsfilterUebertragung.jpg, id=74, 2479.2625pt x 1003.75pt>
+File: ../topics/SPSchaltungen/LeitungsfilterUebertragung.jpg Graphic file (type jpg)
+<use ../topics/SPSchaltungen/LeitungsfilterUebertragung.jpg>
+Package pdftex.def Info: ../topics/SPSchaltungen/LeitungsfilterUebertragung.jpg  used on input line 48.
+(pdftex.def)             Requested size: 142.87697pt x 57.8331pt.
+<../topics/SPSchaltungen/2DrahtESB.jpg, id=75, 2329.70375pt x 1002.74625pt>
+File: ../topics/SPSchaltungen/2DrahtESB.jpg Graphic file (type jpg)
+<use ../topics/SPSchaltungen/2DrahtESB.jpg>
+Package pdftex.def Info: ../topics/SPSchaltungen/2DrahtESB.jpg  used on input line 56.
+(pdftex.def)             Requested size: 142.87697pt x 61.49333pt.
+<../topics/SPSchaltungen/Stichleitung Induktiv.jpg, id=76, 4013.99625pt x 765.86125pt>
+File: ../topics/SPSchaltungen/Stichleitung Induktiv.jpg Graphic file (type jpg)
+<use ../topics/SPSchaltungen/Stichleitung Induktiv.jpg>
+Package pdftex.def Info: ../topics/SPSchaltungen/Stichleitung Induktiv.jpg  used on input line 61.
+(pdftex.def)             Requested size: 131.92694pt x 25.16014pt.
+<../topics/SPSchaltungen/Stichleitung Kapazitiv.jpg, id=77, 4013.99625pt x 623.32875pt>
+File: ../topics/SPSchaltungen/Stichleitung Kapazitiv.jpg Graphic file (type jpg)
+<use ../topics/SPSchaltungen/Stichleitung Kapazitiv.jpg>
+Package pdftex.def Info: ../topics/SPSchaltungen/Stichleitung Kapazitiv.jpg  used on input line 62.
+(pdftex.def)             Requested size: 131.92694pt x 20.47765pt.
+<../topics/SPSchaltungen/PrototypfilterBW.jpg, id=78, 2127.95pt x 1003.75pt>
+File: ../topics/SPSchaltungen/PrototypfilterBW.jpg Graphic file (type jpg)
+<use ../topics/SPSchaltungen/PrototypfilterBW.jpg>
+Package pdftex.def Info: ../topics/SPSchaltungen/PrototypfilterBW.jpg  used on input line 69.
+(pdftex.def)             Requested size: 142.87697pt x 67.39027pt.
+<../topics/SPSchaltungen/Prototypfilter2.jpg, id=79, 1686.3pt x 1003.75pt>
+File: ../topics/SPSchaltungen/Prototypfilter2.jpg Graphic file (type jpg)
+<use ../topics/SPSchaltungen/Prototypfilter2.jpg>
+Package pdftex.def Info: ../topics/SPSchaltungen/Prototypfilter2.jpg  used on input line 71.
+(pdftex.def)             Requested size: 142.87697pt x 85.03427pt.
+<../topics/SPSchaltungen/UebergangLeitungsfilter.jpg, id=80, 3384.645pt x 1002.74625pt>
+File: ../topics/SPSchaltungen/UebergangLeitungsfilter.jpg Graphic file (type jpg)
+<use ../topics/SPSchaltungen/UebergangLeitungsfilter.jpg>
+Package pdftex.def Info: ../topics/SPSchaltungen/UebergangLeitungsfilter.jpg  used on input line 75.
+(pdftex.def)             Requested size: 142.87697pt x 42.32161pt.
+<../topics/SPSchaltungen/UebergangLeitungsfilter2.jpg, id=81, 2438.10875pt x 1003.75pt>
+File: ../topics/SPSchaltungen/UebergangLeitungsfilter2.jpg Graphic file (type jpg)
+<use ../topics/SPSchaltungen/UebergangLeitungsfilter2.jpg>
+Package pdftex.def Info: ../topics/SPSchaltungen/UebergangLeitungsfilter2.jpg  used on input line 76.
+(pdftex.def)             Requested size: 142.87697pt x 58.81332pt.
+<../topics/SPSchaltungen/Kuroda.jpg, id=82, 4015.0pt x 931.48pt>
+File: ../topics/SPSchaltungen/Kuroda.jpg Graphic file (type jpg)
+<use ../topics/SPSchaltungen/Kuroda.jpg>
+Package pdftex.def Info: ../topics/SPSchaltungen/Kuroda.jpg  used on input line 82.
+(pdftex.def)             Requested size: 142.87697pt x 33.14523pt.
+
+
+<../topics/SPSchaltungen/Leitungsfilter1.jpg, id=83, 2206.2425pt x 1003.75pt>
+File: ../topics/SPSchaltungen/Leitungsfilter1.jpg Graphic file (type jpg)
+<use ../topics/SPSchaltungen/Leitungsfilter1.jpg>
+Package pdftex.def Info: ../topics/SPSchaltungen/Leitungsfilter1.jpg  used on input line 113.
+(pdftex.def)             Requested size: 142.87697pt x 65.00098pt.
+<../topics/SPSchaltungen/Leitungsfilter2.jpg, id=84, 2619.7875pt x 1002.74625pt>
+File: ../topics/SPSchaltungen/Leitungsfilter2.jpg Graphic file (type jpg)
+<use ../topics/SPSchaltungen/Leitungsfilter2.jpg>
+Package pdftex.def Info: ../topics/SPSchaltungen/Leitungsfilter2.jpg  used on input line 124.
+(pdftex.def)             Requested size: 142.87697pt x 54.68454pt.
+<../topics/SPSchaltungen/Leitungsfilter3.jpg, id=85, 3762.055pt x 1003.75pt>
+File: ../topics/SPSchaltungen/Leitungsfilter3.jpg Graphic file (type jpg)
+<use ../topics/SPSchaltungen/Leitungsfilter3.jpg>
+Package pdftex.def Info: ../topics/SPSchaltungen/Leitungsfilter3.jpg  used on input line 126.
+(pdftex.def)             Requested size: 142.87697pt x 38.10612pt.
+<../topics/SPSchaltungen/Leitungsfilter4.jpg, id=86, 3132.70375pt x 1003.75pt>
+File: ../topics/SPSchaltungen/Leitungsfilter4.jpg Graphic file (type jpg)
+<use ../topics/SPSchaltungen/Leitungsfilter4.jpg>
+Package pdftex.def Info: ../topics/SPSchaltungen/Leitungsfilter4.jpg  used on input line 128.
+(pdftex.def)             Requested size: 142.87697pt x 45.76411pt.
+(../topics/SPSchaltungen/z_tikz_1.tikz)
+
+[5 <../topics/SPSchaltungen/Leitungselement3.JPG> <../topics/SPSchaltungen/LeitungsfilterUebertragung.JPG> <../topics/SPSchaltungen/2DrahtESB.JPG> <../topics/SPSchaltungen/Stichleitung Induktiv.JPG> <../topics/SPSchaltungen/Stichleitung Kapazitiv.JPG> <../topics/SPSchaltungen/PrototypfilterBW.JPG> <../topics/SPSchaltungen/Prototypfilter2.JPG> <../topics/SPSchaltungen/UebergangLeitungsfilter.JPG> <../topics/SPSchaltungen/UebergangLeitungsfilter2.JPG> <../topics/SPSchaltungen/Kuroda.JPG> <../topics/SPSchaltungen/Leitungsfilter1.JPG> <../topics/SPSchaltungen/Leitungsfilter2.JPG> <../topics/SPSchaltungen/Leitungsfilter3.JPG> <../topics/SPSchaltungen/Leitungsfilter4.JPG>] (../topics/SPSchaltungen/z_tikz_2.tikz) (../topics/SPSchaltungen/z_tikz_3.tikz) (../topics/SPSchaltungen/z_tikz_4.tikz)
+
+<../topics/SPSchaltungen/zimg45.png, id=92, 770.88pt x 329.23pt>
+File: ../topics/SPSchaltungen/zimg45.png Graphic file (type png)
+<use ../topics/SPSchaltungen/zimg45.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/zimg45.png  used on input line 222.
+(pdftex.def)             Requested size: 131.92694pt x 56.3401pt.
+<../topics/SPSchaltungen/zimg46.png, id=93, 786.94pt x 355.3275pt>
+File: ../topics/SPSchaltungen/zimg46.png Graphic file (type png)
+<use ../topics/SPSchaltungen/zimg46.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/zimg46.png  used on input line 252.
+(pdftex.def)             Requested size: 131.92694pt x 59.56448pt.
+<../topics/SPSchaltungen/zimg47.png, id=94, 790.955pt x 315.1775pt>
+File: ../topics/SPSchaltungen/zimg47.png Graphic file (type png)
+<use ../topics/SPSchaltungen/zimg47.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/zimg47.png  used on input line 265.
+(pdftex.def)             Requested size: 131.92694pt x 52.56952pt.
+<../topics/SPSchaltungen/zimg4.png, id=95, 755.07094pt x 143.03438pt>
+File: ../topics/SPSchaltungen/zimg4.png Graphic file (type png)
+<use ../topics/SPSchaltungen/zimg4.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/zimg4.png  used on input line 273.
+(pdftex.def)             Requested size: 142.87697pt x 27.06549pt.
+<../topics/SPSchaltungen/zimg5.png, id=96, 599.23875pt x 152.82094pt>
+File: ../topics/SPSchaltungen/zimg5.png Graphic file (type png)
+<use ../topics/SPSchaltungen/zimg5.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/zimg5.png  used on input line 275.
+(pdftex.def)             Requested size: 142.87697pt x 36.43524pt.
+
+
+[6 <../topics/SPSchaltungen/zimg45.png> <../topics/SPSchaltungen/zimg46.png> <../topics/SPSchaltungen/zimg47.png> <../topics/SPSchaltungen/zimg4.png (PNG copy)>]
+<../topics/SPSchaltungen/zimg3.png, id=100, 516.42938pt x 206.27063pt>
+File: ../topics/SPSchaltungen/zimg3.png Graphic file (type png)
+<use ../topics/SPSchaltungen/zimg3.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/zimg3.png  used on input line 309.
+(pdftex.def)             Requested size: 142.87697pt x 57.06609pt.
+<../topics/SPSchaltungen/zimg6.png, id=101, 484.05844pt x 221.32687pt>
+File: ../topics/SPSchaltungen/zimg6.png Graphic file (type png)
+<use ../topics/SPSchaltungen/zimg6.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/zimg6.png  used on input line 344.
+(pdftex.def)             Requested size: 119.88193pt x 54.81148pt.
+<../topics/SPSchaltungen/zimg7.png, id=102, 410.2828pt x 160.34906pt>
+File: ../topics/SPSchaltungen/zimg7.png Graphic file (type png)
+<use ../topics/SPSchaltungen/zimg7.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/zimg7.png  used on input line 354.
+(pdftex.def)             Requested size: 119.88193pt x 46.85236pt.
+
+
+<../topics/SPSchaltungen/zimg1.png, id=103, 544.28343pt x 238.64156pt>
+File: ../topics/SPSchaltungen/zimg1.png Graphic file (type png)
+<use ../topics/SPSchaltungen/zimg1.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/zimg1.png  used on input line 377.
+(pdftex.def)             Requested size: 131.92694pt x 57.84319pt.
+<../topics/SPSchaltungen/zimg48.png, id=104, 768.8725pt x 283.0575pt>
+File: ../topics/SPSchaltungen/zimg48.png Graphic file (type png)
+<use ../topics/SPSchaltungen/zimg48.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/zimg48.png  used on input line 392.
+(pdftex.def)             Requested size: 131.92694pt x 48.56831pt.
+<../topics/SPSchaltungen/zimg54.png, id=105, 1090.0725pt x 361.35pt>
+File: ../topics/SPSchaltungen/zimg54.png Graphic file (type png)
+<use ../topics/SPSchaltungen/zimg54.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/zimg54.png  used on input line 398.
+(pdftex.def)             Requested size: 142.87697pt x 47.35759pt.
+
+
+[7 <../topics/SPSchaltungen/zimg5.png (PNG copy)> <../topics/SPSchaltungen/zimg3.png (PNG copy)> <../topics/SPSchaltungen/zimg6.png (PNG copy)> <../topics/SPSchaltungen/zimg7.png (PNG copy)> <../topics/SPSchaltungen/zimg1.png (PNG copy)> <../topics/SPSchaltungen/zimg48.png> <../topics/SPSchaltungen/zimg54.png>]
+<../topics/SPSchaltungen/zimg2.png, id=110, 1660.2025pt x 475.7775pt>
+File: ../topics/SPSchaltungen/zimg2.png Graphic file (type png)
+<use ../topics/SPSchaltungen/zimg2.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/zimg2.png  used on input line 422.
+(pdftex.def)             Requested size: 131.92694pt x 37.80162pt.
+<../topics/SPSchaltungen/zimg53.png, id=111, 1258.7025pt x 481.8pt>
+File: ../topics/SPSchaltungen/zimg53.png Graphic file (type png)
+<use ../topics/SPSchaltungen/zimg53.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/zimg53.png  used on input line 423.
+(pdftex.def)             Requested size: 131.92694pt x 50.4986pt.
+<../topics/SPSchaltungen/zimg9.png, id=112, 234.1247pt x 92.59593pt>
+File: ../topics/SPSchaltungen/zimg9.png Graphic file (type png)
+<use ../topics/SPSchaltungen/zimg9.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/zimg9.png  used on input line 434.
+(pdftex.def)             Requested size: 142.87697pt x 56.51027pt.
+<../topics/SPSchaltungen/zimg10.png, id=113, 740.0147pt x 152.82094pt>
+File: ../topics/SPSchaltungen/zimg10.png Graphic file (type png)
+<use ../topics/SPSchaltungen/zimg10.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/zimg10.png  used on input line 448.
+(pdftex.def)             Requested size: 285.75394pt x 59.00995pt.
+<../topics/SPSchaltungen/zimg8.png, id=114, 403.5075pt x 135.50626pt>
+File: ../topics/SPSchaltungen/zimg8.png Graphic file (type png)
+<use ../topics/SPSchaltungen/zimg8.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/zimg8.png  used on input line 471.
+(pdftex.def)             Requested size: 142.87697pt x 47.97995pt.
+
+
+<../topics/SPSchaltungen/zimg11.png, id=115, 533.74406pt x 129.48375pt>
+File: ../topics/SPSchaltungen/zimg11.png Graphic file (type png)
+<use ../topics/SPSchaltungen/zimg11.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/zimg11.png  used on input line 497.
+(pdftex.def)             Requested size: 142.87697pt x 34.66075pt.
+<../topics/SPSchaltungen/zimg12.png, id=116, 757.32938pt x 176.91093pt>
+File: ../topics/SPSchaltungen/zimg12.png Graphic file (type png)
+<use ../topics/SPSchaltungen/zimg12.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/zimg12.png  used on input line 498.
+(pdftex.def)             Requested size: 142.87697pt x 33.37587pt.
+<../topics/SPSchaltungen/zimg13.png, id=117, 557.08125pt x 111.41624pt>
+File: ../topics/SPSchaltungen/zimg13.png Graphic file (type png)
+<use ../topics/SPSchaltungen/zimg13.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/zimg13.png  used on input line 499.
+(pdftex.def)             Requested size: 142.87697pt x 28.57481pt.
+<../topics/SPSchaltungen/zimg14.png, id=118, 449.42906pt x 78.2925pt>
+File: ../topics/SPSchaltungen/zimg14.png Graphic file (type png)
+<use ../topics/SPSchaltungen/zimg14.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/zimg14.png  used on input line 500.
+(pdftex.def)             Requested size: 142.87697pt x 24.88924pt.
+<../topics/SPSchaltungen/zimg15.png, id=119, 447.92343pt x 89.58469pt>
+File: ../topics/SPSchaltungen/zimg15.png Graphic file (type png)
+<use ../topics/SPSchaltungen/zimg15.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/zimg15.png  used on input line 503.
+(pdftex.def)             Requested size: 142.87697pt x 28.57472pt.
+<../topics/SPSchaltungen/zimg16.png, id=120, 639.89063pt x 186.6975pt>
+File: ../topics/SPSchaltungen/zimg16.png Graphic file (type png)
+<use ../topics/SPSchaltungen/zimg16.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/zimg16.png  used on input line 508.
+(pdftex.def)             Requested size: 142.87697pt x 41.68605pt.
+<../topics/SPSchaltungen/zimg17.png, id=121, 466.74374pt x 136.25906pt>
+File: ../topics/SPSchaltungen/zimg17.png Graphic file (type png)
+<use ../topics/SPSchaltungen/zimg17.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/zimg17.png  used on input line 509.
+(pdftex.def)             Requested size: 142.87697pt x 41.70969pt.
+<../topics/SPSchaltungen/zimg18.png, id=122, 444.15938pt x 170.88844pt>
+File: ../topics/SPSchaltungen/zimg18.png Graphic file (type png)
+<use ../topics/SPSchaltungen/zimg18.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/zimg18.png  used on input line 512.
+(pdftex.def)             Requested size: 142.87697pt x 54.96964pt.
+<../topics/SPSchaltungen/ESB3 Leitungen LL.jpeg, id=123, 1626.075pt x 1003.75pt>
+File: ../topics/SPSchaltungen/ESB3 Leitungen LL.jpeg Graphic file (type jpg)
+<use ../topics/SPSchaltungen/ESB3 Leitungen LL.jpeg>
+Package pdftex.def Info: ../topics/SPSchaltungen/ESB3 Leitungen LL.jpeg  used on input line 515.
+(pdftex.def)             Requested size: 142.87697pt x 88.18936pt.
+<../topics/SPSchaltungen/zimg50.png, id=124, 877.2775pt x 349.305pt>
+File: ../topics/SPSchaltungen/zimg50.png Graphic file (type png)
+<use ../topics/SPSchaltungen/zimg50.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/zimg50.png  used on input line 519.
+(pdftex.def)             Requested size: 142.87697pt x 56.88664pt.
+<../topics/SPSchaltungen/zimg51.png, id=125, 953.5625pt x 297.11pt>
+File: ../topics/SPSchaltungen/zimg51.png Graphic file (type png)
+<use ../topics/SPSchaltungen/zimg51.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/zimg51.png  used on input line 520.
+(pdftex.def)             Requested size: 142.87697pt x 44.5147pt.
+<../topics/SPSchaltungen/zimg19.png, id=126, 383.93437pt x 143.03438pt>
+File: ../topics/SPSchaltungen/zimg19.png Graphic file (type png)
+<use ../topics/SPSchaltungen/zimg19.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/zimg19.png  used on input line 527.
+(pdftex.def)             Requested size: 142.87697pt x 53.22961pt.
+<../topics/SPSchaltungen/zimg20.png, id=127, 649.67719pt x 342.5297pt>
+File: ../topics/SPSchaltungen/zimg20.png Graphic file (type png)
+<use ../topics/SPSchaltungen/zimg20.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/zimg20.png  used on input line 528.
+(pdftex.def)             Requested size: 142.87697pt x 75.3254pt.
+
+
+[8 <../topics/SPSchaltungen/zimg2.png> <../topics/SPSchaltungen/zimg53.png> <../topics/SPSchaltungen/zimg9.png (PNG copy)> <../topics/SPSchaltungen/zimg10.png (PNG copy)> <../topics/SPSchaltungen/zimg8.png (PNG copy)> <../topics/SPSchaltungen/zimg11.png (PNG copy)> <../topics/SPSchaltungen/zimg12.png (PNG copy)> <../topics/SPSchaltungen/zimg13.png (PNG copy)> <../topics/SPSchaltungen/zimg14.png (PNG copy)> <../topics/SPSchaltungen/zimg15.png (PNG copy)> <../topics/SPSchaltungen/zimg16.png (PNG copy)> <../topics/SPSchaltungen/zimg17.png> <../topics/SPSchaltungen/zimg18.png (PNG copy)> <../topics/SPSchaltungen/ESB3 Leitungen LL.jpeg> <../topics/SPSchaltungen/zimg50.png> <../topics/SPSchaltungen/zimg51.png> <../topics/SPSchaltungen/zimg19.png (PNG copy)>]
+<../topics/SPSchaltungen/zimg23.png, id=131, 503.63156pt x 225.09094pt>
+File: ../topics/SPSchaltungen/zimg23.png Graphic file (type png)
+<use ../topics/SPSchaltungen/zimg23.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/zimg23.png  used on input line 530.
+(pdftex.def)             Requested size: 85.72705pt x 38.31303pt.
+<../topics/SPSchaltungen/zimg21.png, id=132, 402.75468pt x 212.29312pt>
+File: ../topics/SPSchaltungen/zimg21.png Graphic file (type png)
+<use ../topics/SPSchaltungen/zimg21.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/zimg21.png  used on input line 531.
+(pdftex.def)             Requested size: 85.72705pt x 45.18538pt.
+<../topics/SPSchaltungen/zimg31.png, id=133, 325.96782pt x 207.77625pt>
+File: ../topics/SPSchaltungen/zimg31.png Graphic file (type png)
+<use ../topics/SPSchaltungen/zimg31.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/zimg31.png  used on input line 532.
+(pdftex.def)             Requested size: 85.72705pt x 54.64194pt.
+<../topics/SPSchaltungen/zimg24.png, id=134, 331.2375pt x 145.29282pt>
+File: ../topics/SPSchaltungen/zimg24.png Graphic file (type png)
+<use ../topics/SPSchaltungen/zimg24.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/zimg24.png  used on input line 534.
+(pdftex.def)             Requested size: 85.72705pt x 37.60231pt.
+<../topics/SPSchaltungen/zimg22.png, id=135, 382.42876pt x 201.75375pt>
+File: ../topics/SPSchaltungen/zimg22.png Graphic file (type png)
+<use ../topics/SPSchaltungen/zimg22.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/zimg22.png  used on input line 535.
+(pdftex.def)             Requested size: 85.72705pt x 45.22638pt.
+<../topics/SPSchaltungen/zimg32.png, id=136, 344.03531pt x 226.59656pt>
+File: ../topics/SPSchaltungen/zimg32.png Graphic file (type png)
+<use ../topics/SPSchaltungen/zimg32.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/zimg32.png  used on input line 536.
+(pdftex.def)             Requested size: 85.72705pt x 56.46228pt.
+<../topics/SPSchaltungen/zimg25.png, id=137, 470.50781pt x 215.30438pt>
+File: ../topics/SPSchaltungen/zimg25.png Graphic file (type png)
+<use ../topics/SPSchaltungen/zimg25.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/zimg25.png  used on input line 538.
+(pdftex.def)             Requested size: 85.72705pt x 39.22618pt.
+<../topics/SPSchaltungen/zimg33.png, id=138, 425.33907pt x 224.33812pt>
+File: ../topics/SPSchaltungen/zimg33.png Graphic file (type png)
+<use ../topics/SPSchaltungen/zimg33.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/zimg33.png  used on input line 539.
+(pdftex.def)             Requested size: 85.72705pt x 45.21255pt.
+<../topics/SPSchaltungen/zimg40.png, id=139, 291.33844pt x 108.405pt>
+File: ../topics/SPSchaltungen/zimg40.png Graphic file (type png)
+<use ../topics/SPSchaltungen/zimg40.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/zimg40.png  used on input line 540.
+(pdftex.def)             Requested size: 85.72705pt x 31.89813pt.
+<../topics/SPSchaltungen/zimg26.png, id=140, 435.87843pt x 227.34938pt>
+File: ../topics/SPSchaltungen/zimg26.png Graphic file (type png)
+<use ../topics/SPSchaltungen/zimg26.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/zimg26.png  used on input line 542.
+(pdftex.def)             Requested size: 85.72705pt x 44.7128pt.
+<../topics/SPSchaltungen/zimg34.png, id=141, 649.67719pt x 342.5297pt>
+File: ../topics/SPSchaltungen/zimg34.png Graphic file (type png)
+<use ../topics/SPSchaltungen/zimg34.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/zimg34.png  used on input line 543.
+(pdftex.def)             Requested size: 85.72705pt x 45.1942pt.
+<../topics/SPSchaltungen/zimg39.png, id=142, 485.56406pt x 189.70876pt>
+File: ../topics/SPSchaltungen/zimg39.png Graphic file (type png)
+<use ../topics/SPSchaltungen/zimg39.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/zimg39.png  used on input line 544.
+(pdftex.def)             Requested size: 85.72705pt x 33.49188pt.
+<../topics/SPSchaltungen/zimg27.png, id=143, 462.97969pt x 192.72pt>
+File: ../topics/SPSchaltungen/zimg27.png Graphic file (type png)
+<use ../topics/SPSchaltungen/zimg27.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/zimg27.png  used on input line 546.
+(pdftex.def)             Requested size: 85.72705pt x 35.68204pt.
+<../topics/SPSchaltungen/zimg35.png, id=144, 649.67719pt x 342.5297pt>
+File: ../topics/SPSchaltungen/zimg35.png Graphic file (type png)
+<use ../topics/SPSchaltungen/zimg35.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/zimg35.png  used on input line 547.
+(pdftex.def)             Requested size: 85.72705pt x 45.1942pt.
+<../topics/SPSchaltungen/zimg41.png, id=145, 335.75438pt x 117.43875pt>
+File: ../topics/SPSchaltungen/zimg41.png Graphic file (type png)
+<use ../topics/SPSchaltungen/zimg41.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/zimg41.png  used on input line 548.
+(pdftex.def)             Requested size: 85.72705pt x 29.985pt.
+<../topics/SPSchaltungen/zimg28.png, id=146, 420.06938pt x 179.92218pt>
+File: ../topics/SPSchaltungen/zimg28.png Graphic file (type png)
+<use ../topics/SPSchaltungen/zimg28.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/zimg28.png  used on input line 550.
+(pdftex.def)             Requested size: 85.72705pt x 36.71681pt.
+<../topics/SPSchaltungen/zimg36.png, id=147, 584.1825pt x 307.90031pt>
+File: ../topics/SPSchaltungen/zimg36.png Graphic file (type png)
+<use ../topics/SPSchaltungen/zimg36.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/zimg36.png  used on input line 551.
+(pdftex.def)             Requested size: 85.72705pt x 45.18233pt.
+<../topics/SPSchaltungen/zimg42.png, id=148, 493.0922pt x 178.41656pt>
+File: ../topics/SPSchaltungen/zimg42.png Graphic file (type png)
+<use ../topics/SPSchaltungen/zimg42.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/zimg42.png  used on input line 552.
+(pdftex.def)             Requested size: 85.72705pt x 31.01645pt.
+<../topics/SPSchaltungen/zimg29.png, id=149, 428.35031pt x 185.94469pt>
+File: ../topics/SPSchaltungen/zimg29.png Graphic file (type png)
+<use ../topics/SPSchaltungen/zimg29.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/zimg29.png  used on input line 554.
+(pdftex.def)             Requested size: 85.72705pt x 37.2138pt.
+<../topics/SPSchaltungen/zimg37.png, id=150, 584.1825pt x 307.90031pt>
+File: ../topics/SPSchaltungen/zimg37.png Graphic file (type png)
+<use ../topics/SPSchaltungen/zimg37.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/zimg37.png  used on input line 555.
+(pdftex.def)             Requested size: 85.72705pt x 45.18233pt.
+<../topics/SPSchaltungen/zimg43.png, id=151, 469.00218pt x 175.40532pt>
+File: ../topics/SPSchaltungen/zimg43.png Graphic file (type png)
+<use ../topics/SPSchaltungen/zimg43.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/zimg43.png  used on input line 556.
+(pdftex.def)             Requested size: 85.72705pt x 32.06139pt.
+<../topics/SPSchaltungen/zimg30.png, id=152, 423.08063pt x 197.23688pt>
+File: ../topics/SPSchaltungen/zimg30.png Graphic file (type png)
+<use ../topics/SPSchaltungen/zimg30.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/zimg30.png  used on input line 558.
+(pdftex.def)             Requested size: 85.72705pt x 39.96431pt.
+<../topics/SPSchaltungen/zimg38.png, id=153, 525.46312pt x 277.035pt>
+File: ../topics/SPSchaltungen/zimg38.png Graphic file (type png)
+<use ../topics/SPSchaltungen/zimg38.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/zimg38.png  used on input line 559.
+(pdftex.def)             Requested size: 85.72705pt x 45.19307pt.
+<../topics/SPSchaltungen/zimg44.png, id=154, 374.90062pt x 132.495pt>
+File: ../topics/SPSchaltungen/zimg44.png Graphic file (type png)
+<use ../topics/SPSchaltungen/zimg44.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/zimg44.png  used on input line 560.
+(pdftex.def)             Requested size: 85.72705pt x 30.29529pt.
+<../topics/SPSchaltungen/BW BP.jpeg, id=155, 1685.29625pt x 1003.75pt>
+File: ../topics/SPSchaltungen/BW BP.jpeg Graphic file (type jpg)
+<use ../topics/SPSchaltungen/BW BP.jpeg>
+Package pdftex.def Info: ../topics/SPSchaltungen/BW BP.jpeg  used on input line 575.
+(pdftex.def)             Requested size: 142.87697pt x 85.09554pt.
+
+
+<../topics/SPSchaltungen/zimg56.png, id=156, 1427.3325pt x 379.4175pt>
+File: ../topics/SPSchaltungen/zimg56.png Graphic file (type png)
+<use ../topics/SPSchaltungen/zimg56.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/zimg56.png  used on input line 603.
+(pdftex.def)             Requested size: 131.92694pt x 35.06662pt.
+<../topics/SPSchaltungen/zimg52.png, id=157, 2334.7225pt x 596.2275pt>
+File: ../topics/SPSchaltungen/zimg52.png Graphic file (type png)
+<use ../topics/SPSchaltungen/zimg52.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/zimg52.png  used on input line 608.
+(pdftex.def)             Requested size: 131.92694pt x 33.68874pt.
+<../topics/SPSchaltungen/zimg58.png, id=158, 1296.845pt x 210.7875pt>
+File: ../topics/SPSchaltungen/zimg58.png Graphic file (type png)
+<use ../topics/SPSchaltungen/zimg58.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/zimg58.png  used on input line 609.
+(pdftex.def)             Requested size: 131.92694pt x 21.44342pt.
+<../topics/SPSchaltungen/zimg57.png, id=159, 1947.275pt x 323.2075pt>
+File: ../topics/SPSchaltungen/zimg57.png Graphic file (type png)
+<use ../topics/SPSchaltungen/zimg57.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/zimg57.png  used on input line 610.
+(pdftex.def)             Requested size: 131.92694pt x 21.89693pt.
+<../topics/SPSchaltungen/zimg55.png, id=160, 1616.0375pt x 309.155pt>
+File: ../topics/SPSchaltungen/zimg55.png Graphic file (type png)
+<use ../topics/SPSchaltungen/zimg55.png>
+Package pdftex.def Info: ../topics/SPSchaltungen/zimg55.png  used on input line 611.
+(pdftex.def)             Requested size: 131.92694pt x 25.23766pt.
+) (../topics/Mischer/smain.tex
+<../topics/Mischer/6. Mischer.pdf, id=161, page=1, 925.7787pt x 845.07718pt>
+File: ../topics/Mischer/6. Mischer.pdf Graphic file (type pdf)
+<use ../topics/Mischer/6. Mischer.pdf, page 1>
+Package pdftex.def Info: ../topics/Mischer/6. Mischer.pdf , page1 used on input line 4.
+(pdftex.def)             Requested size: 285.75394pt x 260.84937pt.
+<../topics/Mischer/6. Mischer.pdf, id=162, page=2, 925.7787pt x 845.07718pt>
+File: ../topics/Mischer/6. Mischer.pdf Graphic file (type pdf)
+<use ../topics/Mischer/6. Mischer.pdf, page 2>
+Package pdftex.def Info: ../topics/Mischer/6. Mischer.pdf , page2 used on input line 5.
+(pdftex.def)             Requested size: 285.75394pt x 260.84937pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[9 <../topics/SPSchaltungen/zimg20.png> <../topics/SPSchaltungen/zimg23.png (PNG copy)> <../topics/SPSchaltungen/zimg21.png> <../topics/SPSchaltungen/zimg31.png (PNG copy)> <../topics/SPSchaltungen/zimg24.png (PNG copy)> <../topics/SPSchaltungen/zimg22.png> <../topics/SPSchaltungen/zimg32.png (PNG copy)> <../topics/SPSchaltungen/zimg25.png (PNG copy)> <../topics/SPSchaltungen/zimg33.png> <../topics/SPSchaltungen/zimg40.png (PNG copy)> <../topics/SPSchaltungen/zimg26.png (PNG copy)> <../topics/SPSchaltungen/zimg34.png> <../topics/SPSchaltungen/zimg39.png (PNG copy)> <../topics/SPSchaltungen/zimg27.png (PNG copy)> <../topics/SPSchaltungen/zimg35.png> <../topics/SPSchaltungen/zimg41.png (PNG copy)> <../topics/SPSchaltungen/zimg28.png (PNG copy)> <../topics/SPSchaltungen/zimg36.png> <../topics/SPSchaltungen/zimg42.png (PNG copy)> <../topics/SPSchaltungen/zimg29.png (PNG copy)> <../topics/SPSchaltungen/zimg37.png> <../topics/SPSchaltungen/zimg43.png (PNG copy)> <../topics/SPSchaltungen/zimg30.png (PNG copy)> <../topics/SPSchaltungen/zimg38.png> <../topics/SPSchaltungen/zimg44.png (PNG copy)> <../topics/SPSchaltungen/BW BP.jpeg> <../topics/SPSchaltungen/zimg56.png> <../topics/SPSchaltungen/zimg52.png> <../topics/SPSchaltungen/zimg58.png> <../topics/SPSchaltungen/zimg57.png> <../topics/SPSchaltungen/zimg55.png>]
+<../topics/Mischer/BreitbandMischer.jpeg, id=166, 1345.025pt x 1003.75pt>
+File: ../topics/Mischer/BreitbandMischer.jpeg Graphic file (type jpg)
+<use ../topics/Mischer/BreitbandMischer.jpeg>
+Package pdftex.def Info: ../topics/Mischer/BreitbandMischer.jpeg  used on input line 9.
+(pdftex.def)             Requested size: 142.87697pt x 106.61447pt.
+<../topics/Mischer/ESB BB Mischer.jpeg, id=167, 1757.56625pt x 1003.75pt>
+File: ../topics/Mischer/ESB BB Mischer.jpeg Graphic file (type jpg)
+<use ../topics/Mischer/ESB BB Mischer.jpeg>
+Package pdftex.def Info: ../topics/Mischer/ESB BB Mischer.jpeg  used on input line 11.
+(pdftex.def)             Requested size: 142.87697pt x 81.58818pt.
+<../topics/Mischer/ESB Mischer.jpeg, id=168, 1956.30875pt x 1003.75pt>
+File: ../topics/Mischer/ESB Mischer.jpeg Graphic file (type jpg)
+<use ../topics/Mischer/ESB Mischer.jpeg>
+Package pdftex.def Info: ../topics/Mischer/ESB Mischer.jpeg  used on input line 21.
+(pdftex.def)             Requested size: 142.87697pt x 73.30223pt.
+
+
+<../topics/Mischer/verf Pgen.jpeg, id=169, 2163.08125pt x 1003.75pt>
+File: ../topics/Mischer/verf Pgen.jpeg Graphic file (type jpg)
+<use ../topics/Mischer/verf Pgen.jpeg>
+Package pdftex.def Info: ../topics/Mischer/verf Pgen.jpeg  used on input line 47.
+(pdftex.def)             Requested size: 142.87697pt x 66.28752pt.
+<../topics/Mischer/1DiodenMischer.jpeg, id=170, 1511.6475pt x 1003.75pt>
+File: ../topics/Mischer/1DiodenMischer.jpeg Graphic file (type jpg)
+<use ../topics/Mischer/1DiodenMischer.jpeg>
+Package pdftex.def Info: ../topics/Mischer/1DiodenMischer.jpeg  used on input line 85.
+(pdftex.def)             Requested size: 142.87697pt x 94.86713pt.
+<../topics/Mischer/zimg1.png, id=171, 459.7175pt x 271.0125pt>
+File: ../topics/Mischer/zimg1.png Graphic file (type png)
+<use ../topics/Mischer/zimg1.png>
+Package pdftex.def Info: ../topics/Mischer/zimg1.png  used on input line 89.
+(pdftex.def)             Requested size: 26.387pt x 15.5529pt.
+<../topics/Mischer/zimg2.png, id=172, 431.6125pt x 244.915pt>
+File: ../topics/Mischer/zimg2.png Graphic file (type png)
+<use ../topics/Mischer/zimg2.png>
+Package pdftex.def Info: ../topics/Mischer/zimg2.png  used on input line 90.
+(pdftex.def)             Requested size: 26.387pt x 14.97081pt.
+<../topics/Mischer/zimg4.png, id=173, 425.59pt x 347.2975pt>
+File: ../topics/Mischer/zimg4.png Graphic file (type png)
+<use ../topics/Mischer/zimg4.png>
+Package pdftex.def Info: ../topics/Mischer/zimg4.png  used on input line 91.
+(pdftex.def)             Requested size: 26.387pt x 21.53116pt.
+<../topics/Mischer/zimg3.png, id=174, 415.5525pt x 343.2825pt>
+File: ../topics/Mischer/zimg3.png Graphic file (type png)
+<use ../topics/Mischer/zimg3.png>
+Package pdftex.def Info: ../topics/Mischer/zimg3.png  used on input line 92.
+(pdftex.def)             Requested size: 26.387pt x 21.79556pt.
+<../topics/Mischer/DiodeKS.jpeg, id=175, 2306.6175pt x 1002.74625pt>
+File: ../topics/Mischer/DiodeKS.jpeg Graphic file (type jpg)
+<use ../topics/Mischer/DiodeKS.jpeg>
+Package pdftex.def Info: ../topics/Mischer/DiodeKS.jpeg  used on input line 95.
+(pdftex.def)             Requested size: 142.87697pt x 62.10536pt.
+<../topics/Mischer/2DiodenMischer.jpeg, id=176, 1720.4275pt x 1003.75pt>
+File: ../topics/Mischer/2DiodenMischer.jpeg Graphic file (type jpg)
+<use ../topics/Mischer/2DiodenMischer.jpeg>
+Package pdftex.def Info: ../topics/Mischer/2DiodenMischer.jpeg  used on input line 101.
+(pdftex.def)             Requested size: 142.87697pt x 83.34952pt.
+
+Underfull \vbox (badness 1189) has occurred while \output is active []
+
+
+
+[10 <../topics/Mischer/6. Mischer.pdf> <../topics/Mischer/6. Mischer.pdf
+
+pdfTeX warning: pdflatex (file ../topics/Mischer/6. Mischer.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <../topics/Mischer/BreitbandMischer.jpeg> <../topics/Mischer/ESB BB Mischer.jpeg> <../topics/Mischer/ESB Mischer.jpeg> <../topics/Mischer/verf Pgen.jpeg> <../topics/Mischer/1DiodenMischer.jpeg> <../topics/Mischer/zimg1.png> <../topics/Mischer/zimg2.png> <../topics/Mischer/zimg4.png> <../topics/Mischer/zimg3.png> <../topics/Mischer/DiodeKS.jpeg>]
+<../topics/Mischer/4DiodenMischer.jpeg, id=192, 1562.83875pt x 1003.75pt>
+File: ../topics/Mischer/4DiodenMischer.jpeg Graphic file (type jpg)
+<use ../topics/Mischer/4DiodenMischer.jpeg>
+Package pdftex.def Info: ../topics/Mischer/4DiodenMischer.jpeg  used on input line 124.
+(pdftex.def)             Requested size: 142.87697pt x 91.75798pt.
+<../topics/Mischer/4DiodenMischer mit RK.jpeg, id=193, 3949.75626pt x 1003.75pt>
+File: ../topics/Mischer/4DiodenMischer mit RK.jpeg Graphic file (type jpg)
+<use ../topics/Mischer/4DiodenMischer mit RK.jpeg>
+Package pdftex.def Info: ../topics/Mischer/4DiodenMischer mit RK.jpeg  used on input line 136.
+(pdftex.def)             Requested size: 142.87697pt x 36.29884pt.
+<../topics/Mischer/skalarNWA.jpeg, id=194, 2729.19624pt x 1003.75pt>
+File: ../topics/Mischer/skalarNWA.jpeg Graphic file (type jpg)
+<use ../topics/Mischer/skalarNWA.jpeg>
+Package pdftex.def Info: ../topics/Mischer/skalarNWA.jpeg  used on input line 149.
+(pdftex.def)             Requested size: 142.87697pt x 52.53378pt.
+<../topics/Mischer/vektorNWA.jpeg, id=195, 2322.6775pt x 1003.75pt>
+File: ../topics/Mischer/vektorNWA.jpeg Graphic file (type jpg)
+<use ../topics/Mischer/vektorNWA.jpeg>
+Package pdftex.def Info: ../topics/Mischer/vektorNWA.jpeg  used on input line 153.
+(pdftex.def)             Requested size: 142.87697pt x 61.73868pt.
+<../topics/Mischer/7.Phasenregelkreise.pdf, id=196, page=1, 733.29959pt x 700.77808pt>
+File: ../topics/Mischer/7.Phasenregelkreise.pdf Graphic file (type pdf)
+<use ../topics/Mischer/7.Phasenregelkreise.pdf, page 1>
+Package pdftex.def Info: ../topics/Mischer/7.Phasenregelkreise.pdf , page1 used on input line 156.
+(pdftex.def)             Requested size: 285.75394pt x 273.07779pt.
+<../topics/Mischer/7.Phasenregelkreise.pdf, id=197, page=2, 733.29959pt x 700.77808pt>
+File: ../topics/Mischer/7.Phasenregelkreise.pdf Graphic file (type pdf)
+<use ../topics/Mischer/7.Phasenregelkreise.pdf, page 2>
+Package pdftex.def Info: ../topics/Mischer/7.Phasenregelkreise.pdf , page2 used on input line 157.
+(pdftex.def)             Requested size: 285.75394pt x 273.07779pt.
+<../topics/Mischer/7.Phasenregelkreise.pdf, id=198, page=3, 733.29959pt x 700.77808pt>
+File: ../topics/Mischer/7.Phasenregelkreise.pdf Graphic file (type pdf)
+<use ../topics/Mischer/7.Phasenregelkreise.pdf, page 3>
+Package pdftex.def Info: ../topics/Mischer/7.Phasenregelkreise.pdf , page3 used on input line 158.
+(pdftex.def)             Requested size: 285.75394pt x 273.07779pt.
+<../topics/Mischer/7.Phasenregelkreise.pdf, id=199, page=4, 733.29959pt x 700.77808pt>
+File: ../topics/Mischer/7.Phasenregelkreise.pdf Graphic file (type pdf)
+<use ../topics/Mischer/7.Phasenregelkreise.pdf, page 4>
+Package pdftex.def Info: ../topics/Mischer/7.Phasenregelkreise.pdf , page4 used on input line 159.
+(pdftex.def)             Requested size: 285.75394pt x 273.07779pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[11 <../topics/Mischer/2DiodenMischer.jpeg> <../topics/Mischer/4DiodenMischer.jpeg> <../topics/Mischer/4DiodenMischer mit RK.jpeg> <../topics/Mischer/skalarNWA.jpeg> <../topics/Mischer/vektorNWA.jpeg> <../topics/Mischer/7.Phasenregelkreise.pdf> <../topics/Mischer/7.Phasenregelkreise.pdf
+
+pdfTeX warning: pdflatex (file ../topics/Mischer/7.Phasenregelkreise.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <../topics/Mischer/7.Phasenregelkreise.pdf
+
+pdfTeX warning: pdflatex (file ../topics/Mischer/7.Phasenregelkreise.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+<../topics/Mischer/1 xor.jpeg, id=222, 1003.75pt x 1096.095pt>
+File: ../topics/Mischer/1 xor.jpeg Graphic file (type jpg)
+<use ../topics/Mischer/1 xor.jpeg>
+Package pdftex.def Info: ../topics/Mischer/1 xor.jpeg  used on input line 180.
+(pdftex.def)             Requested size: 142.87697pt x 156.01118pt.
+<../topics/Mischer/2 Regelpunkte.jpeg, id=223, 1645.14626pt x 1003.75pt>
+File: ../topics/Mischer/2 Regelpunkte.jpeg Graphic file (type jpg)
+<use ../topics/Mischer/2 Regelpunkte.jpeg>
+Package pdftex.def Info: ../topics/Mischer/2 Regelpunkte.jpeg  used on input line 193.
+(pdftex.def)             Requested size: 142.87697pt x 87.1632pt.
+<../topics/Mischer/3 FlipFlop.jpeg, id=224, 1725.44624pt x 1002.74625pt>
+File: ../topics/Mischer/3 FlipFlop.jpeg Graphic file (type jpg)
+<use ../topics/Mischer/3 FlipFlop.jpeg>
+Package pdftex.def Info: ../topics/Mischer/3 FlipFlop.jpeg  used on input line 198.
+(pdftex.def)             Requested size: 142.87697pt x 83.02135pt.
+
+
+<../topics/Mischer/4 RegelpunktFF.jpeg, id=225, 2417.03pt x 1003.75pt>
+File: ../topics/Mischer/4 RegelpunktFF.jpeg Graphic file (type jpg)
+<use ../topics/Mischer/4 RegelpunktFF.jpeg>
+Package pdftex.def Info: ../topics/Mischer/4 RegelpunktFF.jpeg  used on input line 200.
+(pdftex.def)             Requested size: 142.87697pt x 59.33408pt.
+<../topics/Mischer/5 SetReset.jpeg, id=226, 3165.8275pt x 1003.75pt>
+File: ../topics/Mischer/5 SetReset.jpeg Graphic file (type jpg)
+<use ../topics/Mischer/5 SetReset.jpeg>
+Package pdftex.def Info: ../topics/Mischer/5 SetReset.jpeg  used on input line 202.
+(pdftex.def)             Requested size: 142.87697pt x 45.28932pt.
+<../topics/Mischer/6 PFD.jpeg, id=227, 1593.955pt x 1003.75pt>
+File: ../topics/Mischer/6 PFD.jpeg Graphic file (type jpg)
+<use ../topics/Mischer/6 PFD.jpeg>
+Package pdftex.def Info: ../topics/Mischer/6 PFD.jpeg  used on input line 212.
+(pdftex.def)             Requested size: 142.87697pt x 89.96602pt.
+<../topics/Mischer/7 Zustandsgraph.jpg, id=228, 1115.16624pt x 1003.75pt>
+File: ../topics/Mischer/7 Zustandsgraph.jpg Graphic file (type jpg)
+<use ../topics/Mischer/7 Zustandsgraph.jpg>
+Package pdftex.def Info: ../topics/Mischer/7 Zustandsgraph.jpg  used on input line 214.
+(pdftex.def)             Requested size: 142.87697pt x 128.5929pt.
+<../topics/Mischer/8 PFD.jpg, id=229, 1804.7425pt x 1003.75pt>
+File: ../topics/Mischer/8 PFD.jpg Graphic file (type jpg)
+<use ../topics/Mischer/8 PFD.jpg>
+Package pdftex.def Info: ../topics/Mischer/8 PFD.jpg  used on input line 227.
+(pdftex.def)             Requested size: 142.87697pt x 79.45926pt.
+<../topics/Mischer/9 Synthesegenerator.jpg, id=230, 2410.00375pt x 1003.75pt>
+File: ../topics/Mischer/9 Synthesegenerator.jpg Graphic file (type jpg)
+<use ../topics/Mischer/9 Synthesegenerator.jpg>
+Package pdftex.def Info: ../topics/Mischer/9 Synthesegenerator.jpg  used on input line 231.
+(pdftex.def)             Requested size: 142.87697pt x 59.50255pt.
+
+
+[12 <../topics/Mischer/7.Phasenregelkreise.pdf> <../topics/Mischer/1 xor.jpeg> <../topics/Mischer/2 Regelpunkte.jpeg> <../topics/Mischer/3 FlipFlop.jpeg> <../topics/Mischer/4 RegelpunktFF.jpeg> <../topics/Mischer/5 SetReset.jpeg> <../topics/Mischer/6 PFD.jpeg> <../topics/Mischer/7 Zustandsgraph.JPG> <../topics/Mischer/8 PFD.JPG> <../topics/Mischer/9 Synthesegenerator.JPG>]
+<../topics/Mischer/11 einschleifige PLL.jpg, id=240, 2259.44125pt x 1003.75pt>
+File: ../topics/Mischer/11 einschleifige PLL.jpg Graphic file (type jpg)
+<use ../topics/Mischer/11 einschleifige PLL.jpg>
+Package pdftex.def Info: ../topics/Mischer/11 einschleifige PLL.jpg  used on input line 244.
+(pdftex.def)             Requested size: 142.87697pt x 63.46938pt.
+<../topics/Mischer/10 PLL Mischer.jpg, id=241, 3915.62875pt x 1003.75pt>
+File: ../topics/Mischer/10 PLL Mischer.jpg Graphic file (type jpg)
+<use ../topics/Mischer/10 PLL Mischer.jpg>
+Package pdftex.def Info: ../topics/Mischer/10 PLL Mischer.jpg  used on input line 259.
+(pdftex.def)             Requested size: 142.87697pt x 36.62048pt.
+<../topics/Mischer/12 verschachtelte PLL.jpg, id=242, 1853.92625pt x 1003.75pt>
+File: ../topics/Mischer/12 verschachtelte PLL.jpg Graphic file (type jpg)
+<use ../topics/Mischer/12 verschachtelte PLL.jpg>
+Package pdftex.def Info: ../topics/Mischer/12 verschachtelte PLL.jpg  used on input line 270.
+(pdftex.def)             Requested size: 142.87697pt x 77.34566pt.
+<../topics/Mischer/13 PLL fraktionaler Teiler.jpg, id=243, 2493.315pt x 1003.75pt>
+File: ../topics/Mischer/13 PLL fraktionaler Teiler.jpg Graphic file (type jpg)
+<use ../topics/Mischer/13 PLL fraktionaler Teiler.jpg>
+Package pdftex.def Info: ../topics/Mischer/13 PLL fraktionaler Teiler.jpg  used on input line 285.
+(pdftex.def)             Requested size: 142.87697pt x 57.51147pt.
+<../topics/Mischer/14 Takte fraktionaler Teiler.jpg, id=244, 2373.86874pt x 1003.75pt>
+File: ../topics/Mischer/14 Takte fraktionaler Teiler.jpg Graphic file (type jpg)
+<use ../topics/Mischer/14 Takte fraktionaler Teiler.jpg>
+Package pdftex.def Info: ../topics/Mischer/14 Takte fraktionaler Teiler.jpg  used on input line 287.
+(pdftex.def)             Requested size: 142.87697pt x 60.40619pt.
+<../topics/Mischer/16 Frequenzrampe.jpg, id=245, 2099.845pt x 1003.75pt>
+File: ../topics/Mischer/16 Frequenzrampe.jpg Graphic file (type jpg)
+<use ../topics/Mischer/16 Frequenzrampe.jpg>
+Package pdftex.def Info: ../topics/Mischer/16 Frequenzrampe.jpg  used on input line 296.
+(pdftex.def)             Requested size: 142.87697pt x 68.29391pt.
+<../topics/Mischer/15 Noise shaping.jpg, id=246, 1003.75pt x 1064.97874pt>
+File: ../topics/Mischer/15 Noise shaping.jpg Graphic file (type jpg)
+<use ../topics/Mischer/15 Noise shaping.jpg>
+Package pdftex.def Info: ../topics/Mischer/15 Noise shaping.jpg  used on input line 300.
+(pdftex.def)             Requested size: 142.87697pt x 151.58229pt.
+
+
+) (../topics/VNA/smain.tex
+<../topics/VNA/17 skalar.jpg, id=247, 3020.28375pt x 1002.74625pt>
+File: ../topics/VNA/17 skalar.jpg Graphic file (type jpg)
+<use ../topics/VNA/17 skalar.jpg>
+Package pdftex.def Info: ../topics/VNA/17 skalar.jpg  used on input line 7.
+(pdftex.def)             Requested size: 142.87697pt x 47.43202pt.
+<../topics/VNA/18 VNA.jpg, id=248, 2436.10126pt x 1003.75pt>
+File: ../topics/VNA/18 VNA.jpg Graphic file (type jpg)
+<use ../topics/VNA/18 VNA.jpg>
+Package pdftex.def Info: ../topics/VNA/18 VNA.jpg  used on input line 18.
+(pdftex.def)             Requested size: 142.87697pt x 58.85927pt.
+<../topics/VNA/19 S21.jpg, id=249, 1129.21875pt x 1003.75pt>
+File: ../topics/VNA/19 S21.jpg Graphic file (type jpg)
+<use ../topics/VNA/19 S21.jpg>
+Package pdftex.def Info: ../topics/VNA/19 S21.jpg  used on input line 21.
+(pdftex.def)             Requested size: 142.87697pt x 127.00003pt.
+<../topics/VNA/20 Fehlermodell.jpg, id=250, 2692.0575pt x 1002.74625pt>
+File: ../topics/VNA/20 Fehlermodell.jpg Graphic file (type jpg)
+<use ../topics/VNA/20 Fehlermodell.jpg>
+Package pdftex.def Info: ../topics/VNA/20 Fehlermodell.jpg  used on input line 39.
+(pdftex.def)             Requested size: 142.87697pt x 53.21567pt.
+
+
+[13 <../topics/Mischer/11 einschleifige PLL.JPG> <../topics/Mischer/10 PLL Mischer.JPG> <../topics/Mischer/12 verschachtelte PLL.JPG> <../topics/Mischer/13 PLL fraktionaler Teiler.JPG> <../topics/Mischer/14 Takte fraktionaler Teiler.JPG> <../topics/Mischer/16 Frequenzrampe.JPG> <../topics/Mischer/15 Noise shaping.JPG> <../topics/VNA/17 skalar.JPG> <../topics/VNA/18 VNA.JPG> <../topics/VNA/19 S21.JPG>]
+<../topics/VNA/21 ViertorZweitorReduktion.jpg, id=255, 3318.3975pt x 1003.75pt>
+File: ../topics/VNA/21 ViertorZweitorReduktion.jpg Graphic file (type jpg)
+<use ../topics/VNA/21 ViertorZweitorReduktion.jpg>
+Package pdftex.def Info: ../topics/VNA/21 ViertorZweitorReduktion.jpg  used on input line 83.
+(pdftex.def)             Requested size: 142.87697pt x 43.20634pt.
+
+
+
+
+[14 <../topics/VNA/20 Fehlermodell.JPG> <../topics/VNA/21 ViertorZweitorReduktion.JPG>]
+Overfull \hbox (9.07144pt too wide) in paragraph at lines 225--234
+[]$[]$  
+ []
+
+
+
+
+
+[15]
+
+)
+
+[16] (./Auswending.aux)
+ ***********
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 16313 strings out of 473197
+ 366600 string characters out of 5718606
+ 741413 words of memory out of 5000000
+ 39282 multiletter control sequences out of 15000+600000
+ 579959 words of font info for 113 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 117i,15n,121p,633b,682s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb>
+Output written on Auswending.pdf (16 pages, 18670822 bytes).
+PDF statistics:
+ 338 PDF objects out of 1000 (max. 8388607)
+ 117 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 778 words of extra memory for PDF output out of 10000 (max. 10000000)
+

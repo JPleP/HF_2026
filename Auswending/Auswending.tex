@@ -1,0 +1,29 @@
+\documentclass[a4paper,11pt,twocolumn]{article}
+
+% Common lightweight packages
+\usepackage[paperwidth=210mm,paperheight=297mm,margin=8pt]{geometry} % A4, no margins
+\usepackage{ZFPredef}
+
+\begin{document}
+\textbf{\huge HF}
+\raggedright
+
+\newcommand{\cp}{\begin{tikzpicture}\node[circle, inner sep = 1pt,draw] {+};\end{tikzpicture}\hspace{5pt}}
+\newcommand{\cm}{\begin{tikzpicture}\node[circle, inner sep = 3pt,draw] {-};\end{tikzpicture}\hspace{5pt}}
+\newcommand{\fb}{\textcolor{red}{Fehlt Bild}}
+
+\newcommand{\ggt}[2]{%
+  {\mathbin{\genfrac{}{}{-10pt}{3}{\color{black}#1}{\color{orange}#2}}}%
+}
+
+\renewcommand{\preort}{../}
+
+
+
+\input{../topics/Grundlagen/smain.tex}
+\input{../topics/Koppler/smain.tex}
+\input{../topics/Messung/smain.tex}
+\input{../topics/SPSchaltungen/smain.tex}
+\input{../topics/Mischer/smain.tex}
+\input{../topics/VNA/smain.tex}
+\end{document}
