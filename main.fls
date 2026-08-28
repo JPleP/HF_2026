@@ -280,16 +280,160 @@ INPUT ./topics/Koppler/ResKop.png
 INPUT ./topics/Koppler/ResKop.png
 INPUT ./topics/Koppler/ResKop.png
 INPUT ./topics/Koppler/ResKop.png
+INPUT ./topics/Koppler/r_koppler.png
+INPUT ./topics/Koppler/r_koppler.png
+INPUT ./topics/Koppler/r_koppler.png
+INPUT ./topics/Koppler/r_koppler.png
+INPUT ./topics/Koppler/r_koppler_plus.png
+INPUT ./topics/Koppler/r_koppler_plus.png
+INPUT ./topics/Koppler/r_koppler_plus.png
+INPUT ./topics/Koppler/r_koppler_plus.png
+INPUT ./topics/Koppler/r_koppler_minus.png
+INPUT ./topics/Koppler/r_koppler_minus.png
+INPUT ./topics/Koppler/r_koppler_minus.png
+INPUT ./topics/Koppler/r_koppler_minus.png
+INPUT ./topics/Koppler/trafo_koppler.png
+INPUT ./topics/Koppler/trafo_koppler.png
+INPUT ./topics/Koppler/trafo_koppler.png
+INPUT ./topics/Koppler/trafo_koppler.png
+INPUT ./topics/Koppler/NullGradKoppler.png
+INPUT ./topics/Koppler/NullGradKoppler.png
+INPUT ./topics/Koppler/NullGradKoppler.png
+INPUT ./topics/Koppler/NullGradKoppler.png
+INPUT ./topics/Koppler/null_grad_koppler_EB.png
+INPUT ./topics/Koppler/null_grad_koppler_EB.png
+INPUT ./topics/Koppler/null_grad_koppler_EB.png
+INPUT ./topics/Koppler/null_grad_koppler_EB.png
+INPUT ./topics/Koppler/null_grad_koppler_plus.png
+INPUT ./topics/Koppler/null_grad_koppler_plus.png
+INPUT ./topics/Koppler/null_grad_koppler_plus.png
+INPUT ./topics/Koppler/null_grad_koppler_plus.png
+INPUT ./topics/Koppler/null_grad_koppler_minus.png
+INPUT ./topics/Koppler/null_grad_koppler_minus.png
+INPUT ./topics/Koppler/null_grad_koppler_minus.png
+INPUT ./topics/Koppler/null_grad_koppler_minus.png
 INPUT ./topics/Messung/smain.tex
 INPUT ./topics/Messung/smain.tex
 INPUT topics/Messung/smain.tex
+INPUT ./topics/Messung/BBDet.png
+INPUT ./topics/Messung/BBDet.png
+INPUT ./topics/Messung/BBDet.png
+INPUT ./topics/Messung/BBDet.png
+INPUT ./topics/Messung/BBDetErg.png
+INPUT ./topics/Messung/BBDetErg.png
+INPUT ./topics/Messung/BBDetErg.png
+INPUT ./topics/Messung/BBDetErg.png
+INPUT ./topics/Messung/skalar_zt_substitution.png
+INPUT ./topics/Messung/skalar_zt_substitution.png
+INPUT ./topics/Messung/skalar_zt_substitution.png
+INPUT ./topics/Messung/skalar_zt_substitution.png
+INPUT ./topics/Messung/skalar_zt_1.png
+INPUT ./topics/Messung/skalar_zt_1.png
+INPUT ./topics/Messung/skalar_zt_1.png
+INPUT ./topics/Messung/skalar_zt_1.png
+INPUT ./topics/Messung/skalar_zt_2.png
+INPUT ./topics/Messung/skalar_zt_2.png
+INPUT ./topics/Messung/skalar_zt_2.png
+INPUT ./topics/Messung/skalar_zt_2.png
+INPUT ./topics/Messung/skalar_zt_3.png
+INPUT ./topics/Messung/skalar_zt_3.png
+INPUT ./topics/Messung/skalar_zt_3.png
+INPUT ./topics/Messung/skalar_zt_3.png
+INPUT ./topics/Messung/transmission_error.png
+INPUT ./topics/Messung/transmission_error.png
+INPUT ./topics/Messung/transmission_error.png
+INPUT ./topics/Messung/transmission_error.png
+INPUT ./topics/Messung/error_ohne_MO.png
+INPUT ./topics/Messung/error_ohne_MO.png
+INPUT ./topics/Messung/error_ohne_MO.png
+INPUT ./topics/Messung/error_ohne_MO.png
+INPUT ./topics/Messung/error_mit_MO.png
+INPUT ./topics/Messung/error_mit_MO.png
+INPUT ./topics/Messung/error_mit_MO.png
+INPUT ./topics/Messung/error_mit_MO.png
 INPUT ./topics/Messung/vektor_netzwerkanalyse.png
 INPUT ./topics/Messung/vektor_netzwerkanalyse.png
 INPUT ./topics/Messung/vektor_netzwerkanalyse.png
 INPUT ./topics/Messung/vektor_netzwerkanalyse.png
+INPUT ./topics/Messung/vna rampe.png
+INPUT ./topics/Messung/vna rampe.png
+INPUT ./topics/Messung/vna rampe.png
+INPUT ./topics/Messung/vna rampe.png
 INPUT ./topics/SPSchaltungen/smain.tex
 INPUT ./topics/SPSchaltungen/smain.tex
 INPUT topics/SPSchaltungen/smain.tex
+INPUT ./topics/SPSchaltungen/Prototypfilter.png
+INPUT ./topics/SPSchaltungen/Prototypfilter.png
+INPUT ./topics/SPSchaltungen/Prototypfilter.png
+INPUT ./topics/SPSchaltungen/Prototypfilter.png
+INPUT ./topics/SPSchaltungen/Butterworth.png
+INPUT ./topics/SPSchaltungen/Butterworth.png
+INPUT ./topics/SPSchaltungen/Butterworth.png
+INPUT ./topics/SPSchaltungen/Butterworth.png
+INPUT ./topics/SPSchaltungen/Leitungselement1.png
+INPUT ./topics/SPSchaltungen/Leitungselement1.png
+INPUT ./topics/SPSchaltungen/Leitungselement1.png
+INPUT ./topics/SPSchaltungen/Leitungselement1.png
+INPUT ./topics/SPSchaltungen/Leitungselement2.JPG
+INPUT ./topics/SPSchaltungen/Leitungselement2.JPG
+INPUT ./topics/SPSchaltungen/Leitungselement2.JPG
+INPUT ./topics/SPSchaltungen/Leitungselement2.JPG
+INPUT ./topics/SPSchaltungen/Leitungselement3.JPG
+INPUT ./topics/SPSchaltungen/Leitungselement3.JPG
+INPUT ./topics/SPSchaltungen/Leitungselement3.JPG
+INPUT ./topics/SPSchaltungen/Leitungselement3.JPG
+INPUT ./topics/SPSchaltungen/LeitungsfilterUebertragung.JPG
+INPUT ./topics/SPSchaltungen/LeitungsfilterUebertragung.JPG
+INPUT ./topics/SPSchaltungen/LeitungsfilterUebertragung.JPG
+INPUT ./topics/SPSchaltungen/LeitungsfilterUebertragung.JPG
+INPUT ./topics/SPSchaltungen/2DrahtESB.JPG
+INPUT ./topics/SPSchaltungen/2DrahtESB.JPG
+INPUT ./topics/SPSchaltungen/2DrahtESB.JPG
+INPUT ./topics/SPSchaltungen/2DrahtESB.JPG
+INPUT ./topics/SPSchaltungen/Stichleitung Induktiv.JPG
+INPUT ./topics/SPSchaltungen/Stichleitung Induktiv.JPG
+INPUT ./topics/SPSchaltungen/Stichleitung Induktiv.JPG
+INPUT ./topics/SPSchaltungen/Stichleitung Induktiv.JPG
+INPUT ./topics/SPSchaltungen/Stichleitung Kapazitiv.JPG
+INPUT ./topics/SPSchaltungen/Stichleitung Kapazitiv.JPG
+INPUT ./topics/SPSchaltungen/Stichleitung Kapazitiv.JPG
+INPUT ./topics/SPSchaltungen/Stichleitung Kapazitiv.JPG
+INPUT ./topics/SPSchaltungen/PrototypfilterBW.JPG
+INPUT ./topics/SPSchaltungen/PrototypfilterBW.JPG
+INPUT ./topics/SPSchaltungen/PrototypfilterBW.JPG
+INPUT ./topics/SPSchaltungen/PrototypfilterBW.JPG
+INPUT ./topics/SPSchaltungen/Prototypfilter2.JPG
+INPUT ./topics/SPSchaltungen/Prototypfilter2.JPG
+INPUT ./topics/SPSchaltungen/Prototypfilter2.JPG
+INPUT ./topics/SPSchaltungen/Prototypfilter2.JPG
+INPUT ./topics/SPSchaltungen/UebergangLeitungsfilter.JPG
+INPUT ./topics/SPSchaltungen/UebergangLeitungsfilter.JPG
+INPUT ./topics/SPSchaltungen/UebergangLeitungsfilter.JPG
+INPUT ./topics/SPSchaltungen/UebergangLeitungsfilter.JPG
+INPUT ./topics/SPSchaltungen/UebergangLeitungsfilter2.JPG
+INPUT ./topics/SPSchaltungen/UebergangLeitungsfilter2.JPG
+INPUT ./topics/SPSchaltungen/UebergangLeitungsfilter2.JPG
+INPUT ./topics/SPSchaltungen/UebergangLeitungsfilter2.JPG
+INPUT ./topics/SPSchaltungen/Kuroda.JPG
+INPUT ./topics/SPSchaltungen/Kuroda.JPG
+INPUT ./topics/SPSchaltungen/Kuroda.JPG
+INPUT ./topics/SPSchaltungen/Kuroda.JPG
+INPUT ./topics/SPSchaltungen/Leitungsfilter1.JPG
+INPUT ./topics/SPSchaltungen/Leitungsfilter1.JPG
+INPUT ./topics/SPSchaltungen/Leitungsfilter1.JPG
+INPUT ./topics/SPSchaltungen/Leitungsfilter1.JPG
+INPUT ./topics/SPSchaltungen/Leitungsfilter2.JPG
+INPUT ./topics/SPSchaltungen/Leitungsfilter2.JPG
+INPUT ./topics/SPSchaltungen/Leitungsfilter2.JPG
+INPUT ./topics/SPSchaltungen/Leitungsfilter2.JPG
+INPUT ./topics/SPSchaltungen/Leitungsfilter3.JPG
+INPUT ./topics/SPSchaltungen/Leitungsfilter3.JPG
+INPUT ./topics/SPSchaltungen/Leitungsfilter3.JPG
+INPUT ./topics/SPSchaltungen/Leitungsfilter3.JPG
+INPUT ./topics/SPSchaltungen/Leitungsfilter4.JPG
+INPUT ./topics/SPSchaltungen/Leitungsfilter4.JPG
+INPUT ./topics/SPSchaltungen/Leitungsfilter4.JPG
+INPUT ./topics/SPSchaltungen/Leitungsfilter4.JPG
 INPUT ./topics/SPSchaltungen/z_tikz_1.tikz
 INPUT ./topics/SPSchaltungen/z_tikz_1.tikz
 INPUT topics/SPSchaltungen/z_tikz_1.tikz
@@ -346,10 +490,122 @@ INPUT topics/SPSchaltungen/z_tikz_3.tikz
 INPUT ./topics/SPSchaltungen/z_tikz_4.tikz
 INPUT ./topics/SPSchaltungen/z_tikz_4.tikz
 INPUT topics/SPSchaltungen/z_tikz_4.tikz
+INPUT ./topics/SPSchaltungen/zimg45.png
+INPUT ./topics/SPSchaltungen/zimg45.png
+INPUT ./topics/SPSchaltungen/zimg45.png
+INPUT ./topics/SPSchaltungen/zimg45.png
+INPUT ./topics/SPSchaltungen/zimg46.png
+INPUT ./topics/SPSchaltungen/zimg46.png
+INPUT ./topics/SPSchaltungen/zimg46.png
+INPUT ./topics/SPSchaltungen/zimg46.png
+INPUT ./topics/SPSchaltungen/zimg47.png
+INPUT ./topics/SPSchaltungen/zimg47.png
+INPUT ./topics/SPSchaltungen/zimg47.png
+INPUT ./topics/SPSchaltungen/zimg47.png
+INPUT ./topics/SPSchaltungen/zimg4.png
+INPUT ./topics/SPSchaltungen/zimg4.png
+INPUT ./topics/SPSchaltungen/zimg4.png
+INPUT ./topics/SPSchaltungen/zimg4.png
+INPUT ./topics/SPSchaltungen/zimg5.png
+INPUT ./topics/SPSchaltungen/zimg5.png
+INPUT ./topics/SPSchaltungen/zimg5.png
+INPUT ./topics/SPSchaltungen/zimg5.png
+INPUT ./topics/SPSchaltungen/zimg3.png
+INPUT ./topics/SPSchaltungen/zimg3.png
+INPUT ./topics/SPSchaltungen/zimg3.png
+INPUT ./topics/SPSchaltungen/zimg3.png
+INPUT ./topics/SPSchaltungen/zimg6.png
+INPUT ./topics/SPSchaltungen/zimg6.png
+INPUT ./topics/SPSchaltungen/zimg6.png
+INPUT ./topics/SPSchaltungen/zimg6.png
+INPUT ./topics/SPSchaltungen/zimg7.png
+INPUT ./topics/SPSchaltungen/zimg7.png
+INPUT ./topics/SPSchaltungen/zimg7.png
+INPUT ./topics/SPSchaltungen/zimg7.png
+INPUT ./topics/SPSchaltungen/zimg1.png
+INPUT ./topics/SPSchaltungen/zimg1.png
+INPUT ./topics/SPSchaltungen/zimg1.png
+INPUT ./topics/SPSchaltungen/zimg1.png
+INPUT ./topics/SPSchaltungen/zimg48.png
+INPUT ./topics/SPSchaltungen/zimg48.png
+INPUT ./topics/SPSchaltungen/zimg48.png
+INPUT ./topics/SPSchaltungen/zimg48.png
+INPUT ./topics/SPSchaltungen/zimg54.png
+INPUT ./topics/SPSchaltungen/zimg54.png
+INPUT ./topics/SPSchaltungen/zimg54.png
+INPUT ./topics/SPSchaltungen/zimg54.png
+INPUT ./topics/SPSchaltungen/zimg2.png
+INPUT ./topics/SPSchaltungen/zimg2.png
+INPUT ./topics/SPSchaltungen/zimg2.png
+INPUT ./topics/SPSchaltungen/zimg2.png
+INPUT ./topics/SPSchaltungen/zimg53.png
+INPUT ./topics/SPSchaltungen/zimg53.png
+INPUT ./topics/SPSchaltungen/zimg53.png
+INPUT ./topics/SPSchaltungen/zimg53.png
+INPUT ./topics/SPSchaltungen/zimg9.png
+INPUT ./topics/SPSchaltungen/zimg9.png
+INPUT ./topics/SPSchaltungen/zimg9.png
+INPUT ./topics/SPSchaltungen/zimg9.png
 INPUT ./topics/SPSchaltungen/zimg10.png
 INPUT ./topics/SPSchaltungen/zimg10.png
 INPUT ./topics/SPSchaltungen/zimg10.png
 INPUT ./topics/SPSchaltungen/zimg10.png
+INPUT ./topics/SPSchaltungen/zimg8.png
+INPUT ./topics/SPSchaltungen/zimg8.png
+INPUT ./topics/SPSchaltungen/zimg8.png
+INPUT ./topics/SPSchaltungen/zimg8.png
+INPUT ./topics/SPSchaltungen/zimg11.png
+INPUT ./topics/SPSchaltungen/zimg11.png
+INPUT ./topics/SPSchaltungen/zimg11.png
+INPUT ./topics/SPSchaltungen/zimg11.png
+INPUT ./topics/SPSchaltungen/zimg12.png
+INPUT ./topics/SPSchaltungen/zimg12.png
+INPUT ./topics/SPSchaltungen/zimg12.png
+INPUT ./topics/SPSchaltungen/zimg12.png
+INPUT ./topics/SPSchaltungen/zimg13.png
+INPUT ./topics/SPSchaltungen/zimg13.png
+INPUT ./topics/SPSchaltungen/zimg13.png
+INPUT ./topics/SPSchaltungen/zimg13.png
+INPUT ./topics/SPSchaltungen/zimg14.png
+INPUT ./topics/SPSchaltungen/zimg14.png
+INPUT ./topics/SPSchaltungen/zimg14.png
+INPUT ./topics/SPSchaltungen/zimg14.png
+INPUT ./topics/SPSchaltungen/zimg15.png
+INPUT ./topics/SPSchaltungen/zimg15.png
+INPUT ./topics/SPSchaltungen/zimg15.png
+INPUT ./topics/SPSchaltungen/zimg15.png
+INPUT ./topics/SPSchaltungen/zimg16.png
+INPUT ./topics/SPSchaltungen/zimg16.png
+INPUT ./topics/SPSchaltungen/zimg16.png
+INPUT ./topics/SPSchaltungen/zimg16.png
+INPUT ./topics/SPSchaltungen/zimg17.png
+INPUT ./topics/SPSchaltungen/zimg17.png
+INPUT ./topics/SPSchaltungen/zimg17.png
+INPUT ./topics/SPSchaltungen/zimg17.png
+INPUT ./topics/SPSchaltungen/zimg18.png
+INPUT ./topics/SPSchaltungen/zimg18.png
+INPUT ./topics/SPSchaltungen/zimg18.png
+INPUT ./topics/SPSchaltungen/zimg18.png
+INPUT ./topics/SPSchaltungen/ESB3 Leitungen LL.jpeg
+INPUT ./topics/SPSchaltungen/ESB3 Leitungen LL.jpeg
+INPUT ./topics/SPSchaltungen/ESB3 Leitungen LL.jpeg
+INPUT ./topics/SPSchaltungen/ESB3 Leitungen LL.jpeg
+INPUT ./topics/SPSchaltungen/zimg50.png
+INPUT ./topics/SPSchaltungen/zimg50.png
+INPUT ./topics/SPSchaltungen/zimg50.png
+INPUT ./topics/SPSchaltungen/zimg50.png
+INPUT ./topics/SPSchaltungen/zimg51.png
+INPUT ./topics/SPSchaltungen/zimg51.png
+INPUT ./topics/SPSchaltungen/zimg51.png
+INPUT ./topics/SPSchaltungen/zimg51.png
+INPUT ./topics/SPSchaltungen/zimg19.png
+INPUT ./topics/SPSchaltungen/zimg19.png
+INPUT ./topics/SPSchaltungen/zimg19.png
+INPUT ./topics/SPSchaltungen/zimg19.png
+INPUT ./topics/SPSchaltungen/zimg20.png
+INPUT ./topics/SPSchaltungen/zimg20.png
+INPUT ./topics/SPSchaltungen/zimg20.png
+INPUT ./topics/SPSchaltungen/zimg20.png
 INPUT ./topics/SPSchaltungen/zimg23.png
 INPUT ./topics/SPSchaltungen/zimg23.png
 INPUT ./topics/SPSchaltungen/zimg23.png
@@ -446,6 +702,30 @@ INPUT ./topics/SPSchaltungen/zimg44.png
 INPUT ./topics/SPSchaltungen/zimg44.png
 INPUT ./topics/SPSchaltungen/zimg44.png
 INPUT ./topics/SPSchaltungen/zimg44.png
+INPUT ./topics/SPSchaltungen/BW BP.jpeg
+INPUT ./topics/SPSchaltungen/BW BP.jpeg
+INPUT ./topics/SPSchaltungen/BW BP.jpeg
+INPUT ./topics/SPSchaltungen/BW BP.jpeg
+INPUT ./topics/SPSchaltungen/zimg56.png
+INPUT ./topics/SPSchaltungen/zimg56.png
+INPUT ./topics/SPSchaltungen/zimg56.png
+INPUT ./topics/SPSchaltungen/zimg56.png
+INPUT ./topics/SPSchaltungen/zimg52.png
+INPUT ./topics/SPSchaltungen/zimg52.png
+INPUT ./topics/SPSchaltungen/zimg52.png
+INPUT ./topics/SPSchaltungen/zimg52.png
+INPUT ./topics/SPSchaltungen/zimg58.png
+INPUT ./topics/SPSchaltungen/zimg58.png
+INPUT ./topics/SPSchaltungen/zimg58.png
+INPUT ./topics/SPSchaltungen/zimg58.png
+INPUT ./topics/SPSchaltungen/zimg57.png
+INPUT ./topics/SPSchaltungen/zimg57.png
+INPUT ./topics/SPSchaltungen/zimg57.png
+INPUT ./topics/SPSchaltungen/zimg57.png
+INPUT ./topics/SPSchaltungen/zimg55.png
+INPUT ./topics/SPSchaltungen/zimg55.png
+INPUT ./topics/SPSchaltungen/zimg55.png
+INPUT ./topics/SPSchaltungen/zimg55.png
 INPUT ./topics/Mischer/smain.tex
 INPUT ./topics/Mischer/smain.tex
 INPUT topics/Mischer/smain.tex
@@ -459,6 +739,26 @@ INPUT ./topics/Mischer/6. Mischer.pdf
 INPUT ./topics/Mischer/6. Mischer.pdf
 INPUT ./topics/Mischer/6. Mischer.pdf
 INPUT ./topics/Mischer/6. Mischer.pdf
+INPUT ./topics/Mischer/BreitbandMischer.jpeg
+INPUT ./topics/Mischer/BreitbandMischer.jpeg
+INPUT ./topics/Mischer/BreitbandMischer.jpeg
+INPUT ./topics/Mischer/BreitbandMischer.jpeg
+INPUT ./topics/Mischer/ESB BB Mischer.jpeg
+INPUT ./topics/Mischer/ESB BB Mischer.jpeg
+INPUT ./topics/Mischer/ESB BB Mischer.jpeg
+INPUT ./topics/Mischer/ESB BB Mischer.jpeg
+INPUT ./topics/Mischer/ESB Mischer.jpeg
+INPUT ./topics/Mischer/ESB Mischer.jpeg
+INPUT ./topics/Mischer/ESB Mischer.jpeg
+INPUT ./topics/Mischer/ESB Mischer.jpeg
+INPUT ./topics/Mischer/verf Pgen.jpeg
+INPUT ./topics/Mischer/verf Pgen.jpeg
+INPUT ./topics/Mischer/verf Pgen.jpeg
+INPUT ./topics/Mischer/verf Pgen.jpeg
+INPUT ./topics/Mischer/1DiodenMischer.jpeg
+INPUT ./topics/Mischer/1DiodenMischer.jpeg
+INPUT ./topics/Mischer/1DiodenMischer.jpeg
+INPUT ./topics/Mischer/1DiodenMischer.jpeg
 INPUT ./topics/Mischer/zimg1.png
 INPUT ./topics/Mischer/zimg1.png
 INPUT ./topics/Mischer/zimg1.png
@@ -475,6 +775,30 @@ INPUT ./topics/Mischer/zimg3.png
 INPUT ./topics/Mischer/zimg3.png
 INPUT ./topics/Mischer/zimg3.png
 INPUT ./topics/Mischer/zimg3.png
+INPUT ./topics/Mischer/DiodeKS.jpeg
+INPUT ./topics/Mischer/DiodeKS.jpeg
+INPUT ./topics/Mischer/DiodeKS.jpeg
+INPUT ./topics/Mischer/DiodeKS.jpeg
+INPUT ./topics/Mischer/2DiodenMischer.jpeg
+INPUT ./topics/Mischer/2DiodenMischer.jpeg
+INPUT ./topics/Mischer/2DiodenMischer.jpeg
+INPUT ./topics/Mischer/2DiodenMischer.jpeg
+INPUT ./topics/Mischer/4DiodenMischer.jpeg
+INPUT ./topics/Mischer/4DiodenMischer.jpeg
+INPUT ./topics/Mischer/4DiodenMischer.jpeg
+INPUT ./topics/Mischer/4DiodenMischer.jpeg
+INPUT ./topics/Mischer/4DiodenMischer mit RK.jpeg
+INPUT ./topics/Mischer/4DiodenMischer mit RK.jpeg
+INPUT ./topics/Mischer/4DiodenMischer mit RK.jpeg
+INPUT ./topics/Mischer/4DiodenMischer mit RK.jpeg
+INPUT ./topics/Mischer/skalarNWA.jpeg
+INPUT ./topics/Mischer/skalarNWA.jpeg
+INPUT ./topics/Mischer/skalarNWA.jpeg
+INPUT ./topics/Mischer/skalarNWA.jpeg
+INPUT ./topics/Mischer/vektorNWA.jpeg
+INPUT ./topics/Mischer/vektorNWA.jpeg
+INPUT ./topics/Mischer/vektorNWA.jpeg
+INPUT ./topics/Mischer/vektorNWA.jpeg
 INPUT ./topics/Mischer/7.Phasenregelkreise.pdf
 INPUT ./topics/Mischer/7.Phasenregelkreise.pdf
 INPUT ./topics/Mischer/7.Phasenregelkreise.pdf
@@ -495,9 +819,126 @@ INPUT ./topics/Mischer/7.Phasenregelkreise.pdf
 INPUT ./topics/Mischer/7.Phasenregelkreise.pdf
 INPUT ./topics/Mischer/7.Phasenregelkreise.pdf
 INPUT ./topics/Mischer/7.Phasenregelkreise.pdf
+INPUT ./topics/Mischer/1 xor.jpeg
+INPUT ./topics/Mischer/1 xor.jpeg
+INPUT ./topics/Mischer/1 xor.jpeg
+INPUT ./topics/Mischer/1 xor.jpeg
+INPUT ./topics/Mischer/2 Regelpunkte.jpeg
+INPUT ./topics/Mischer/2 Regelpunkte.jpeg
+INPUT ./topics/Mischer/2 Regelpunkte.jpeg
+INPUT ./topics/Mischer/2 Regelpunkte.jpeg
+INPUT ./topics/Mischer/3 FlipFlop.jpeg
+INPUT ./topics/Mischer/3 FlipFlop.jpeg
+INPUT ./topics/Mischer/3 FlipFlop.jpeg
+INPUT ./topics/Mischer/3 FlipFlop.jpeg
+INPUT ./topics/Mischer/4 RegelpunktFF.jpeg
+INPUT ./topics/Mischer/4 RegelpunktFF.jpeg
+INPUT ./topics/Mischer/4 RegelpunktFF.jpeg
+INPUT ./topics/Mischer/4 RegelpunktFF.jpeg
+INPUT ./topics/Mischer/5 SetReset.jpeg
+INPUT ./topics/Mischer/5 SetReset.jpeg
+INPUT ./topics/Mischer/5 SetReset.jpeg
+INPUT ./topics/Mischer/5 SetReset.jpeg
+INPUT ./topics/Mischer/6 PFD.jpeg
+INPUT ./topics/Mischer/6 PFD.jpeg
+INPUT ./topics/Mischer/6 PFD.jpeg
+INPUT ./topics/Mischer/6 PFD.jpeg
+INPUT ./topics/Mischer/7 Zustandsgraph.JPG
+INPUT ./topics/Mischer/7 Zustandsgraph.JPG
+INPUT ./topics/Mischer/7 Zustandsgraph.JPG
+INPUT ./topics/Mischer/7 Zustandsgraph.JPG
+INPUT ./topics/Mischer/8 PFD.JPG
+INPUT ./topics/Mischer/8 PFD.JPG
+INPUT ./topics/Mischer/8 PFD.JPG
+INPUT ./topics/Mischer/8 PFD.JPG
+INPUT ./topics/Mischer/9 Synthesegenerator.JPG
+INPUT ./topics/Mischer/9 Synthesegenerator.JPG
+INPUT ./topics/Mischer/9 Synthesegenerator.JPG
+INPUT ./topics/Mischer/9 Synthesegenerator.JPG
+INPUT ./topics/Mischer/11 einschleifige PLL.JPG
+INPUT ./topics/Mischer/11 einschleifige PLL.JPG
+INPUT ./topics/Mischer/11 einschleifige PLL.JPG
+INPUT ./topics/Mischer/11 einschleifige PLL.JPG
+INPUT ./topics/Mischer/10 PLL Mischer.JPG
+INPUT ./topics/Mischer/10 PLL Mischer.JPG
+INPUT ./topics/Mischer/10 PLL Mischer.JPG
+INPUT ./topics/Mischer/10 PLL Mischer.JPG
+INPUT ./topics/Mischer/12 verschachtelte PLL.JPG
+INPUT ./topics/Mischer/12 verschachtelte PLL.JPG
+INPUT ./topics/Mischer/12 verschachtelte PLL.JPG
+INPUT ./topics/Mischer/12 verschachtelte PLL.JPG
+INPUT ./topics/Mischer/13 PLL fraktionaler Teiler.JPG
+INPUT ./topics/Mischer/13 PLL fraktionaler Teiler.JPG
+INPUT ./topics/Mischer/13 PLL fraktionaler Teiler.JPG
+INPUT ./topics/Mischer/13 PLL fraktionaler Teiler.JPG
+INPUT ./topics/Mischer/14 Takte fraktionaler Teiler.JPG
+INPUT ./topics/Mischer/14 Takte fraktionaler Teiler.JPG
+INPUT ./topics/Mischer/14 Takte fraktionaler Teiler.JPG
+INPUT ./topics/Mischer/14 Takte fraktionaler Teiler.JPG
+INPUT ./topics/Mischer/16 Frequenzrampe.JPG
+INPUT ./topics/Mischer/16 Frequenzrampe.JPG
+INPUT ./topics/Mischer/16 Frequenzrampe.JPG
+INPUT ./topics/Mischer/16 Frequenzrampe.JPG
+INPUT ./topics/Mischer/15 Noise shaping.JPG
+INPUT ./topics/Mischer/15 Noise shaping.JPG
+INPUT ./topics/Mischer/15 Noise shaping.JPG
+INPUT ./topics/Mischer/15 Noise shaping.JPG
 INPUT ./topics/VNA/smain.tex
 INPUT ./topics/VNA/smain.tex
 INPUT topics/VNA/smain.tex
+INPUT ./topics/VNA/17 skalar.JPG
+INPUT ./topics/VNA/17 skalar.JPG
+INPUT ./topics/VNA/17 skalar.JPG
+INPUT ./topics/VNA/17 skalar.JPG
+INPUT ./topics/VNA/17 skalar.JPG
+INPUT ./topics/VNA/18 VNA.JPG
+INPUT ./topics/VNA/18 VNA.JPG
+INPUT ./topics/VNA/18 VNA.JPG
+INPUT ./topics/VNA/18 VNA.JPG
+INPUT ./topics/VNA/19 S21.JPG
+INPUT ./topics/VNA/19 S21.JPG
+INPUT ./topics/VNA/19 S21.JPG
+INPUT ./topics/VNA/19 S21.JPG
+INPUT ./topics/VNA/20 Fehlermodell.JPG
+INPUT ./topics/VNA/20 Fehlermodell.JPG
+INPUT ./topics/VNA/20 Fehlermodell.JPG
+INPUT ./topics/VNA/20 Fehlermodell.JPG
+INPUT ./topics/VNA/1. R-Block.jpeg
+INPUT ./topics/VNA/1. R-Block.jpeg
+INPUT ./topics/VNA/1. R-Block.jpeg
+INPUT ./topics/VNA/1. R-Block.jpeg
+INPUT ./topics/VNA/21 ViertorZweitorReduktion.JPG
+INPUT ./topics/VNA/21 ViertorZweitorReduktion.JPG
+INPUT ./topics/VNA/21 ViertorZweitorReduktion.JPG
+INPUT ./topics/VNA/21 ViertorZweitorReduktion.JPG
+INPUT ./topics/VNA/2.jpeg
+INPUT ./topics/VNA/2.jpeg
+INPUT ./topics/VNA/2.jpeg
+INPUT ./topics/VNA/2.jpeg
+INPUT ./topics/VNA/3.jpeg
+INPUT ./topics/VNA/3.jpeg
+INPUT ./topics/VNA/3.jpeg
+INPUT ./topics/VNA/3.jpeg
+INPUT ./topics/VNA/4.jpeg
+INPUT ./topics/VNA/4.jpeg
+INPUT ./topics/VNA/4.jpeg
+INPUT ./topics/VNA/4.jpeg
+INPUT ./topics/VNA/5.jpeg
+INPUT ./topics/VNA/5.jpeg
+INPUT ./topics/VNA/5.jpeg
+INPUT ./topics/VNA/5.jpeg
+INPUT ./topics/VNA/6..jpeg
+INPUT ./topics/VNA/6..jpeg
+INPUT ./topics/VNA/6..jpeg
+INPUT ./topics/VNA/6..jpeg
+INPUT ./topics/VNA/7.jpeg
+INPUT ./topics/VNA/7.jpeg
+INPUT ./topics/VNA/7.jpeg
+INPUT ./topics/VNA/7.jpeg
+INPUT ./topics/VNA/8..jpeg
+INPUT ./topics/VNA/8..jpeg
+INPUT ./topics/VNA/8..jpeg
+INPUT ./topics/VNA/8..jpeg
 INPUT main.aux
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
